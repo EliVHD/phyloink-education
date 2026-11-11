@@ -1,0 +1,78 @@
+{
+  "verifiedAt": "2026-11-11",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "7cee4a249a60ec5876db12c29fe58f458e8662c9",
+    "buildId": "fa547e0c299b1ae2185e8409c7eae5cce3d461e88bc0905c1c284a1e2054b2da",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/4",
+    "releaseStatus": "Unreleased development; draft PR stacked on A01. Existing releases unchanged."
+  },
+  "scope": "Two independent adaptable demonstrations; no learner tracking or ongoing lesson programme.",
+  "files": [
+    {
+      "path": "six-mammals.phyloink-activity.json",
+      "sha256": "7755a7a9a2e577b735dd90e23be2b42b15eea25f2ab978087e0bdb0da6261755",
+      "bytes": 311711,
+      "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+      "sampleTips": 6,
+      "questions": 3
+    },
+    {
+      "path": "unresolved-fork.phyloink-activity.json",
+      "sha256": "4aea3bd20437ebb9a3c018d70d4b65ff47bc069d0708f3e6dd21a78617343914",
+      "bytes": 3467,
+      "sourceSha256": "2d5b45ee4d72c2073426078289b5306355f9a4f8998b7233b8b872a357b5a652",
+      "sampleTips": 5,
+      "questions": 3
+    }
+  ],
+  "browser": {
+    "browser": "Edge",
+    "desktop": "1440×1050",
+    "narrow": {
+      "width": 390,
+      "scroll": 390
+    },
+    "examples": 2,
+    "roundTrip": true,
+    "questionAdaptation": true,
+    "invalidImportAtomic": true,
+    "literalTextSafe": true,
+    "sampleChangeClearsSetups": true,
+    "unresolvedFork": true,
+    "editorExactlyUnchanged": true,
+    "externalRequests": 0,
+    "pageErrors": []
+  },
+  "applicationTests": {
+    "passed": 253,
+    "failed": 0
+  },
+  "originalPackages": [
+    {
+      "path": "downloads/01-common-ancestry.zip",
+      "sha256": "d2a58500430c5ca94f15513ff162965802da000da18563e3f5da3e6e397f7577"
+    },
+    {
+      "path": "examples/01-common-ancestry/student-handout.pdf",
+      "sha256": "7b0114caa60266a6ff820db789b7c0e5c3cb04883be60efc9f5844077866097b"
+    },
+    {
+      "path": "downloads/02-one-tree.zip",
+      "sha256": "5c27d0ce71853cef98568c5de84587059f8aa582e302d1a89b70a6762e2d5eb5"
+    },
+    {
+      "path": "examples/02-one-tree/student-handout.pdf",
+      "sha256": "73afbf755d13a07f4f965bfe2bfb88e522b25cf72919974bc8d6a73cd103b031"
+    },
+    {
+      "path": "downloads/03-evidence-based-illustration.zip",
+      "sha256": "c8493e2bf8dc361576daacae755fcd5ad19403d048cff219db0efa069fa81083"
+    },
+    {
+      "path": "examples/03-evidence-based-illustration/student-handout.pdf",
+      "sha256": "83d3b91c17cfddf7f432ee0eb7aa24140e2ab1d9a8f7b31c908007f278bbdb46"
+    }
+  ]
+}
