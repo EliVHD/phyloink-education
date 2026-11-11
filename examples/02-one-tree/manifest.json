@@ -1,0 +1,319 @@
+{
+  "format": "phyloink-education-example",
+  "version": 1,
+  "example": "02-one-tree",
+  "verifiedAt": "2026-11-11",
+  "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "files": [
+    {
+      "path": "activity.json",
+      "bytes": 1686,
+      "sha256": "173c3fed20cb849905e5f65b7c8dc38051bfeeacfbb5c056df14c55e34e12ddc"
+    },
+    {
+      "path": "application-build-manifest.json",
+      "bytes": 11368,
+      "sha256": "b23d0756ab649b8d599021e5d99c2290b05023d8953f23d0abed72a3bc6a883a"
+    },
+    {
+      "path": "artwork/circular/annotation_review.json",
+      "bytes": 1648,
+      "sha256": "4416a01a3aea680b90dfec26943bf3cc08484310c7201aa61de599bd0adcba1e"
+    },
+    {
+      "path": "artwork/circular/artifact_manifest.json",
+      "bytes": 4193,
+      "sha256": "587b5754db39ce147cc7124d51607aca5ea4912f814866e1a004586de6f569a0"
+    },
+    {
+      "path": "artwork/circular/clade_mapping.csv",
+      "bytes": 322,
+      "sha256": "f2e48c5d0f465635f05c818d7941b080a6b423221c8f21bb99271f68f207fd95"
+    },
+    {
+      "path": "artwork/circular/clade_members.json",
+      "bytes": 968,
+      "sha256": "6ed10230776a0aee43a6075298e332dade6f084d96315841d3daad17c94402c5"
+    },
+    {
+      "path": "artwork/circular/display_graph.json",
+      "bytes": 1567370,
+      "sha256": "8efd4c8f9a910c400163675e3b5eceed4ea295fd3b2cd0a261178dc81db4eccb"
+    },
+    {
+      "path": "artwork/circular/legend.html",
+      "bytes": 2449,
+      "sha256": "dceb2db9f4657e860cc20f444060cb8f68a2848d1a82d258d1f977a8b17794d3"
+    },
+    {
+      "path": "artwork/circular/omitted_tips.json",
+      "bytes": 408247,
+      "sha256": "a134380e4074c0154ac93a79031bbc7ab39f198e1aa897980f41b7eedcf8291c"
+    },
+    {
+      "path": "artwork/circular/print-sheet.html",
+      "bytes": 23898,
+      "sha256": "60a280bb45b9f502676cf5f520c16af43cbad0c525ae091a2a5bd2d562c5c9f0"
+    },
+    {
+      "path": "artwork/circular/projection_recipe.json",
+      "bytes": 246,
+      "sha256": "d1e2594fbd22cf6a5b255b1abd6f65928b868e5bc39b9f84ce521a768624420c"
+    },
+    {
+      "path": "artwork/circular/qa_report.json",
+      "bytes": 4516,
+      "sha256": "f87323be14be5b8bbbf8b96b50c7c45ccdc4e1dd881c54f0eb476a99dce3b0ee"
+    },
+    {
+      "path": "artwork/circular/README.txt",
+      "bytes": 1681,
+      "sha256": "73ffdaefa99de0f4aa03d7f52a097ca61c8b55dadd353ccc19568587eb9cc619"
+    },
+    {
+      "path": "artwork/circular/reduced_tree.nwk",
+      "bytes": 4235,
+      "sha256": "694aa80a3edd0d4686951e1e28fea72cbeb3a90fd1894da1e32d98a7b2cb6c60"
+    },
+    {
+      "path": "artwork/circular/references.bib",
+      "bytes": 1082,
+      "sha256": "b832be05eb4722939ab62bed1ff49034309927086b7cfb9f7b0f952d608f4d8f"
+    },
+    {
+      "path": "artwork/circular/references.txt",
+      "bytes": 948,
+      "sha256": "81a635a5189447dc692567bd5b7c2e0abbcec2363ed7ce5212246aaa8d9c0136"
+    },
+    {
+      "path": "artwork/circular/render_scene.json",
+      "bytes": 104645,
+      "sha256": "6555dbf650b72d22266e6dfd2f98024909df598b0b1b0bc06a14a249229f9b9c"
+    },
+    {
+      "path": "artwork/circular/software_build.json",
+      "bytes": 309,
+      "sha256": "d9e35b624a9e0e65608fe89b65838aa2d39cd73f2b0c5dd854035ca8c6424a95"
+    },
+    {
+      "path": "artwork/circular/source_manifest.json",
+      "bytes": 4279,
+      "sha256": "7eaf9cbb5a89c766474a0f115ee4fa05b6e55c6b93fec0ccb6b95e9ea70fc9a4"
+    },
+    {
+      "path": "artwork/circular/source_paths.json",
+      "bytes": 18425,
+      "sha256": "b4d7736770b68720d91474360ba170d688043445c01ca223a84771cdf2a56492"
+    },
+    {
+      "path": "artwork/circular/source_tree.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "artwork/circular/sources-and-methods.html",
+      "bytes": 9589,
+      "sha256": "07b04482120e6e0f28f956ee5af23f52ecb1298e8ead022167a65e5eab2c71c9"
+    },
+    {
+      "path": "artwork/circular/tree-caption.txt",
+      "bytes": 1430,
+      "sha256": "398c2dd787371b2ad464ec25b3ce3e7e4d8d4f4d05a2de374d0958b19a5dbcdf"
+    },
+    {
+      "path": "artwork/circular/tree.treeproject.json",
+      "bytes": 5030643,
+      "sha256": "69888db6d0cffc12381399a0a3b798e02da9fab922ce064737f8d8fd41e97013"
+    },
+    {
+      "path": "artwork/circular/tree_labeled.svg",
+      "bytes": 22029,
+      "sha256": "5381b2a0f7736a4fab627db92ced513aee87137fbeb3a9c44d5c15968640bf23"
+    },
+    {
+      "path": "artwork/circular/tree_provenance.json",
+      "bytes": 29523,
+      "sha256": "125c18ff131dd6a31ffdcc84ed902261e0ad784fd81820179d09483fa2efc9f8"
+    },
+    {
+      "path": "artwork/circular/tree_unlabeled.svg",
+      "bytes": 21031,
+      "sha256": "3c77a8acbc590e7eee12b4e52bd9458668399d140adb1463d94c6c01b3e66b63"
+    },
+    {
+      "path": "artwork/rectangular/annotation_review.json",
+      "bytes": 1648,
+      "sha256": "4416a01a3aea680b90dfec26943bf3cc08484310c7201aa61de599bd0adcba1e"
+    },
+    {
+      "path": "artwork/rectangular/artifact_manifest.json",
+      "bytes": 4195,
+      "sha256": "27bc15fce0f298bde85e4abb9caec3aebb2609e76ba520cac735a6c18e6c5a0f"
+    },
+    {
+      "path": "artwork/rectangular/clade_mapping.csv",
+      "bytes": 322,
+      "sha256": "f2e48c5d0f465635f05c818d7941b080a6b423221c8f21bb99271f68f207fd95"
+    },
+    {
+      "path": "artwork/rectangular/clade_members.json",
+      "bytes": 968,
+      "sha256": "6ed10230776a0aee43a6075298e332dade6f084d96315841d3daad17c94402c5"
+    },
+    {
+      "path": "artwork/rectangular/display_graph.json",
+      "bytes": 1567370,
+      "sha256": "8efd4c8f9a910c400163675e3b5eceed4ea295fd3b2cd0a261178dc81db4eccb"
+    },
+    {
+      "path": "artwork/rectangular/legend.html",
+      "bytes": 2452,
+      "sha256": "a72896828efedea4b9570689b1e8d21dec52ebb12fbbe51f4c74185ab92d24c9"
+    },
+    {
+      "path": "artwork/rectangular/omitted_tips.json",
+      "bytes": 408247,
+      "sha256": "a134380e4074c0154ac93a79031bbc7ab39f198e1aa897980f41b7eedcf8291c"
+    },
+    {
+      "path": "artwork/rectangular/print-sheet.html",
+      "bytes": 22138,
+      "sha256": "40fc37e5d90474092d666c99f48b74776b1e56713dc71f04e17bc1f7453df447"
+    },
+    {
+      "path": "artwork/rectangular/projection_recipe.json",
+      "bytes": 246,
+      "sha256": "d1e2594fbd22cf6a5b255b1abd6f65928b868e5bc39b9f84ce521a768624420c"
+    },
+    {
+      "path": "artwork/rectangular/qa_report.json",
+      "bytes": 4519,
+      "sha256": "9009d5fbc1037abe73a955ad625d743f6ae728b1664990fec83ce7c62cfe17b3"
+    },
+    {
+      "path": "artwork/rectangular/README.txt",
+      "bytes": 1684,
+      "sha256": "2f6f2a751914b543cb152a6530186796f0ee454729b5e6160b64b60674836f8c"
+    },
+    {
+      "path": "artwork/rectangular/reduced_tree.nwk",
+      "bytes": 4235,
+      "sha256": "694aa80a3edd0d4686951e1e28fea72cbeb3a90fd1894da1e32d98a7b2cb6c60"
+    },
+    {
+      "path": "artwork/rectangular/references.bib",
+      "bytes": 1082,
+      "sha256": "b832be05eb4722939ab62bed1ff49034309927086b7cfb9f7b0f952d608f4d8f"
+    },
+    {
+      "path": "artwork/rectangular/references.txt",
+      "bytes": 948,
+      "sha256": "81a635a5189447dc692567bd5b7c2e0abbcec2363ed7ce5212246aaa8d9c0136"
+    },
+    {
+      "path": "artwork/rectangular/render_scene.json",
+      "bytes": 97848,
+      "sha256": "13df8b586408059798f94d9ba1e258fb02bbf9b49223d33829f083185d0e251e"
+    },
+    {
+      "path": "artwork/rectangular/software_build.json",
+      "bytes": 309,
+      "sha256": "d9e35b624a9e0e65608fe89b65838aa2d39cd73f2b0c5dd854035ca8c6424a95"
+    },
+    {
+      "path": "artwork/rectangular/source_manifest.json",
+      "bytes": 4282,
+      "sha256": "de25a90f9f1078c6da4fd9351155f49c4123671bc8abc211a145165bf3263aa5"
+    },
+    {
+      "path": "artwork/rectangular/source_paths.json",
+      "bytes": 18425,
+      "sha256": "b4d7736770b68720d91474360ba170d688043445c01ca223a84771cdf2a56492"
+    },
+    {
+      "path": "artwork/rectangular/source_tree.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "artwork/rectangular/sources-and-methods.html",
+      "bytes": 9595,
+      "sha256": "816e0e3fb65efab4c48b3bef42517e7b03e6fb3f218b79381b3a7948d6852e9b"
+    },
+    {
+      "path": "artwork/rectangular/tree-caption.txt",
+      "bytes": 1433,
+      "sha256": "0b04b1cc13e87ea9f50ba42a0eba200d1459e78e616c34a8a613ce01737cbd89"
+    },
+    {
+      "path": "artwork/rectangular/tree.treeproject.json",
+      "bytes": 5030646,
+      "sha256": "1a1609ad0136cc7ba13668e4e53a62ef017997d4d752f5e4fbc0e07a72c9bc4b"
+    },
+    {
+      "path": "artwork/rectangular/tree_labeled.svg",
+      "bytes": 20266,
+      "sha256": "729bac846eb0f2936a9ce83a118d2bcc97581250bc6743be306a773dd9af9133"
+    },
+    {
+      "path": "artwork/rectangular/tree_provenance.json",
+      "bytes": 29540,
+      "sha256": "844cbcc728c082131f1e2710fd853d500ef7684a88e1bba423b517f4a85a2942"
+    },
+    {
+      "path": "artwork/rectangular/tree_unlabeled.svg",
+      "bytes": 19259,
+      "sha256": "4996a150c20a2bc2f50ce2e15b231acfab9ba06a7c8b3e14ce3acca97ebf3f69"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "project.treeproject.json",
+      "bytes": 5030646,
+      "sha256": "1a1609ad0136cc7ba13668e4e53a62ef017997d4d752f5e4fbc0e07a72c9bc4b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1726,
+      "sha256": "300e05d75b6d7c2a4d57451c53e5227c9852c12997af52395cbfdc2b274d297f"
+    },
+    {
+      "path": "source-record.json",
+      "bytes": 4082,
+      "sha256": "7b4edf32df9e95c9795105438ed5a2e52197f6388267b66cf5c494a47a78f563"
+    },
+    {
+      "path": "source.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1752,
+      "sha256": "b14d2ca1aa2b911b7e9942ddae3130649f98c12057bb9b90053287a61c65503e"
+    },
+    {
+      "path": "student-handout.html",
+      "bytes": 3637,
+      "sha256": "4af80600f4cfb766e051f247ee34eeaf221f164b670bc9b9d0220405593e74b7"
+    },
+    {
+      "path": "student-handout.pdf",
+      "bytes": 112047,
+      "sha256": "73afbf755d13a07f4f965bfe2bfb88e522b25cf72919974bc8d6a73cd103b031"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 1790,
+      "sha256": "7b5bfbb1f8672c64e7b9bdb00362a34190b4019696e5fb9d08d417f7457f89ed"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3177,
+      "sha256": "ea1fe0c42002223a7e803f50c49c83365718baff97238e277e515f42505595c5"
+    }
+  ]
+}

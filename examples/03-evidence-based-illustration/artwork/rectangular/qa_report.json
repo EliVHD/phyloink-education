@@ -1,0 +1,100 @@
+{
+  "treeRevision": "f89e8f07d37d540eb1333a27e01f75d5c48ae9f3e60a6217a8594089832af66d",
+  "activeViewId": "example-rectangular",
+  "basis": {
+    "id": "basis-1",
+    "name": "Flowering plants · orders + outgroups",
+    "question": "What relationships among five sampled flowering-plant orders and one represented gymnosperm outgroup can this source support?",
+    "relationshipKind": "phylogeny",
+    "entityKind": "taxon-concepts",
+    "edgeMeaning": "Inferred evolutionary relationships from the source authors; drawing depth is nonmetric unless separately declared with evidence.",
+    "evidenceBasis": "Kew release 4.0 phylogenomic species-tree topology. These are the authors’ supplied species, family and order trees, not an inferred classification hierarchy. No source branch lengths are supplied.",
+    "sourceIds": [
+      "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0"
+    ],
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ],
+    "provider": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree",
+    "release": "4.0 (April 2026)",
+    "retrievedAt": "2026-10-28",
+    "epistemicStatus": "published-hypothesis",
+    "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+    "rightsRecordIds": [
+      "kew-4-source"
+    ]
+  },
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ]
+  },
+  "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+  "interpretation": "nonmetric cladogram",
+  "representedTips": 6,
+  "omittedTips": 63,
+  "qaStatus": "checked",
+  "validationProfile": "compound-v3",
+  "storedValidationProfile": "compound-v3",
+  "exportingBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "changes": "Explicit selected-taxon projection/collapse and nonmetric drawing; source bytes unchanged.",
+  "status": "checked",
+  "coveragePassed": true,
+  "incidencePassed": true,
+  "crossingPassed": true,
+  "clearancePassed": true,
+  "labelCollisions": 0,
+  "issues": [],
+  "omittedIssueCount": 0,
+  "checkedPairs": 101,
+  "limited": false,
+  "issueCounts": {
+    "incidence": 0,
+    "contact": 0,
+    "clearance": 0,
+    "labels": 0,
+    "bounds": 0,
+    "font": 0,
+    "legibility": 0
+  },
+  "completeness": {
+    "incidence": true,
+    "strokes": true,
+    "labels": true
+  },
+  "work": 1822,
+  "limitations": [
+    "Nonmetric cladogram: depth and connector length do not encode time, evolutionary distance or confidence.",
+    "Stroke contacts use tolerance-bounded arc subdivision, finite-width envelopes and clipped local junction neighbourhoods; nonlocal self-contact is checked.",
+    "Issue totals are complete only for completed categories; bounded examples do not limit totals. Label totals count label pairs plus once per label that meets any stroke.",
+    "Computational checks do not establish biological support or usability for authors."
+  ],
+  "validationMethodDefinition": {
+    "id": "compound-validation",
+    "version": "3.0.0",
+    "category": "validation",
+    "status": "implemented",
+    "specification": "compound_scene_validation_v3: retain compound v2 geometry checks and its 500000-operation ceiling. Attachment tests return attached, detached or incomplete. Track incidence completeness independently before stroke/label checks; incidencePassed requires completed attachment checks with no detected failure. Truncation never asserts incidence success or fabricates a detached attachment. Preserve compound v1/v2 implementations for exact saved replay.",
+    "specificationSha256": "e9bef3918a34388b3f748472f2cbbf18a1ea77ea73e00b2bd25e5843cf3ab7aa",
+    "parameterSchema": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "defaults": {},
+    "limitations": [
+      "Numerical validation with explicit bounds and work-limit disclosure; no mathematical nonintersection proof, biological peer review or classroom validation."
+    ],
+    "referenceUses": []
+  }
+}

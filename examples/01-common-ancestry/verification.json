@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-11-11",
+  "application": {
+    "name": "PhyloInk",
+    "version": "0.1.2-dev.0",
+    "commit": "f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84",
+    "workingTreeDirty": false,
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "browser": "157.0.4341.42"
+  },
+  "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "sourceUnchanged": true,
+  "selectedTips": [
+    {
+      "id": "n003721",
+      "label": "Homo sapiens",
+      "rawLabel": "Homo_sapiens_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n003718",
+      "label": "Pan troglodytes",
+      "rawLabel": "Pan_troglodytes_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n003729",
+      "label": "Gorilla gorilla",
+      "rawLabel": "Gorilla_gorilla_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n001586",
+      "label": "Mus musculus",
+      "rawLabel": "Mus_musculus_MURIDAE_RODENTIA"
+    },
+    {
+      "id": "n001501",
+      "label": "Rattus norvegicus",
+      "rawLabel": "Rattus_norvegicus_MURIDAE_RODENTIA"
+    },
+    {
+      "id": "n003257",
+      "label": "Oryctolagus cuniculus",
+      "rawLabel": "Oryctolagus_cuniculus_LEPORIDAE_LAGOMORPHA"
+    }
+  ],
+  "relations": [
+    {
+      "taxa": [
+        "Homo sapiens",
+        "Pan troglodytes"
+      ],
+      "sourceNodeId": "n003716",
+      "representedDescendants": [
+        "Homo sapiens",
+        "Pan troglodytes"
+      ],
+      "fullSourceDescendantTips": 6
+    },
+    {
+      "taxa": [
+        "Homo sapiens",
+        "Gorilla gorilla"
+      ],
+      "sourceNodeId": "n003715",
+      "representedDescendants": [
+        "Homo sapiens",
+        "Pan troglodytes",
+        "Gorilla gorilla"
+      ],
+      "fullSourceDescendantTips": 8
+    },
+    {
+      "taxa": [
+        "Mus musculus",
+        "Rattus norvegicus"
+      ],
+      "sourceNodeId": "n001377",
+      "representedDescendants": [
+        "Mus musculus",
+        "Rattus norvegicus"
+      ],
+      "fullSourceDescendantTips": 326
+    },
+    {
+      "taxa": [
+        "Homo sapiens",
+        "Mus musculus"
+      ],
+      "sourceNodeId": "n000005",
+      "representedDescendants": [
+        "Homo sapiens",
+        "Pan troglodytes",
+        "Gorilla gorilla",
+        "Mus musculus",
+        "Rattus norvegicus",
+        "Oryctolagus cuniculus"
+      ],
+      "fullSourceDescendantTips": 1974
+    }
+  ],
+  "views": [
+    {
+      "id": "example-rectangular",
+      "kind": "rectangular",
+      "qa": "checked",
+      "measurements": "available",
+      "representedTips": 6,
+      "omittedTips": 4093
+    }
+  ],
+  "roundTrip": "Browser loadAnyProject passed; exact source preserved",
+  "browserOpenSave": "passed in Edge: every saved structured view selected; source records and accepted scenes unchanged after save",
+  "printReview": "Four PDF pages rendered with Poppler and visually inspected; no clipping or overlapping text.",
+  "browserExport": {
+    "filename": "phyloink-cladogram-checked.zip",
+    "status": "passed"
+  }
+}

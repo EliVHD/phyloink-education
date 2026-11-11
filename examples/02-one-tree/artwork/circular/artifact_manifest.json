@@ -1,0 +1,137 @@
+{
+  "format": "clade-artifact-manifest",
+  "version": 1,
+  "treeRevision": "9dd56354d0de129c04cca6b5f6efee723f58c5ba38eb2b7f4862bd0822bcb751",
+  "activeViewId": "example-circular",
+  "exportingBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "exportId": "46ce4d7a-6f0f-44d7-8554-a56961f27af3",
+  "exportedAt": "2026-11-11T13:21:24.975Z",
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 1681,
+      "sha256": "73ffdaefa99de0f4aa03d7f52a097ca61c8b55dadd353ccc19568587eb9cc619"
+    },
+    {
+      "path": "annotation_review.json",
+      "bytes": 1648,
+      "sha256": "4416a01a3aea680b90dfec26943bf3cc08484310c7201aa61de599bd0adcba1e"
+    },
+    {
+      "path": "clade_mapping.csv",
+      "bytes": 322,
+      "sha256": "f2e48c5d0f465635f05c818d7941b080a6b423221c8f21bb99271f68f207fd95"
+    },
+    {
+      "path": "clade_members.json",
+      "bytes": 968,
+      "sha256": "6ed10230776a0aee43a6075298e332dade6f084d96315841d3daad17c94402c5"
+    },
+    {
+      "path": "display_graph.json",
+      "bytes": 1567370,
+      "sha256": "8efd4c8f9a910c400163675e3b5eceed4ea295fd3b2cd0a261178dc81db4eccb"
+    },
+    {
+      "path": "legend.html",
+      "bytes": 2449,
+      "sha256": "dceb2db9f4657e860cc20f444060cb8f68a2848d1a82d258d1f977a8b17794d3"
+    },
+    {
+      "path": "omitted_tips.json",
+      "bytes": 408247,
+      "sha256": "a134380e4074c0154ac93a79031bbc7ab39f198e1aa897980f41b7eedcf8291c"
+    },
+    {
+      "path": "print-sheet.html",
+      "bytes": 23898,
+      "sha256": "60a280bb45b9f502676cf5f520c16af43cbad0c525ae091a2a5bd2d562c5c9f0"
+    },
+    {
+      "path": "projection_recipe.json",
+      "bytes": 246,
+      "sha256": "d1e2594fbd22cf6a5b255b1abd6f65928b868e5bc39b9f84ce521a768624420c"
+    },
+    {
+      "path": "qa_report.json",
+      "bytes": 4516,
+      "sha256": "f87323be14be5b8bbbf8b96b50c7c45ccdc4e1dd881c54f0eb476a99dce3b0ee"
+    },
+    {
+      "path": "reduced_tree.nwk",
+      "bytes": 4235,
+      "sha256": "694aa80a3edd0d4686951e1e28fea72cbeb3a90fd1894da1e32d98a7b2cb6c60"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 1082,
+      "sha256": "b832be05eb4722939ab62bed1ff49034309927086b7cfb9f7b0f952d608f4d8f"
+    },
+    {
+      "path": "references.txt",
+      "bytes": 948,
+      "sha256": "81a635a5189447dc692567bd5b7c2e0abbcec2363ed7ce5212246aaa8d9c0136"
+    },
+    {
+      "path": "render_scene.json",
+      "bytes": 104645,
+      "sha256": "6555dbf650b72d22266e6dfd2f98024909df598b0b1b0bc06a14a249229f9b9c"
+    },
+    {
+      "path": "software_build.json",
+      "bytes": 309,
+      "sha256": "d9e35b624a9e0e65608fe89b65838aa2d39cd73f2b0c5dd854035ca8c6424a95"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 4279,
+      "sha256": "7eaf9cbb5a89c766474a0f115ee4fa05b6e55c6b93fec0ccb6b95e9ea70fc9a4"
+    },
+    {
+      "path": "source_paths.json",
+      "bytes": 18425,
+      "sha256": "b4d7736770b68720d91474360ba170d688043445c01ca223a84771cdf2a56492"
+    },
+    {
+      "path": "source_tree.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "sources-and-methods.html",
+      "bytes": 9589,
+      "sha256": "07b04482120e6e0f28f956ee5af23f52ecb1298e8ead022167a65e5eab2c71c9"
+    },
+    {
+      "path": "tree-caption.txt",
+      "bytes": 1430,
+      "sha256": "398c2dd787371b2ad464ec25b3ce3e7e4d8d4f4d05a2de374d0958b19a5dbcdf"
+    },
+    {
+      "path": "tree.treeproject.json",
+      "bytes": 5030643,
+      "sha256": "69888db6d0cffc12381399a0a3b798e02da9fab922ce064737f8d8fd41e97013"
+    },
+    {
+      "path": "tree_labeled.svg",
+      "bytes": 22029,
+      "sha256": "5381b2a0f7736a4fab627db92ced513aee87137fbeb3a9c44d5c15968640bf23"
+    },
+    {
+      "path": "tree_provenance.json",
+      "bytes": 29523,
+      "sha256": "125c18ff131dd6a31ffdcc84ed902261e0ad784fd81820179d09483fa2efc9f8"
+    },
+    {
+      "path": "tree_unlabeled.svg",
+      "bytes": 21031,
+      "sha256": "3c77a8acbc590e7eee12b4e52bd9458668399d140adb1463d94c6c01b3e66b63"
+    }
+  ]
+}

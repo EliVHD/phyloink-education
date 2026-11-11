@@ -1,0 +1,4 @@
+Christian Bachmaier, Ulrik Brandes, Barbara Schlieper. Drawing Phylogenetic Trees. 2005. DOI: 10.1007/11602613_110. https://link.springer.com/chapter/10.1007/11602613_110 Verification: verified-source.
+William J. Baker et al.. A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life. 2022. DOI: 10.1093/sysbio/syab035. https://doi.org/10.1093/sysbio/syab035 Verification: verified-source.
+Observable / D3 contributors. D3 hierarchy: Cluster layout documentation. Year not supplied. https://d3js.org/d3-hierarchy/cluster Verification: verified-source.
+Royal Botanic Gardens, Kew and collaborators. Kew Tree of Life Explorer, release 4.0 (April 2026). 2026. https://treeoflife.kew.org/data-access License: CC-BY-4.0. Verification: verified-source.

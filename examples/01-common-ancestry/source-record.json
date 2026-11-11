@@ -1,0 +1,101 @@
+{
+  "dataset": {
+    "id": "upham-2019",
+    "file": "datasets/upham-2019.nwk",
+    "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+    "name": "Mammals · 4,098 species + lizard outgroup",
+    "shortCitation": "Upham et al. · 2019",
+    "tipCount": 4099,
+    "nodeCount": 8197,
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "rightsId": "upham-2019-source",
+    "release": "Dryad version 4, S3 global ML tree (2019-12-06)",
+    "sourceUrl": "https://doi.org/10.5061/dryad.tb03d03",
+    "references": [
+      {
+        "id": "upham-2019-paper",
+        "type": "article",
+        "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
+        "authors": [
+          "Nathan S. Upham",
+          "Jacob A. Esselstyn",
+          "Walter Jetz"
+        ],
+        "year": 2019,
+        "doi": "10.1371/journal.pbio.3000494",
+        "url": "https://doi.org/10.1371/journal.pbio.3000494",
+        "license": null,
+        "verification": "verified-source"
+      },
+      {
+        "id": "upham-2019-data",
+        "type": "source",
+        "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation [dataset, S3]",
+        "authors": [
+          "Nathan S. Upham",
+          "Jacob A. Esselstyn",
+          "Walter Jetz"
+        ],
+        "year": 2019,
+        "doi": "10.5061/dryad.tb03d03",
+        "url": "https://doi.org/10.5061/dryad.tb03d03",
+        "license": "CC0-1.0",
+        "verification": "verified-source"
+      }
+    ],
+    "entityKind": "taxon-concepts",
+    "evidence": "Authors’ global maximum-likelihood tree inferred with RAxML from the 31-gene supermatrix, S3. 4,098 mammal species and Anolis carolinensis outgroup.",
+    "limitations": "The DNA-only global ML tree is a single hypothesis, not the completed or dated posterior tree sets. Original species/family/order suffixes and numeric labels are retained. No time scale is claimed.",
+    "changes": "Exact extracted Newick entry bytes unchanged; archive SHA and entry path are in the bundled dataset audit. Opening collapses explicit overview groups; later edits are recorded separately.",
+    "rootEvidence": "The selected source entry is explicitly named raw_rooted_wBoots_4098mam1out_OK, labels its serialization root Root, and places Anolis carolinensis opposite the mammal clade. The supplied outgroup rooting is retained."
+  },
+  "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "selectedTips": [
+    {
+      "id": "n003721",
+      "label": "Homo sapiens",
+      "rawLabel": "Homo_sapiens_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n003718",
+      "label": "Pan troglodytes",
+      "rawLabel": "Pan_troglodytes_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n003729",
+      "label": "Gorilla gorilla",
+      "rawLabel": "Gorilla_gorilla_HOMINIDAE_PRIMATES"
+    },
+    {
+      "id": "n001586",
+      "label": "Mus musculus",
+      "rawLabel": "Mus_musculus_MURIDAE_RODENTIA"
+    },
+    {
+      "id": "n001501",
+      "label": "Rattus norvegicus",
+      "rawLabel": "Rattus_norvegicus_MURIDAE_RODENTIA"
+    },
+    {
+      "id": "n003257",
+      "label": "Oryctolagus cuniculus",
+      "rawLabel": "Oryctolagus_cuniculus_LEPORIDAE_LAGOMORPHA"
+    }
+  ],
+  "transformations": [
+    "Source copied unchanged.",
+    "Selected source tip identities; omitted memberships retained.",
+    "Display names shortened to genus and species; original source labels retained.",
+    "Nonmetric layouts authored in browser; no dating or relationship inference."
+  ],
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "The selected source entry is explicitly named raw_rooted_wBoots_4098mam1out_OK, labels its serialization root Root, and places Anolis carolinensis opposite the mammal clade. The supplied outgroup rooting is retained.",
+    "referenceIds": [
+      "upham-2019-paper",
+      "upham-2019-data"
+    ]
+  }
+}

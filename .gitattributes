@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.nwk -text
+*.pdf binary
+*.zip binary
+*.png binary
+
+# Preserve authentic application exports, including CSV CRLF and caption spaces.
+examples/**/artwork/** -text whitespace=-blank-at-eol

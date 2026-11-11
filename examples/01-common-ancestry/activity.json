@@ -1,0 +1,19 @@
+{
+  "title": "Common ancestry and clades",
+  "purpose": "Trace shared ancestors and recognize nested groups in a small selection from a published tree.",
+  "instructions": "Work from branching connections, not the apparent distance between names. These six mammals are a selection from a larger source; branch spacing does not measure time.",
+  "pages": [
+    {
+      "figure": "artwork/rectangular/tree_labeled.svg",
+      "figureHeightMm": 60,
+      "caption": "Six selected mammals from Upham et al. (2019), S3 global ML tree, Dryad version 4. Nonmetric cladogram; original source retained. Data: CC0.",
+      "questions": [
+        "Trace Homo sapiens and Pan troglodytes to their most recent common ancestor. Is Gorilla gorilla descended from that same most recent node?",
+        "Identify the represented group containing human, chimpanzee and gorilla. Explain why leaving chimpanzee out would make the proposed grouping incomplete.",
+        "Find a second represented pair that shares a common ancestor excluding the other four displayed taxa. What additional information would you need before calling either pair a complete clade in the full source?"
+      ]
+    }
+  ],
+  "relationshipDescription": "Within the selected source, human and chimpanzee form a represented pair nested with gorilla. Mouse and rat form a separate represented pair; rabbit is also included. Other descendants exist in the full source and are omitted from the drawing.",
+  "sourceLine": "Upham, Esselstyn & Jetz (2019). Paper: 10.1371/journal.pbio.3000494. Data: 10.5061/dryad.tb03d03, version 4, S3. Activity: PhyloInk education, 0BSD."
+}

@@ -1,0 +1,825 @@
+{
+  "format": "clade-tree-provenance",
+  "version": 2,
+  "treeRevision": "5cf524fa29908650d0d2f7c61fa08a737f089b00d022f1f6ede63d81954d7c9b",
+  "basis": {
+    "id": "basis-1",
+    "name": "Mammals · 4,098 species + lizard outgroup",
+    "question": "Among these six sampled mammals, which groups share a more recent common ancestor?",
+    "relationshipKind": "phylogeny",
+    "entityKind": "taxon-concepts",
+    "edgeMeaning": "Inferred evolutionary relationships from the source authors; drawing depth is nonmetric unless separately declared with evidence.",
+    "evidenceBasis": "Authors’ global maximum-likelihood tree inferred with RAxML from the 31-gene supermatrix, S3. 4,098 mammal species and Anolis carolinensis outgroup.",
+    "sourceIds": [
+      "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    ],
+    "referenceIds": [
+      "upham-2019-paper",
+      "upham-2019-data"
+    ],
+    "provider": "https://doi.org/10.5061/dryad.tb03d03",
+    "release": "Dryad version 4, S3 global ML tree (2019-12-06)",
+    "retrievedAt": "2026-10-28",
+    "epistemicStatus": "published-hypothesis",
+    "limitations": "The DNA-only global ML tree is a single hypothesis, not the completed or dated posterior tree sets. Original species/family/order suffixes and numeric labels are retained. No time scale is claimed.",
+    "rightsRecordIds": [
+      "upham-2019-source"
+    ]
+  },
+  "bundledDataset": {
+    "id": "upham-2019",
+    "file": "datasets/upham-2019.nwk",
+    "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+    "name": "Mammals · 4,098 species + lizard outgroup",
+    "shortCitation": "Upham et al. · 2019",
+    "tipCount": 4099,
+    "nodeCount": 8197,
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "rightsId": "upham-2019-source",
+    "release": "Dryad version 4, S3 global ML tree (2019-12-06)",
+    "sourceUrl": "https://doi.org/10.5061/dryad.tb03d03",
+    "references": [
+      {
+        "id": "upham-2019-paper",
+        "type": "article",
+        "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
+        "authors": [
+          "Nathan S. Upham",
+          "Jacob A. Esselstyn",
+          "Walter Jetz"
+        ],
+        "year": 2019,
+        "doi": "10.1371/journal.pbio.3000494",
+        "url": "https://doi.org/10.1371/journal.pbio.3000494",
+        "license": null,
+        "verification": "verified-source"
+      },
+      {
+        "id": "upham-2019-data",
+        "type": "source",
+        "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation [dataset, S3]",
+        "authors": [
+          "Nathan S. Upham",
+          "Jacob A. Esselstyn",
+          "Walter Jetz"
+        ],
+        "year": 2019,
+        "doi": "10.5061/dryad.tb03d03",
+        "url": "https://doi.org/10.5061/dryad.tb03d03",
+        "license": "CC0-1.0",
+        "verification": "verified-source"
+      }
+    ],
+    "entityKind": "taxon-concepts",
+    "evidence": "Authors’ global maximum-likelihood tree inferred with RAxML from the 31-gene supermatrix, S3. 4,098 mammal species and Anolis carolinensis outgroup.",
+    "limitations": "The DNA-only global ML tree is a single hypothesis, not the completed or dated posterior tree sets. Original species/family/order suffixes and numeric labels are retained. No time scale is claimed.",
+    "changes": "Exact extracted Newick entry bytes unchanged; archive SHA and entry path are in the bundled dataset audit. Opening collapses explicit overview groups; later edits are recorded separately.",
+    "rootEvidence": "The selected source entry is explicitly named raw_rooted_wBoots_4098mam1out_OK, labels its serialization root Root, and places Anolis carolinensis opposite the mammal clade. The supplied outgroup rooting is retained."
+  },
+  "activeViewId": "example-rectangular",
+  "projection": {
+    "selection": {
+      "kind": "explicit-tips",
+      "tipIds": [
+        "n003721",
+        "n003718",
+        "n003729",
+        "n001586",
+        "n001501",
+        "n003257"
+      ]
+    },
+    "collapse": [],
+    "expand": [],
+    "reveal": [],
+    "childOrder": {}
+  },
+  "interpretation": "cladogram",
+  "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "The selected source entry is explicitly named raw_rooted_wBoots_4098mam1out_OK, labels its serialization root Root, and places Anolis carolinensis opposite the mammal clade. The supplied outgroup rooting is retained.",
+    "referenceIds": [
+      "upham-2019-paper",
+      "upham-2019-data"
+    ]
+  },
+  "replayCoverage": "source-and-final-geometry",
+  "historyStatus": "recorded-from-creation",
+  "references": {
+    "bachmaier-2005": {
+      "id": "bachmaier-2005",
+      "type": "article",
+      "title": "Drawing Phylogenetic Trees",
+      "authors": [
+        "Christian Bachmaier",
+        "Ulrik Brandes",
+        "Barbara Schlieper"
+      ],
+      "year": 2005,
+      "doi": "10.1007/11602613_110",
+      "url": "https://link.springer.com/chapter/10.1007/11602613_110",
+      "license": null,
+      "verification": "verified-source"
+    },
+    "d3-cluster-docs": {
+      "id": "d3-cluster-docs",
+      "type": "application-method",
+      "title": "D3 hierarchy: Cluster layout documentation",
+      "authors": [
+        "Observable / D3 contributors"
+      ],
+      "year": null,
+      "doi": null,
+      "url": "https://d3js.org/d3-hierarchy/cluster",
+      "license": null,
+      "verification": "verified-source"
+    },
+    "upham-2019-data": {
+      "id": "upham-2019-data",
+      "type": "source",
+      "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation [dataset, S3]",
+      "authors": [
+        "Nathan S. Upham",
+        "Jacob A. Esselstyn",
+        "Walter Jetz"
+      ],
+      "year": 2019,
+      "doi": "10.5061/dryad.tb03d03",
+      "url": "https://doi.org/10.5061/dryad.tb03d03",
+      "license": "CC0-1.0",
+      "verification": "verified-source"
+    },
+    "upham-2019-paper": {
+      "id": "upham-2019-paper",
+      "type": "article",
+      "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
+      "authors": [
+        "Nathan S. Upham",
+        "Jacob A. Esselstyn",
+        "Walter Jetz"
+      ],
+      "year": 2019,
+      "doi": "10.1371/journal.pbio.3000494",
+      "url": "https://doi.org/10.1371/journal.pbio.3000494",
+      "license": null,
+      "verification": "verified-source"
+    }
+  },
+  "methods": {
+    "bounded-overview@1.0.0": {
+      "id": "bounded-overview",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "bounded_overview_v1: begin with the traversal root children; repeatedly split the frontier internal node with greatest original-tip membership (ties by source ID) whose children fit within 100 endpoints. Stop when no further split fits. Save remaining internal frontier nodes as explicit collapses, with distance threshold zero. Preserve every original tip exactly once; no invented edges or omitted taxa.",
+      "specificationSha256": "f4b3199a27ba75d0c6d765e3d6102d427633b1a6d803adabe747ae69cdee2e9a",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "An initial display overview, not a biological grouping criterion or evidence assessment. Internal numeric labels are not assigned support meanings. Large root polytomies that exceed the bound are rejected rather than sampled silently."
+      ],
+      "referenceUses": []
+    },
+    "clade-cluster@1.0.0": {
+      "id": "clade-cluster",
+      "version": "1.0.0",
+      "category": "layout",
+      "status": "implemented",
+      "specification": "clade_cluster_v1: allocate measured ordered terminal slots and nested clade intervals; junction transverse coordinate is the interval midpoint; height is one plus maximum child height and nonmetric depth is 1-height/rootHeight. Map to rectangular or unwrapped circular/fan coordinates. Use open compound connectors and radial/horizontal stems. At most eight measured-label slot passes, fixed font size, bounded clade/level offsets and explicit pin conflicts.",
+      "specificationSha256": "2e945d7bc8a4495557ca5b890795292567a9c95c0b1404864d797d6a8671b776",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Original application construction inspired by general cluster and subtree-sector concepts; not a reproduction of D3 or the Bachmaier algorithm. Depth, arc length and inner radius are spacing conventions, not time/distance/confidence."
+      ],
+      "referenceUses": [
+        {
+          "referenceId": "d3-cluster-docs",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        },
+        {
+          "referenceId": "bachmaier-2005",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        }
+      ]
+    },
+    "compound-validation@3.0.0": {
+      "id": "compound-validation",
+      "version": "3.0.0",
+      "category": "validation",
+      "status": "implemented",
+      "specification": "compound_scene_validation_v3: retain compound v2 geometry checks and its 500000-operation ceiling. Attachment tests return attached, detached or incomplete. Track incidence completeness independently before stroke/label checks; incidencePassed requires completed attachment checks with no detected failure. Truncation never asserts incidence success or fabricates a detached attachment. Preserve compound v1/v2 implementations for exact saved replay.",
+      "specificationSha256": "e9bef3918a34388b3f748472f2cbbf18a1ea77ea73e00b2bd25e5843cf3ab7aa",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Numerical validation with explicit bounds and work-limit disclosure; no mathematical nonintersection proof, biological peer review or classroom validation."
+      ],
+      "referenceUses": []
+    },
+    "maximal-frontier@1.0.0": {
+      "id": "maximal-frontier",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "maximal_frontier_v1: original-tip-weighted mean descendant distance, strict less-than threshold, protected override paths and explicit collapse/expand/protect rules. Preserve exhaustive original tip memberships.",
+      "specificationSha256": "5476846d2315714317c4e4b718f11ac8f2d1f382149d7c63aedfdca5b85f7567",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Root is explicitly assumed; missing lengths prevent distance-threshold collapsing."
+      ],
+      "referenceUses": []
+    },
+    "newick-parser@1.0.0": {
+      "id": "newick-parser",
+      "version": "1.0.0",
+      "category": "import",
+      "status": "implemented",
+      "specification": "Parse one Newick tree, preserving source text, local IDs, raw labels, comments and length tokens. No support type is inferred from numeric labels.",
+      "specificationSha256": "df2868ed492b0c5af089ee20b8b55d64f977143bbade3f54ea8df502cd3562d6",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Only the supported Newick dialect; no sequence inference."
+      ],
+      "referenceUses": []
+    },
+    "selected-taxon-projection@1.0.0": {
+      "id": "selected-taxon-projection",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "selected_taxon_projection_v1: orient the exact immutable input at its declared root; retain selected-tip paths and root/stem, explicitly collapse requested nodes, suppress only unannotated unlabeled unary intermediate nodes, retain ordered original paths/edge IDs and selected/original/omitted memberships. No selected-tip distance threshold and no inferred support type.",
+      "specificationSha256": "600c6ab74ccccb292fa4bab4de2530457fabe0d4ed0a89d0a4b74a13e297297d",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Selection changes displayed sampling, not the input topology or its evidence. Missing/invalid path lengths remain unknown."
+      ],
+      "referenceUses": []
+    }
+  },
+  "operations": {
+    "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9": {
+      "id": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9",
+      "kind": "context",
+      "methods": [
+        {
+          "key": "newick-parser@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+        "viewId": "view-1",
+        "components": [
+          "source"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {},
+      "outputs": {
+        "source": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3"
+      },
+      "parameters": {
+        "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "upham-2019-paper",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        },
+        {
+          "referenceId": "upham-2019-data",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        }
+      ],
+      "result": {
+        "sourceAndFinalGeometryPreserved": true,
+        "importerBuildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+      },
+      "recordedAt": "2026-11-11T13:21:21.863Z",
+      "notes": "New document baseline. Source inference was not performed by this application."
+    },
+    "operation-bb4d9d682c901e3f5e874befd35ba78deed81713069930449ed8993e241f7056": {
+      "id": "operation-bb4d9d682c901e3f5e874befd35ba78deed81713069930449ed8993e241f7056",
+      "kind": "scientific",
+      "methods": [
+        {
+          "key": "bounded-overview@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "maximal-frontier@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+        "viewId": "view-1",
+        "components": [
+          "basis",
+          "scientific"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "source": {
+          "revision": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3",
+          "operationId": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9"
+        }
+      },
+      "outputs": {
+        "basis": "739b8294848421afd69a112cb35667b67c4be67791fa808fa60dfb77a1f21b9b",
+        "scientific": "be31adbe4d2c98ab1905cf1b49ae66baf20a6944796ee482a8e4c6e5db699109"
+      },
+      "parameters": {
+        "recipe": {
+          "algorithm": "maximal_frontier_v1",
+          "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+          "root": {
+            "kind": "node",
+            "sourceNodeId": "n000000",
+            "status": "serialization_origin_not_biological_root"
+          },
+          "globalThreshold": 0,
+          "thresholdOverrides": [],
+          "protectOverridePaths": true,
+          "comparison": "strict_less_than",
+          "protect": [],
+          "collapse": [
+            "n000015",
+            "n000045",
+            "n000061",
+            "n000316",
+            "n000323",
+            "n000368",
+            "n000397",
+            "n000410",
+            "n000418",
+            "n000438",
+            "n000550",
+            "n000759",
+            "n000843",
+            "n000849",
+            "n001049",
+            "n001057",
+            "n001125",
+            "n001131",
+            "n001206",
+            "n001364",
+            "n001378",
+            "n001563",
+            "n001764",
+            "n001881",
+            "n002033",
+            "n002225",
+            "n002376",
+            "n002561",
+            "n002588",
+            "n002597",
+            "n002795",
+            "n002824",
+            "n003065",
+            "n003083",
+            "n003115",
+            "n003258",
+            "n003284",
+            "n003288",
+            "n003486",
+            "n003499",
+            "n003710",
+            "n003761",
+            "n003956",
+            "n004049",
+            "n004065",
+            "n004185",
+            "n004228",
+            "n004258",
+            "n004437",
+            "n004516",
+            "n004601",
+            "n004778",
+            "n004785",
+            "n004797",
+            "n004801",
+            "n004805",
+            "n004813",
+            "n004864",
+            "n005121",
+            "n005124",
+            "n005145",
+            "n005157",
+            "n005161",
+            "n005416",
+            "n005661",
+            "n005676",
+            "n005850",
+            "n005863",
+            "n005958",
+            "n006011",
+            "n006234",
+            "n006245",
+            "n006250",
+            "n006284",
+            "n006502",
+            "n006745",
+            "n006816",
+            "n006827",
+            "n006876",
+            "n006896",
+            "n006923",
+            "n007160",
+            "n007359",
+            "n007396",
+            "n007471",
+            "n007635",
+            "n007647",
+            "n007817",
+            "n008026",
+            "n008191"
+          ],
+          "expand": [],
+          "resolvedFrontierSourceNodeIds": [
+            "n000015",
+            "n000045",
+            "n000061",
+            "n000316",
+            "n000323",
+            "n000368",
+            "n000397",
+            "n000410",
+            "n000418",
+            "n000434",
+            "n000438",
+            "n000550",
+            "n000759",
+            "n000842",
+            "n000843",
+            "n000849",
+            "n001049",
+            "n001057",
+            "n001125",
+            "n001131",
+            "n001206",
+            "n001364",
+            "n001378",
+            "n001563",
+            "n001764",
+            "n001881",
+            "n002033",
+            "n002225",
+            "n002376",
+            "n002561",
+            "n002588",
+            "n002597",
+            "n002795",
+            "n002824",
+            "n003065",
+            "n003082",
+            "n003083",
+            "n003114",
+            "n003115",
+            "n003258",
+            "n003284",
+            "n003288",
+            "n003486",
+            "n003499",
+            "n003710",
+            "n003761",
+            "n003956",
+            "n004049",
+            "n004065",
+            "n004185",
+            "n004228",
+            "n004258",
+            "n004437",
+            "n004514",
+            "n004516",
+            "n004601",
+            "n004778",
+            "n004785",
+            "n004797",
+            "n004801",
+            "n004805",
+            "n004813",
+            "n004864",
+            "n005121",
+            "n005124",
+            "n005145",
+            "n005156",
+            "n005157",
+            "n005161",
+            "n005416",
+            "n005661",
+            "n005676",
+            "n005850",
+            "n005863",
+            "n005958",
+            "n006011",
+            "n006234",
+            "n006245",
+            "n006250",
+            "n006284",
+            "n006502",
+            "n006745",
+            "n006816",
+            "n006827",
+            "n006871",
+            "n006876",
+            "n006894",
+            "n006896",
+            "n006923",
+            "n007160",
+            "n007359",
+            "n007396",
+            "n007471",
+            "n007635",
+            "n007647",
+            "n007815",
+            "n007817",
+            "n008026",
+            "n008191",
+            "n008196"
+          ]
+        }
+      },
+      "referenceUses": [],
+      "result": {
+        "sourceAndFinalGeometryPreserved": true,
+        "importerBuildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+      },
+      "recordedAt": "2026-11-11T13:21:21.863Z",
+      "notes": "New document baseline. Source inference was not performed by this application."
+    },
+    "operation-3d53819545ffaef7f5d5ce533be469ee7a4a7b7640a5b566f9eebbfdc6bbd5a8": {
+      "id": "operation-3d53819545ffaef7f5d5ce533be469ee7a4a7b7640a5b566f9eebbfdc6bbd5a8",
+      "kind": "scientific",
+      "methods": [],
+      "scope": {
+        "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+        "viewId": "view-1",
+        "components": [
+          "basis"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "scientific": {
+          "revision": "be31adbe4d2c98ab1905cf1b49ae66baf20a6944796ee482a8e4c6e5db699109",
+          "operationId": "operation-bb4d9d682c901e3f5e874befd35ba78deed81713069930449ed8993e241f7056"
+        },
+        "source": {
+          "revision": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3",
+          "operationId": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9"
+        }
+      },
+      "outputs": {
+        "basis": "c2a4454b71f12d4f0906d89b29a5b761110a875a4d6fb9a15fca6e2e8d8ea0b1"
+      },
+      "parameters": {
+        "basisId": "basis-1"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "upham-2019-paper",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        },
+        {
+          "referenceId": "upham-2019-data",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        }
+      ],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:21.890Z",
+      "notes": "Edited scientific-basis description; source topology and artwork unchanged. User-supplied evidence and rights are not independently verified."
+    },
+    "operation-a25edbd915b869c127f0b5fb0dca8335011556d79816ae202b3a528c0beedbce": {
+      "id": "operation-a25edbd915b869c127f0b5fb0dca8335011556d79816ae202b3a528c0beedbce",
+      "kind": "scientific",
+      "methods": [
+        {
+          "key": "selected-taxon-projection@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+        "viewId": "view-1",
+        "components": [
+          "structured-scientific"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "basis": {
+          "revision": "c2a4454b71f12d4f0906d89b29a5b761110a875a4d6fb9a15fca6e2e8d8ea0b1",
+          "operationId": "operation-3d53819545ffaef7f5d5ce533be469ee7a4a7b7640a5b566f9eebbfdc6bbd5a8"
+        },
+        "source": {
+          "revision": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3",
+          "operationId": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9"
+        }
+      },
+      "outputs": {
+        "structured-scientific": "979c8169b8670eca9315983e3dfba7bc997830b7eae296459d0052bd29e54334"
+      },
+      "parameters": {
+        "projection": {
+          "selection": {
+            "kind": "explicit-tips",
+            "tipIds": [
+              "n003721",
+              "n003718",
+              "n003729",
+              "n001586",
+              "n001501",
+              "n003257"
+            ]
+          },
+          "collapse": [],
+          "expand": [],
+          "reveal": [],
+          "childOrder": {}
+        },
+        "settings": {
+          "kind": "rectangular",
+          "widthMm": 180,
+          "heightMm": 60,
+          "marginMm": 10,
+          "strokeMm": 0.3,
+          "junctionMm": 1,
+          "clearanceMm": 0.5,
+          "toleranceMm": 0.025,
+          "fontFamily": "sans-serif",
+          "fontSizePt": 11,
+          "labelGapMm": 2,
+          "terminalGapMm": 1.5,
+          "innerRadiusMm": 5,
+          "outerRadiusMm": 45,
+          "startAngleDeg": -90,
+          "sweepDeg": 360,
+          "orientationDeg": 0,
+          "labelPlacement": "horizontal",
+          "curves": false
+        },
+        "measuredFontStatus": "available"
+      },
+      "referenceUses": [],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:22.121Z",
+      "notes": "Authored and accepted in the browser with measured labels and current geometry checks. Geometry QA is not biological validation."
+    },
+    "operation-e3a33b4cac6f104836d5b8fb5cd3578d1d12e7d844840aad5344ed69ebda1312": {
+      "id": "operation-e3a33b4cac6f104836d5b8fb5cd3578d1d12e7d844840aad5344ed69ebda1312",
+      "kind": "layout",
+      "methods": [
+        {
+          "key": "selected-taxon-projection@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "clade-cluster@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "compound-validation@3.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+        "viewId": "example-rectangular",
+        "components": [
+          "structured/example-rectangular"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "basis": {
+          "revision": "c2a4454b71f12d4f0906d89b29a5b761110a875a4d6fb9a15fca6e2e8d8ea0b1",
+          "operationId": "operation-3d53819545ffaef7f5d5ce533be469ee7a4a7b7640a5b566f9eebbfdc6bbd5a8"
+        },
+        "source": {
+          "revision": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3",
+          "operationId": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9"
+        },
+        "structured-scientific": {
+          "revision": "979c8169b8670eca9315983e3dfba7bc997830b7eae296459d0052bd29e54334",
+          "operationId": "operation-a25edbd915b869c127f0b5fb0dca8335011556d79816ae202b3a528c0beedbce"
+        }
+      },
+      "outputs": {
+        "structured/example-rectangular": "f40f9d01dd7267794a9572c9bce28b4517f23257eb57fbbb54aa6669e37ef525"
+      },
+      "parameters": {
+        "projection": {
+          "selection": {
+            "kind": "explicit-tips",
+            "tipIds": [
+              "n003721",
+              "n003718",
+              "n003729",
+              "n001586",
+              "n001501",
+              "n003257"
+            ]
+          },
+          "collapse": [],
+          "expand": [],
+          "reveal": [],
+          "childOrder": {}
+        },
+        "settings": {
+          "kind": "rectangular",
+          "widthMm": 180,
+          "heightMm": 60,
+          "marginMm": 10,
+          "strokeMm": 0.3,
+          "junctionMm": 1,
+          "clearanceMm": 0.5,
+          "toleranceMm": 0.025,
+          "fontFamily": "sans-serif",
+          "fontSizePt": 11,
+          "labelGapMm": 2,
+          "terminalGapMm": 1.5,
+          "innerRadiusMm": 5,
+          "outerRadiusMm": 45,
+          "startAngleDeg": -90,
+          "sweepDeg": 360,
+          "orientationDeg": 0,
+          "labelPlacement": "horizontal",
+          "curves": false
+        },
+        "measuredFontStatus": "available"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "d3-cluster-docs",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        },
+        {
+          "referenceId": "bachmaier-2005",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        }
+      ],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:22.121Z",
+      "notes": "Authored and accepted in the browser with measured labels and current geometry checks. Geometry QA is not biological validation."
+    }
+  },
+  "heads": {
+    "source": {
+      "revision": "53ec5e4c779c2126e4f9b4e35fa1e5db1589279019dc38706f51d136c08a0ea3",
+      "operationId": "operation-6b2149f3e605f56565add52fe8ee5cdc53a005f7ab89d942dae711bcb4ace9e9"
+    },
+    "basis": {
+      "revision": "c2a4454b71f12d4f0906d89b29a5b761110a875a4d6fb9a15fca6e2e8d8ea0b1",
+      "operationId": "operation-3d53819545ffaef7f5d5ce533be469ee7a4a7b7640a5b566f9eebbfdc6bbd5a8"
+    },
+    "structured-scientific": {
+      "revision": "979c8169b8670eca9315983e3dfba7bc997830b7eae296459d0052bd29e54334",
+      "operationId": "operation-a25edbd915b869c127f0b5fb0dca8335011556d79816ae202b3a528c0beedbce"
+    },
+    "structured/example-rectangular": {
+      "revision": "f40f9d01dd7267794a9572c9bce28b4517f23257eb57fbbb54aa6669e37ef525",
+      "operationId": "operation-e3a33b4cac6f104836d5b8fb5cd3578d1d12e7d844840aad5344ed69ebda1312"
+    }
+  }
+}

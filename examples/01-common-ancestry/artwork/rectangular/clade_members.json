@@ -1,0 +1,62 @@
+[
+  {
+    "sourceNodeId": "n001501",
+    "selectedMembers": [
+      "n001501"
+    ],
+    "originalMembers": [
+      "n001501"
+    ],
+    "omittedMembers": []
+  },
+  {
+    "sourceNodeId": "n001586",
+    "selectedMembers": [
+      "n001586"
+    ],
+    "originalMembers": [
+      "n001586"
+    ],
+    "omittedMembers": []
+  },
+  {
+    "sourceNodeId": "n003257",
+    "selectedMembers": [
+      "n003257"
+    ],
+    "originalMembers": [
+      "n003257"
+    ],
+    "omittedMembers": []
+  },
+  {
+    "sourceNodeId": "n003718",
+    "selectedMembers": [
+      "n003718"
+    ],
+    "originalMembers": [
+      "n003718"
+    ],
+    "omittedMembers": []
+  },
+  {
+    "sourceNodeId": "n003721",
+    "selectedMembers": [
+      "n003721"
+    ],
+    "originalMembers": [
+      "n003721"
+    ],
+    "omittedMembers": []
+  },
+  {
+    "sourceNodeId": "n003729",
+    "selectedMembers": [
+      "n003729"
+    ],
+    "originalMembers": [
+      "n003729"
+    ],
+    "omittedMembers": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "source_node_id": "n003721",
+    "raw_label": "Homo_sapiens_HOMINIDAE_PRIMATES",
+    "status": "display-only shortening",
+    "display_taxonomy": "Homo sapiens",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  },
+  {
+    "source_node_id": "n003718",
+    "raw_label": "Pan_troglodytes_HOMINIDAE_PRIMATES",
+    "status": "display-only shortening",
+    "display_taxonomy": "Pan troglodytes",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  },
+  {
+    "source_node_id": "n003729",
+    "raw_label": "Gorilla_gorilla_HOMINIDAE_PRIMATES",
+    "status": "display-only shortening",
+    "display_taxonomy": "Gorilla gorilla",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  },
+  {
+    "source_node_id": "n001586",
+    "raw_label": "Mus_musculus_MURIDAE_RODENTIA",
+    "status": "display-only shortening",
+    "display_taxonomy": "Mus musculus",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  },
+  {
+    "source_node_id": "n001501",
+    "raw_label": "Rattus_norvegicus_MURIDAE_RODENTIA",
+    "status": "display-only shortening",
+    "display_taxonomy": "Rattus norvegicus",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  },
+  {
+    "source_node_id": "n003257",
+    "raw_label": "Oryctolagus_cuniculus_LEPORIDAE_LAGOMORPHA",
+    "status": "display-only shortening",
+    "display_taxonomy": "Oryctolagus cuniculus",
+    "evidence_url": "https://doi.org/10.5061/dryad.tb03d03",
+    "review_date": "2026-11-11"
+  }
+]

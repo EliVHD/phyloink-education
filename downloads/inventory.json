@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-11",
+  "examples": [
+    {
+      "example": "01-common-ancestry",
+      "files": 38,
+      "zipBytes": 1184593,
+      "sha256": "d2a58500430c5ca94f15513ff162965802da000da18563e3f5da3e6e397f7577"
+    },
+    {
+      "example": "02-one-tree",
+      "files": 63,
+      "zipBytes": 2514107,
+      "sha256": "5c27d0ce71853cef98568c5de84587059f8aa582e302d1a89b70a6762e2d5eb5"
+    },
+    {
+      "example": "03-evidence-based-illustration",
+      "files": 38,
+      "zipBytes": 199506,
+      "sha256": "c8493e2bf8dc361576daacae755fcd5ad19403d048cff219db0efa069fa81083"
+    }
+  ]
+}

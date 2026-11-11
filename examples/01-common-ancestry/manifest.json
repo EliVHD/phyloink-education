@@ -1,0 +1,194 @@
+{
+  "format": "phyloink-education-example",
+  "version": 1,
+  "example": "01-common-ancestry",
+  "verifiedAt": "2026-11-11",
+  "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "files": [
+    {
+      "path": "activity.json",
+      "bytes": 1625,
+      "sha256": "f23d8be15ee5a55932daeb3edcca5a2ce9c93c806298b3f9a1614d4be5281b2a"
+    },
+    {
+      "path": "application-build-manifest.json",
+      "bytes": 11368,
+      "sha256": "b23d0756ab649b8d599021e5d99c2290b05023d8953f23d0abed72a3bc6a883a"
+    },
+    {
+      "path": "artwork/rectangular/annotation_review.json",
+      "bytes": 1648,
+      "sha256": "4416a01a3aea680b90dfec26943bf3cc08484310c7201aa61de599bd0adcba1e"
+    },
+    {
+      "path": "artwork/rectangular/artifact_manifest.json",
+      "bytes": 4195,
+      "sha256": "71e2c9bbe48d8ed59fac12447ad894ff69c776923b5f9a4fdb7999209bd6d78b"
+    },
+    {
+      "path": "artwork/rectangular/clade_mapping.csv",
+      "bytes": 322,
+      "sha256": "f2e48c5d0f465635f05c818d7941b080a6b423221c8f21bb99271f68f207fd95"
+    },
+    {
+      "path": "artwork/rectangular/clade_members.json",
+      "bytes": 968,
+      "sha256": "6ed10230776a0aee43a6075298e332dade6f084d96315841d3daad17c94402c5"
+    },
+    {
+      "path": "artwork/rectangular/display_graph.json",
+      "bytes": 1567370,
+      "sha256": "8efd4c8f9a910c400163675e3b5eceed4ea295fd3b2cd0a261178dc81db4eccb"
+    },
+    {
+      "path": "artwork/rectangular/legend.html",
+      "bytes": 2447,
+      "sha256": "b4e2cba675280622339327ff54329fa882e3147484205e311cad4d8eb8e40431"
+    },
+    {
+      "path": "artwork/rectangular/omitted_tips.json",
+      "bytes": 408247,
+      "sha256": "a134380e4074c0154ac93a79031bbc7ab39f198e1aa897980f41b7eedcf8291c"
+    },
+    {
+      "path": "artwork/rectangular/print-sheet.html",
+      "bytes": 22124,
+      "sha256": "838771e1c68b85a5eabd1be8effd6af747f03f91be33a36a14ec05f9c2b7f30c"
+    },
+    {
+      "path": "artwork/rectangular/projection_recipe.json",
+      "bytes": 246,
+      "sha256": "d1e2594fbd22cf6a5b255b1abd6f65928b868e5bc39b9f84ce521a768624420c"
+    },
+    {
+      "path": "artwork/rectangular/qa_report.json",
+      "bytes": 4514,
+      "sha256": "57d52f45fbef1f74c710c19f4a1d5c621e8361561d70e3186420ed0b57642f02"
+    },
+    {
+      "path": "artwork/rectangular/README.txt",
+      "bytes": 1679,
+      "sha256": "cf99772a41a14b215db3d83bfebaba9461074a45a80b89f9575e8bc4e64819ac"
+    },
+    {
+      "path": "artwork/rectangular/reduced_tree.nwk",
+      "bytes": 4235,
+      "sha256": "694aa80a3edd0d4686951e1e28fea72cbeb3a90fd1894da1e32d98a7b2cb6c60"
+    },
+    {
+      "path": "artwork/rectangular/references.bib",
+      "bytes": 1082,
+      "sha256": "b832be05eb4722939ab62bed1ff49034309927086b7cfb9f7b0f952d608f4d8f"
+    },
+    {
+      "path": "artwork/rectangular/references.txt",
+      "bytes": 948,
+      "sha256": "81a635a5189447dc692567bd5b7c2e0abbcec2363ed7ce5212246aaa8d9c0136"
+    },
+    {
+      "path": "artwork/rectangular/render_scene.json",
+      "bytes": 97848,
+      "sha256": "13df8b586408059798f94d9ba1e258fb02bbf9b49223d33829f083185d0e251e"
+    },
+    {
+      "path": "artwork/rectangular/software_build.json",
+      "bytes": 309,
+      "sha256": "d9e35b624a9e0e65608fe89b65838aa2d39cd73f2b0c5dd854035ca8c6424a95"
+    },
+    {
+      "path": "artwork/rectangular/source_manifest.json",
+      "bytes": 4277,
+      "sha256": "b96cadc41d66ce746903072ee04277b1c9675df129881fbd6ad8adaf6eb154fc"
+    },
+    {
+      "path": "artwork/rectangular/source_paths.json",
+      "bytes": 18425,
+      "sha256": "b4d7736770b68720d91474360ba170d688043445c01ca223a84771cdf2a56492"
+    },
+    {
+      "path": "artwork/rectangular/source_tree.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "artwork/rectangular/sources-and-methods.html",
+      "bytes": 9586,
+      "sha256": "a162c1e1d5456d5c8beba26556d15d758593e4b57fe46d8c4359ac76bb61896a"
+    },
+    {
+      "path": "artwork/rectangular/tree-caption.txt",
+      "bytes": 1428,
+      "sha256": "efe51bbf6da06b550c823c45ab4f38a2c9345059351d10d5253002591a8524de"
+    },
+    {
+      "path": "artwork/rectangular/tree.treeproject.json",
+      "bytes": 2821477,
+      "sha256": "268484e89847b24ec0ba6919c6f8be08e38c2d74e2e75a7e1ba7f8542b838462"
+    },
+    {
+      "path": "artwork/rectangular/tree_labeled.svg",
+      "bytes": 20257,
+      "sha256": "a61105a07e89a3fddbdf57afb3fa7946740a9acee6a9a016d8aba5a118c271e7"
+    },
+    {
+      "path": "artwork/rectangular/tree_provenance.json",
+      "bytes": 29535,
+      "sha256": "4d72eba6ce746dff5fa96a789d5797971626c51d30d5b93656da1f4e851396cc"
+    },
+    {
+      "path": "artwork/rectangular/tree_unlabeled.svg",
+      "bytes": 19250,
+      "sha256": "fcc271a324f60b5d3e1d3ef5c6f42b34115584598d9da576746fcbe2e2b02d1c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "project.treeproject.json",
+      "bytes": 2821477,
+      "sha256": "268484e89847b24ec0ba6919c6f8be08e38c2d74e2e75a7e1ba7f8542b838462"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2268,
+      "sha256": "293b784bf9b6aad7900fdf22741e044d4535fc6a67c621db250c1450b35421f8"
+    },
+    {
+      "path": "source-record.json",
+      "bytes": 4082,
+      "sha256": "7b4edf32df9e95c9795105438ed5a2e52197f6388267b66cf5c494a47a78f563"
+    },
+    {
+      "path": "source.nwk",
+      "bytes": 304402,
+      "sha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1752,
+      "sha256": "b14d2ca1aa2b911b7e9942ddae3130649f98c12057bb9b90053287a61c65503e"
+    },
+    {
+      "path": "student-handout.html",
+      "bytes": 2917,
+      "sha256": "5ef5c7e9cd254004149a330f6bc5796a75dfdcc423793d160cb76ec297459a9c"
+    },
+    {
+      "path": "student-handout.pdf",
+      "bytes": 32840,
+      "sha256": "7b0114caa60266a6ff820db789b7c0e5c3cb04883be60efc9f5844077866097b"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 2276,
+      "sha256": "abd7b744c46dabcda473c38e55a4e294a69fd87c69a4bb69b72a7c3602f7ebc4"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2994,
+      "sha256": "53be0fcdafe45769a02fc708ef346315e3412ed92d6d7ecdf9be92ac0a9fb79f"
+    }
+  ]
+}

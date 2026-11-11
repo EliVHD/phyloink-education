@@ -1,0 +1,61 @@
+[
+  {
+    "id": "fish",
+    "checkedAt": "2026-11-11",
+    "newickSha256": "73f454e279089cadf8d300f5c80173372ef1a5841295edebda18a11e9b1e0386",
+    "nodes": 23275,
+    "tips": 11638,
+    "parser": "PhyloInk 0.1.2-dev.0",
+    "status": "browser import and save passed",
+    "url": "https://fishtreeoflife.org/downloads/actinopt_12k_raxml.tre.xz",
+    "downloadSha256": "306f83016a3ba172a8f415549093400ef11b36bb718a5b9f23e264e140681686",
+    "preparation": "XZ decompression only; tree bytes preserved.",
+    "applicationBuild": {
+      "format": "clade-build-info",
+      "version": 1,
+      "appVersion": "0.1.2-dev.0",
+      "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+      "manifest": "build-manifest.json"
+    }
+  },
+  {
+    "id": "insect",
+    "checkedAt": "2026-11-11",
+    "status": "download unavailable",
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "id": "opentree",
+    "checkedAt": "2026-11-11",
+    "newickSha256": "a42269deb74adf2cc2511377d4e2778b8e6499fbf568215673f585f41d681b6a",
+    "nodes": 65,
+    "tips": 5,
+    "parser": "PhyloInk 0.1.2-dev.0",
+    "status": "browser import and save passed",
+    "url": "https://api.opentreeoflife.org/v3/tree_of_life/induced_subtree",
+    "ottIds": [
+      770315,
+      417950,
+      417965,
+      542509,
+      864596
+    ],
+    "requestedNames": [
+      "Homo sapiens",
+      "Pan troglodytes",
+      "Gorilla gorilla",
+      "Mus musculus",
+      "Oryctolagus cuniculus"
+    ],
+    "treeId": null,
+    "responseSha256": "fbe2f88e05a290368a7e82d8d8c0077133daa513f37473b1fc0ea272ce809b80",
+    "preparation": "Newick string extracted from API JSON. Nonmetric synthesis of taxonomy and phylogenies; no date or distance interpretation.",
+    "applicationBuild": {
+      "format": "clade-build-info",
+      "version": 1,
+      "appVersion": "0.1.2-dev.0",
+      "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+      "manifest": "build-manifest.json"
+    }
+  }
+]

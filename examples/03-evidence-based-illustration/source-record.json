@@ -1,0 +1,96 @@
+{
+  "dataset": {
+    "shortCitation": "Kew · release 4.0",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsId": "kew-4-source",
+    "release": "4.0 (April 2026)",
+    "references": [
+      {
+        "id": "kew-tree-4",
+        "type": "source",
+        "title": "Kew Tree of Life Explorer, release 4.0 (April 2026)",
+        "authors": [
+          "Royal Botanic Gardens, Kew and collaborators"
+        ],
+        "year": 2026,
+        "doi": null,
+        "url": "https://treeoflife.kew.org/data-access",
+        "license": "CC-BY-4.0",
+        "verification": "verified-source"
+      },
+      {
+        "id": "baker-2022",
+        "type": "article",
+        "title": "A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life",
+        "authors": [
+          "William J. Baker et al."
+        ],
+        "year": 2022,
+        "doi": "10.1093/sysbio/syab035",
+        "url": "https://doi.org/10.1093/sysbio/syab035",
+        "license": null,
+        "verification": "verified-source"
+      }
+    ],
+    "evidence": "Kew release 4.0 phylogenomic species-tree topology. These are the authors’ supplied species, family and order trees, not an inferred classification hierarchy. No source branch lengths are supplied.",
+    "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+    "changes": "Source bytes unchanged. Opening creates explicit collapsed overview groups; later selection, reduction and artwork are recorded separately.",
+    "rootEvidence": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "id": "kew-4-order",
+    "file": "datasets/kew-4-order.nwk",
+    "sha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+    "name": "Flowering plants · orders + outgroups",
+    "tipCount": 69,
+    "nodeCount": 137,
+    "entityKind": "taxon-concepts",
+    "sourceUrl": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree"
+  },
+  "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+  "selectedTips": [
+    {
+      "id": "n000006",
+      "label": "Pinales",
+      "rawLabel": "Pinales"
+    },
+    {
+      "id": "n000011",
+      "label": "Amborellales",
+      "rawLabel": "Amborellales"
+    },
+    {
+      "id": "n000026",
+      "label": "Asparagales",
+      "rawLabel": "Asparagales"
+    },
+    {
+      "id": "n000032",
+      "label": "Poales",
+      "rawLabel": "Poales"
+    },
+    {
+      "id": "n000117",
+      "label": "Fabales",
+      "rawLabel": "Fabales"
+    },
+    {
+      "id": "n000121",
+      "label": "Rosales",
+      "rawLabel": "Rosales"
+    }
+  ],
+  "transformations": [
+    "Source copied unchanged.",
+    "Selected source tip identities; omitted memberships retained.",
+    "Nonmetric layouts authored in browser; no dating or relationship inference."
+  ],
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ]
+  }
+}

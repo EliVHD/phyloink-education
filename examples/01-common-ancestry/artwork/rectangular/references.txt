@@ -1,0 +1,4 @@
+Christian Bachmaier, Ulrik Brandes, Barbara Schlieper. Drawing Phylogenetic Trees. 2005. DOI: 10.1007/11602613_110. https://link.springer.com/chapter/10.1007/11602613_110 Verification: verified-source.
+Observable / D3 contributors. D3 hierarchy: Cluster layout documentation. Year not supplied. https://d3js.org/d3-hierarchy/cluster Verification: verified-source.
+Nathan S. Upham, Jacob A. Esselstyn, Walter Jetz. Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation [dataset, S3]. 2019. DOI: 10.5061/dryad.tb03d03. https://doi.org/10.5061/dryad.tb03d03 License: CC0-1.0. Verification: verified-source.
+Nathan S. Upham, Jacob A. Esselstyn, Walter Jetz. Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation. 2019. DOI: 10.1371/journal.pbio.3000494. https://doi.org/10.1371/journal.pbio.3000494 Verification: verified-source.

@@ -1,0 +1,2510 @@
+{
+  "units": "mm",
+  "revision": "fae6b6a3e6e1f61e701eaf45e93023acb824009bf20edf75f908278cd9ef7614",
+  "graphRevision": "b13a63f4fe2f328056ee8e60d42c4cb268cf841b9dbd10fd9040f6990ab2a744",
+  "settings": {
+    "kind": "rectangular",
+    "widthMm": 180,
+    "heightMm": 60,
+    "marginMm": 10,
+    "strokeMm": 0.3,
+    "junctionMm": 1,
+    "clearanceMm": 0.5,
+    "toleranceMm": 0.025,
+    "fontFamily": "sans-serif",
+    "fontSizePt": 11,
+    "labelGapMm": 2,
+    "terminalGapMm": 1.5,
+    "innerRadiusMm": 5,
+    "outerRadiusMm": 45,
+    "startAngleDeg": 270,
+    "sweepDeg": 360,
+    "orientationDeg": 0,
+    "labelPlacement": "horizontal",
+    "curves": false
+  },
+  "measurements": {
+    "fontFamily": "sans-serif",
+    "fontSizePt": 11,
+    "fontStatus": "available",
+    "metrics": {
+      "n000006": {
+        "text": "Pinales",
+        "widthMm": 12.89885737101237,
+        "advanceMm": 12.721582984924316,
+        "leftMm": 0,
+        "rightMm": 12.89885737101237,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.7761111111111111
+      },
+      "n000011": {
+        "text": "Amborellales",
+        "widthMm": 22.86229960123698,
+        "advanceMm": 22.42044188181559,
+        "leftMm": -0.26458333333333334,
+        "rightMm": 22.597716267903646,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.7761111111111111
+      },
+      "n000026": {
+        "text": "Asparagales",
+        "widthMm": 22.004345671335855,
+        "advanceMm": 21.56248795191447,
+        "leftMm": -0.26458333333333334,
+        "rightMm": 21.739762338002524,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.79375
+      },
+      "n000032": {
+        "text": "Poales",
+        "widthMm": 12.037116527557373,
+        "advanceMm": 11.85984214146932,
+        "leftMm": 0,
+        "rightMm": 12.037116527557373,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.7761111111111111
+      },
+      "n000117": {
+        "text": "Fabales",
+        "widthMm": 13.97651284535726,
+        "advanceMm": 13.799238459269207,
+        "leftMm": 0,
+        "rightMm": 13.97651284535726,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.7761111111111111
+      },
+      "n000121": {
+        "text": "Rosales",
+        "widthMm": 14.19052594502767,
+        "advanceMm": 14.013251558939617,
+        "leftMm": 0,
+        "rightMm": 14.19052594502767,
+        "ascentMm": 2.910416666666667,
+        "descentMm": 0.7761111111111111
+      }
+    }
+  },
+  "junctionGlyphs": [
+    {
+      "id": "junction-n000000",
+      "nodeId": "n000000",
+      "anchor": {
+        "x": 10,
+        "y": 25.568402777777777
+      },
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 10,
+            "y": 12.593263888888888
+          },
+          {
+            "x": 10,
+            "y": 28.16166666666667
+          }
+        ]
+      },
+      "span": [
+        12.593263888888888,
+        38.54354166666667
+      ],
+      "depth": 0
+    },
+    {
+      "id": "junction-n000001",
+      "nodeId": "n000001",
+      "anchor": {
+        "x": 132.85245490796638,
+        "y": 12.593263888888888
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 132.85245490796638,
+          "y": 12.593263888888888
+        }
+      },
+      "span": [
+        12.593263888888888,
+        12.593263888888888
+      ],
+      "depth": 0.9090909090909091
+    },
+    {
+      "id": "junction-n000005",
+      "nodeId": "n000005",
+      "anchor": {
+        "x": 138.99507765336472,
+        "y": 12.593263888888888
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 138.99507765336472,
+          "y": 12.593263888888888
+        }
+      },
+      "span": [
+        12.593263888888888,
+        12.593263888888888
+      ],
+      "depth": 0.9545454545454546
+    },
+    {
+      "id": "junction-n000006",
+      "nodeId": "n000006",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 12.593263888888888
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 12.593263888888888
+        }
+      },
+      "span": [
+        12.593263888888888,
+        12.593263888888888
+      ],
+      "depth": 1
+    },
+    {
+      "id": "junction-n000010",
+      "nodeId": "n000010",
+      "anchor": {
+        "x": 16.142622745398313,
+        "y": 28.16166666666667
+      },
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 16.142622745398313,
+            "y": 17.779791666666668
+          },
+          {
+            "x": 16.142622745398313,
+            "y": 30.75934027777778
+          }
+        ]
+      },
+      "span": [
+        17.779791666666668,
+        38.54354166666667
+      ],
+      "depth": 0.045454545454545414
+    },
+    {
+      "id": "junction-n000011",
+      "nodeId": "n000011",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 17.779791666666668
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 17.779791666666668
+        }
+      },
+      "span": [
+        17.779791666666668,
+        17.779791666666668
+      ],
+      "depth": 1
+    },
+    {
+      "id": "junction-n000012",
+      "nodeId": "n000012",
+      "anchor": {
+        "x": 22.285245490796644,
+        "y": 30.75934027777778
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 22.285245490796644,
+          "y": 30.75934027777778
+        }
+      },
+      "span": [
+        22.97513888888889,
+        38.54354166666667
+      ],
+      "depth": 0.09090909090909094
+    },
+    {
+      "id": "junction-n000014",
+      "nodeId": "n000014",
+      "anchor": {
+        "x": 28.427868236194957,
+        "y": 30.75934027777778
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 28.427868236194957,
+          "y": 30.75934027777778
+        }
+      },
+      "span": [
+        22.97513888888889,
+        38.54354166666667
+      ],
+      "depth": 0.13636363636363635
+    },
+    {
+      "id": "junction-n000016",
+      "nodeId": "n000016",
+      "anchor": {
+        "x": 34.57049098159327,
+        "y": 30.75934027777778
+      },
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 34.57049098159327,
+            "y": 25.572812499999998
+          },
+          {
+            "x": 34.57049098159327,
+            "y": 35.950277777777785
+          }
+        ]
+      },
+      "span": [
+        22.97513888888889,
+        38.54354166666667
+      ],
+      "depth": 0.18181818181818177
+    },
+    {
+      "id": "junction-n000017",
+      "nodeId": "n000017",
+      "anchor": {
+        "x": 108.28196392637311,
+        "y": 25.572812499999998
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 108.28196392637311,
+          "y": 25.572812499999998
+        }
+      },
+      "span": [
+        22.97513888888889,
+        28.17048611111111
+      ],
+      "depth": 0.7272727272727273
+    },
+    {
+      "id": "junction-n000019",
+      "nodeId": "n000019",
+      "anchor": {
+        "x": 114.42458667177144,
+        "y": 25.572812499999998
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 114.42458667177144,
+          "y": 25.572812499999998
+        }
+      },
+      "span": [
+        22.97513888888889,
+        28.17048611111111
+      ],
+      "depth": 0.7727272727272727
+    },
+    {
+      "id": "junction-n000021",
+      "nodeId": "n000021",
+      "anchor": {
+        "x": 120.56720941716975,
+        "y": 25.572812499999998
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 120.56720941716975,
+          "y": 25.572812499999998
+        }
+      },
+      "span": [
+        22.97513888888889,
+        28.17048611111111
+      ],
+      "depth": 0.8181818181818181
+    },
+    {
+      "id": "junction-n000023",
+      "nodeId": "n000023",
+      "anchor": {
+        "x": 126.70983216256808,
+        "y": 25.572812499999998
+      },
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 126.70983216256808,
+            "y": 22.97513888888889
+          },
+          {
+            "x": 126.70983216256808,
+            "y": 28.17048611111111
+          }
+        ]
+      },
+      "span": [
+        22.97513888888889,
+        28.17048611111111
+      ],
+      "depth": 0.8636363636363636
+    },
+    {
+      "id": "junction-n000024",
+      "nodeId": "n000024",
+      "anchor": {
+        "x": 138.99507765336472,
+        "y": 22.97513888888889
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 138.99507765336472,
+          "y": 22.97513888888889
+        }
+      },
+      "span": [
+        22.97513888888889,
+        22.97513888888889
+      ],
+      "depth": 0.9545454545454546
+    },
+    {
+      "id": "junction-n000026",
+      "nodeId": "n000026",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 22.97513888888889
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 22.97513888888889
+        }
+      },
+      "span": [
+        22.97513888888889,
+        22.97513888888889
+      ],
+      "depth": 1
+    },
+    {
+      "id": "junction-n000027",
+      "nodeId": "n000027",
+      "anchor": {
+        "x": 132.85245490796638,
+        "y": 28.17048611111111
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 132.85245490796638,
+          "y": 28.17048611111111
+        }
+      },
+      "span": [
+        28.17048611111111,
+        28.17048611111111
+      ],
+      "depth": 0.9090909090909091
+    },
+    {
+      "id": "junction-n000031",
+      "nodeId": "n000031",
+      "anchor": {
+        "x": 138.99507765336472,
+        "y": 28.17048611111111
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 138.99507765336472,
+          "y": 28.17048611111111
+        }
+      },
+      "span": [
+        28.17048611111111,
+        28.17048611111111
+      ],
+      "depth": 0.9545454545454546
+    },
+    {
+      "id": "junction-n000032",
+      "nodeId": "n000032",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 28.17048611111111
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 28.17048611111111
+        }
+      },
+      "span": [
+        28.17048611111111,
+        28.17048611111111
+      ],
+      "depth": 1
+    },
+    {
+      "id": "junction-n000038",
+      "nodeId": "n000038",
+      "anchor": {
+        "x": 40.7131137269916,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 40.7131137269916,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.2272727272727273
+    },
+    {
+      "id": "junction-n000048",
+      "nodeId": "n000048",
+      "anchor": {
+        "x": 46.855736472389914,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 46.855736472389914,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.2727272727272727
+    },
+    {
+      "id": "junction-n000050",
+      "nodeId": "n000050",
+      "anchor": {
+        "x": 52.99835921778824,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 52.99835921778824,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.31818181818181823
+    },
+    {
+      "id": "junction-n000052",
+      "nodeId": "n000052",
+      "anchor": {
+        "x": 59.140981963186555,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 59.140981963186555,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.36363636363636365
+    },
+    {
+      "id": "junction-n000054",
+      "nodeId": "n000054",
+      "anchor": {
+        "x": 65.28360470858487,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 65.28360470858487,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.40909090909090906
+    },
+    {
+      "id": "junction-n000058",
+      "nodeId": "n000058",
+      "anchor": {
+        "x": 71.4262274539832,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 71.4262274539832,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.4545454545454546
+    },
+    {
+      "id": "junction-n000062",
+      "nodeId": "n000062",
+      "anchor": {
+        "x": 77.56885019938152,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 77.56885019938152,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.5
+    },
+    {
+      "id": "junction-n000064",
+      "nodeId": "n000064",
+      "anchor": {
+        "x": 83.71147294477983,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 83.71147294477983,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.5454545454545454
+    },
+    {
+      "id": "junction-n000098",
+      "nodeId": "n000098",
+      "anchor": {
+        "x": 89.85409569017814,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 89.85409569017814,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.5909090909090908
+    },
+    {
+      "id": "junction-n000100",
+      "nodeId": "n000100",
+      "anchor": {
+        "x": 95.99671843557647,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 95.99671843557647,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.6363636363636364
+    },
+    {
+      "id": "junction-n000102",
+      "nodeId": "n000102",
+      "anchor": {
+        "x": 102.1393411809748,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 102.1393411809748,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.6818181818181819
+    },
+    {
+      "id": "junction-n000104",
+      "nodeId": "n000104",
+      "anchor": {
+        "x": 108.28196392637311,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 108.28196392637311,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.7272727272727273
+    },
+    {
+      "id": "junction-n000106",
+      "nodeId": "n000106",
+      "anchor": {
+        "x": 114.42458667177144,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 114.42458667177144,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.7727272727272727
+    },
+    {
+      "id": "junction-n000112",
+      "nodeId": "n000112",
+      "anchor": {
+        "x": 120.56720941716975,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 120.56720941716975,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.8181818181818181
+    },
+    {
+      "id": "junction-n000114",
+      "nodeId": "n000114",
+      "anchor": {
+        "x": 126.70983216256808,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 126.70983216256808,
+          "y": 35.950277777777785
+        }
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.8636363636363636
+    },
+    {
+      "id": "junction-n000115",
+      "nodeId": "n000115",
+      "anchor": {
+        "x": 132.85245490796638,
+        "y": 35.950277777777785
+      },
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 132.85245490796638,
+            "y": 33.35701388888889
+          },
+          {
+            "x": 132.85245490796638,
+            "y": 38.54354166666667
+          }
+        ]
+      },
+      "span": [
+        33.35701388888889,
+        38.54354166666667
+      ],
+      "depth": 0.9090909090909091
+    },
+    {
+      "id": "junction-n000116",
+      "nodeId": "n000116",
+      "anchor": {
+        "x": 138.99507765336472,
+        "y": 33.35701388888889
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 138.99507765336472,
+          "y": 33.35701388888889
+        }
+      },
+      "span": [
+        33.35701388888889,
+        33.35701388888889
+      ],
+      "depth": 0.9545454545454546
+    },
+    {
+      "id": "junction-n000117",
+      "nodeId": "n000117",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 33.35701388888889
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 33.35701388888889
+        }
+      },
+      "span": [
+        33.35701388888889,
+        33.35701388888889
+      ],
+      "depth": 1
+    },
+    {
+      "id": "junction-n000119",
+      "nodeId": "n000119",
+      "anchor": {
+        "x": 138.99507765336472,
+        "y": 38.54354166666667
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 138.99507765336472,
+          "y": 38.54354166666667
+        }
+      },
+      "span": [
+        38.54354166666667,
+        38.54354166666667
+      ],
+      "depth": 0.9545454545454546
+    },
+    {
+      "id": "junction-n000121",
+      "nodeId": "n000121",
+      "anchor": {
+        "x": 145.13770039876303,
+        "y": 38.54354166666667
+      },
+      "geometry": {
+        "kind": "point",
+        "point": {
+          "x": 145.13770039876303,
+          "y": 38.54354166666667
+        }
+      },
+      "span": [
+        38.54354166666667,
+        38.54354166666667
+      ],
+      "depth": 1
+    }
+  ],
+  "edgeStems": [
+    {
+      "id": "stem-n000001",
+      "edgeId": "display-edge-n000001",
+      "parentPortId": "display-edge-n000001-parent",
+      "childPortId": "display-edge-n000001-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 10,
+            "y": 12.593263888888888
+          },
+          {
+            "x": 132.85245490796638,
+            "y": 12.593263888888888
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000010",
+      "edgeId": "display-edge-n000010",
+      "parentPortId": "display-edge-n000010-parent",
+      "childPortId": "display-edge-n000010-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 10,
+            "y": 28.16166666666667
+          },
+          {
+            "x": 16.142622745398313,
+            "y": 28.16166666666667
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000005",
+      "edgeId": "display-edge-n000005",
+      "parentPortId": "display-edge-n000005-parent",
+      "childPortId": "display-edge-n000005-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 132.85245490796638,
+            "y": 12.593263888888888
+          },
+          {
+            "x": 138.99507765336472,
+            "y": 12.593263888888888
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000006",
+      "edgeId": "display-edge-n000006",
+      "parentPortId": "display-edge-n000006-parent",
+      "childPortId": "display-edge-n000006-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 138.99507765336472,
+            "y": 12.593263888888888
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 12.593263888888888
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000011",
+      "edgeId": "display-edge-n000011",
+      "parentPortId": "display-edge-n000011-parent",
+      "childPortId": "display-edge-n000011-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 16.142622745398313,
+            "y": 17.779791666666668
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 17.779791666666668
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000012",
+      "edgeId": "display-edge-n000012",
+      "parentPortId": "display-edge-n000012-parent",
+      "childPortId": "display-edge-n000012-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 16.142622745398313,
+            "y": 30.75934027777778
+          },
+          {
+            "x": 22.285245490796644,
+            "y": 30.75934027777778
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000014",
+      "edgeId": "display-edge-n000014",
+      "parentPortId": "display-edge-n000014-parent",
+      "childPortId": "display-edge-n000014-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 22.285245490796644,
+            "y": 30.75934027777778
+          },
+          {
+            "x": 28.427868236194957,
+            "y": 30.75934027777778
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000016",
+      "edgeId": "display-edge-n000016",
+      "parentPortId": "display-edge-n000016-parent",
+      "childPortId": "display-edge-n000016-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 28.427868236194957,
+            "y": 30.75934027777778
+          },
+          {
+            "x": 34.57049098159327,
+            "y": 30.75934027777778
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000017",
+      "edgeId": "display-edge-n000017",
+      "parentPortId": "display-edge-n000017-parent",
+      "childPortId": "display-edge-n000017-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 34.57049098159327,
+            "y": 25.572812499999998
+          },
+          {
+            "x": 108.28196392637311,
+            "y": 25.572812499999998
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000038",
+      "edgeId": "display-edge-n000038",
+      "parentPortId": "display-edge-n000038-parent",
+      "childPortId": "display-edge-n000038-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 34.57049098159327,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 40.7131137269916,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000019",
+      "edgeId": "display-edge-n000019",
+      "parentPortId": "display-edge-n000019-parent",
+      "childPortId": "display-edge-n000019-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 108.28196392637311,
+            "y": 25.572812499999998
+          },
+          {
+            "x": 114.42458667177144,
+            "y": 25.572812499999998
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000021",
+      "edgeId": "display-edge-n000021",
+      "parentPortId": "display-edge-n000021-parent",
+      "childPortId": "display-edge-n000021-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 114.42458667177144,
+            "y": 25.572812499999998
+          },
+          {
+            "x": 120.56720941716975,
+            "y": 25.572812499999998
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000023",
+      "edgeId": "display-edge-n000023",
+      "parentPortId": "display-edge-n000023-parent",
+      "childPortId": "display-edge-n000023-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 120.56720941716975,
+            "y": 25.572812499999998
+          },
+          {
+            "x": 126.70983216256808,
+            "y": 25.572812499999998
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000024",
+      "edgeId": "display-edge-n000024",
+      "parentPortId": "display-edge-n000024-parent",
+      "childPortId": "display-edge-n000024-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 126.70983216256808,
+            "y": 22.97513888888889
+          },
+          {
+            "x": 138.99507765336472,
+            "y": 22.97513888888889
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000027",
+      "edgeId": "display-edge-n000027",
+      "parentPortId": "display-edge-n000027-parent",
+      "childPortId": "display-edge-n000027-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 126.70983216256808,
+            "y": 28.17048611111111
+          },
+          {
+            "x": 132.85245490796638,
+            "y": 28.17048611111111
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000026",
+      "edgeId": "display-edge-n000026",
+      "parentPortId": "display-edge-n000026-parent",
+      "childPortId": "display-edge-n000026-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 138.99507765336472,
+            "y": 22.97513888888889
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 22.97513888888889
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000031",
+      "edgeId": "display-edge-n000031",
+      "parentPortId": "display-edge-n000031-parent",
+      "childPortId": "display-edge-n000031-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 132.85245490796638,
+            "y": 28.17048611111111
+          },
+          {
+            "x": 138.99507765336472,
+            "y": 28.17048611111111
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000032",
+      "edgeId": "display-edge-n000032",
+      "parentPortId": "display-edge-n000032-parent",
+      "childPortId": "display-edge-n000032-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 138.99507765336472,
+            "y": 28.17048611111111
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 28.17048611111111
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000048",
+      "edgeId": "display-edge-n000048",
+      "parentPortId": "display-edge-n000048-parent",
+      "childPortId": "display-edge-n000048-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 40.7131137269916,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 46.855736472389914,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000050",
+      "edgeId": "display-edge-n000050",
+      "parentPortId": "display-edge-n000050-parent",
+      "childPortId": "display-edge-n000050-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 46.855736472389914,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 52.99835921778824,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000052",
+      "edgeId": "display-edge-n000052",
+      "parentPortId": "display-edge-n000052-parent",
+      "childPortId": "display-edge-n000052-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 52.99835921778824,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 59.140981963186555,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000054",
+      "edgeId": "display-edge-n000054",
+      "parentPortId": "display-edge-n000054-parent",
+      "childPortId": "display-edge-n000054-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 59.140981963186555,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 65.28360470858487,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000058",
+      "edgeId": "display-edge-n000058",
+      "parentPortId": "display-edge-n000058-parent",
+      "childPortId": "display-edge-n000058-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 65.28360470858487,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 71.4262274539832,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000062",
+      "edgeId": "display-edge-n000062",
+      "parentPortId": "display-edge-n000062-parent",
+      "childPortId": "display-edge-n000062-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 71.4262274539832,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 77.56885019938152,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000064",
+      "edgeId": "display-edge-n000064",
+      "parentPortId": "display-edge-n000064-parent",
+      "childPortId": "display-edge-n000064-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 77.56885019938152,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 83.71147294477983,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000098",
+      "edgeId": "display-edge-n000098",
+      "parentPortId": "display-edge-n000098-parent",
+      "childPortId": "display-edge-n000098-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 83.71147294477983,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 89.85409569017814,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000100",
+      "edgeId": "display-edge-n000100",
+      "parentPortId": "display-edge-n000100-parent",
+      "childPortId": "display-edge-n000100-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 89.85409569017814,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 95.99671843557647,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000102",
+      "edgeId": "display-edge-n000102",
+      "parentPortId": "display-edge-n000102-parent",
+      "childPortId": "display-edge-n000102-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 95.99671843557647,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 102.1393411809748,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000104",
+      "edgeId": "display-edge-n000104",
+      "parentPortId": "display-edge-n000104-parent",
+      "childPortId": "display-edge-n000104-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 102.1393411809748,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 108.28196392637311,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000106",
+      "edgeId": "display-edge-n000106",
+      "parentPortId": "display-edge-n000106-parent",
+      "childPortId": "display-edge-n000106-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 108.28196392637311,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 114.42458667177144,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000112",
+      "edgeId": "display-edge-n000112",
+      "parentPortId": "display-edge-n000112-parent",
+      "childPortId": "display-edge-n000112-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 114.42458667177144,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 120.56720941716975,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000114",
+      "edgeId": "display-edge-n000114",
+      "parentPortId": "display-edge-n000114-parent",
+      "childPortId": "display-edge-n000114-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 120.56720941716975,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 126.70983216256808,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000115",
+      "edgeId": "display-edge-n000115",
+      "parentPortId": "display-edge-n000115-parent",
+      "childPortId": "display-edge-n000115-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 126.70983216256808,
+            "y": 35.950277777777785
+          },
+          {
+            "x": 132.85245490796638,
+            "y": 35.950277777777785
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000116",
+      "edgeId": "display-edge-n000116",
+      "parentPortId": "display-edge-n000116-parent",
+      "childPortId": "display-edge-n000116-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 132.85245490796638,
+            "y": 33.35701388888889
+          },
+          {
+            "x": 138.99507765336472,
+            "y": 33.35701388888889
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000119",
+      "edgeId": "display-edge-n000119",
+      "parentPortId": "display-edge-n000119-parent",
+      "childPortId": "display-edge-n000119-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 132.85245490796638,
+            "y": 38.54354166666667
+          },
+          {
+            "x": 138.99507765336472,
+            "y": 38.54354166666667
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000117",
+      "edgeId": "display-edge-n000117",
+      "parentPortId": "display-edge-n000117-parent",
+      "childPortId": "display-edge-n000117-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 138.99507765336472,
+            "y": 33.35701388888889
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 33.35701388888889
+          }
+        ]
+      }
+    },
+    {
+      "id": "stem-n000121",
+      "edgeId": "display-edge-n000121",
+      "parentPortId": "display-edge-n000121-parent",
+      "childPortId": "display-edge-n000121-child",
+      "geometry": {
+        "kind": "polyline",
+        "points": [
+          {
+            "x": 138.99507765336472,
+            "y": 38.54354166666667
+          },
+          {
+            "x": 145.13770039876303,
+            "y": 38.54354166666667
+          }
+        ]
+      }
+    }
+  ],
+  "ports": [
+    {
+      "id": "display-edge-n000001-parent",
+      "nodeId": "n000000",
+      "edgeId": "display-edge-n000001",
+      "end": "parent",
+      "point": {
+        "x": 10,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000001-child",
+      "nodeId": "n000001",
+      "edgeId": "display-edge-n000001",
+      "end": "child",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000010-parent",
+      "nodeId": "n000000",
+      "edgeId": "display-edge-n000010",
+      "end": "parent",
+      "point": {
+        "x": 10,
+        "y": 28.16166666666667
+      }
+    },
+    {
+      "id": "display-edge-n000010-child",
+      "nodeId": "n000010",
+      "edgeId": "display-edge-n000010",
+      "end": "child",
+      "point": {
+        "x": 16.142622745398313,
+        "y": 28.16166666666667
+      }
+    },
+    {
+      "id": "display-edge-n000005-parent",
+      "nodeId": "n000001",
+      "edgeId": "display-edge-n000005",
+      "end": "parent",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000005-child",
+      "nodeId": "n000005",
+      "edgeId": "display-edge-n000005",
+      "end": "child",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000006-parent",
+      "nodeId": "n000005",
+      "edgeId": "display-edge-n000006",
+      "end": "parent",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000006-child",
+      "nodeId": "n000006",
+      "edgeId": "display-edge-n000006",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 12.593263888888888
+      }
+    },
+    {
+      "id": "display-edge-n000011-parent",
+      "nodeId": "n000010",
+      "edgeId": "display-edge-n000011",
+      "end": "parent",
+      "point": {
+        "x": 16.142622745398313,
+        "y": 17.779791666666668
+      }
+    },
+    {
+      "id": "display-edge-n000011-child",
+      "nodeId": "n000011",
+      "edgeId": "display-edge-n000011",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 17.779791666666668
+      }
+    },
+    {
+      "id": "display-edge-n000012-parent",
+      "nodeId": "n000010",
+      "edgeId": "display-edge-n000012",
+      "end": "parent",
+      "point": {
+        "x": 16.142622745398313,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000012-child",
+      "nodeId": "n000012",
+      "edgeId": "display-edge-n000012",
+      "end": "child",
+      "point": {
+        "x": 22.285245490796644,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000014-parent",
+      "nodeId": "n000012",
+      "edgeId": "display-edge-n000014",
+      "end": "parent",
+      "point": {
+        "x": 22.285245490796644,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000014-child",
+      "nodeId": "n000014",
+      "edgeId": "display-edge-n000014",
+      "end": "child",
+      "point": {
+        "x": 28.427868236194957,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000016-parent",
+      "nodeId": "n000014",
+      "edgeId": "display-edge-n000016",
+      "end": "parent",
+      "point": {
+        "x": 28.427868236194957,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000016-child",
+      "nodeId": "n000016",
+      "edgeId": "display-edge-n000016",
+      "end": "child",
+      "point": {
+        "x": 34.57049098159327,
+        "y": 30.75934027777778
+      }
+    },
+    {
+      "id": "display-edge-n000017-parent",
+      "nodeId": "n000016",
+      "edgeId": "display-edge-n000017",
+      "end": "parent",
+      "point": {
+        "x": 34.57049098159327,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000017-child",
+      "nodeId": "n000017",
+      "edgeId": "display-edge-n000017",
+      "end": "child",
+      "point": {
+        "x": 108.28196392637311,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000038-parent",
+      "nodeId": "n000016",
+      "edgeId": "display-edge-n000038",
+      "end": "parent",
+      "point": {
+        "x": 34.57049098159327,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000038-child",
+      "nodeId": "n000038",
+      "edgeId": "display-edge-n000038",
+      "end": "child",
+      "point": {
+        "x": 40.7131137269916,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000019-parent",
+      "nodeId": "n000017",
+      "edgeId": "display-edge-n000019",
+      "end": "parent",
+      "point": {
+        "x": 108.28196392637311,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000019-child",
+      "nodeId": "n000019",
+      "edgeId": "display-edge-n000019",
+      "end": "child",
+      "point": {
+        "x": 114.42458667177144,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000021-parent",
+      "nodeId": "n000019",
+      "edgeId": "display-edge-n000021",
+      "end": "parent",
+      "point": {
+        "x": 114.42458667177144,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000021-child",
+      "nodeId": "n000021",
+      "edgeId": "display-edge-n000021",
+      "end": "child",
+      "point": {
+        "x": 120.56720941716975,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000023-parent",
+      "nodeId": "n000021",
+      "edgeId": "display-edge-n000023",
+      "end": "parent",
+      "point": {
+        "x": 120.56720941716975,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000023-child",
+      "nodeId": "n000023",
+      "edgeId": "display-edge-n000023",
+      "end": "child",
+      "point": {
+        "x": 126.70983216256808,
+        "y": 25.572812499999998
+      }
+    },
+    {
+      "id": "display-edge-n000024-parent",
+      "nodeId": "n000023",
+      "edgeId": "display-edge-n000024",
+      "end": "parent",
+      "point": {
+        "x": 126.70983216256808,
+        "y": 22.97513888888889
+      }
+    },
+    {
+      "id": "display-edge-n000024-child",
+      "nodeId": "n000024",
+      "edgeId": "display-edge-n000024",
+      "end": "child",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 22.97513888888889
+      }
+    },
+    {
+      "id": "display-edge-n000027-parent",
+      "nodeId": "n000023",
+      "edgeId": "display-edge-n000027",
+      "end": "parent",
+      "point": {
+        "x": 126.70983216256808,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000027-child",
+      "nodeId": "n000027",
+      "edgeId": "display-edge-n000027",
+      "end": "child",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000026-parent",
+      "nodeId": "n000024",
+      "edgeId": "display-edge-n000026",
+      "end": "parent",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 22.97513888888889
+      }
+    },
+    {
+      "id": "display-edge-n000026-child",
+      "nodeId": "n000026",
+      "edgeId": "display-edge-n000026",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 22.97513888888889
+      }
+    },
+    {
+      "id": "display-edge-n000031-parent",
+      "nodeId": "n000027",
+      "edgeId": "display-edge-n000031",
+      "end": "parent",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000031-child",
+      "nodeId": "n000031",
+      "edgeId": "display-edge-n000031",
+      "end": "child",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000032-parent",
+      "nodeId": "n000031",
+      "edgeId": "display-edge-n000032",
+      "end": "parent",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000032-child",
+      "nodeId": "n000032",
+      "edgeId": "display-edge-n000032",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 28.17048611111111
+      }
+    },
+    {
+      "id": "display-edge-n000048-parent",
+      "nodeId": "n000038",
+      "edgeId": "display-edge-n000048",
+      "end": "parent",
+      "point": {
+        "x": 40.7131137269916,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000048-child",
+      "nodeId": "n000048",
+      "edgeId": "display-edge-n000048",
+      "end": "child",
+      "point": {
+        "x": 46.855736472389914,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000050-parent",
+      "nodeId": "n000048",
+      "edgeId": "display-edge-n000050",
+      "end": "parent",
+      "point": {
+        "x": 46.855736472389914,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000050-child",
+      "nodeId": "n000050",
+      "edgeId": "display-edge-n000050",
+      "end": "child",
+      "point": {
+        "x": 52.99835921778824,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000052-parent",
+      "nodeId": "n000050",
+      "edgeId": "display-edge-n000052",
+      "end": "parent",
+      "point": {
+        "x": 52.99835921778824,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000052-child",
+      "nodeId": "n000052",
+      "edgeId": "display-edge-n000052",
+      "end": "child",
+      "point": {
+        "x": 59.140981963186555,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000054-parent",
+      "nodeId": "n000052",
+      "edgeId": "display-edge-n000054",
+      "end": "parent",
+      "point": {
+        "x": 59.140981963186555,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000054-child",
+      "nodeId": "n000054",
+      "edgeId": "display-edge-n000054",
+      "end": "child",
+      "point": {
+        "x": 65.28360470858487,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000058-parent",
+      "nodeId": "n000054",
+      "edgeId": "display-edge-n000058",
+      "end": "parent",
+      "point": {
+        "x": 65.28360470858487,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000058-child",
+      "nodeId": "n000058",
+      "edgeId": "display-edge-n000058",
+      "end": "child",
+      "point": {
+        "x": 71.4262274539832,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000062-parent",
+      "nodeId": "n000058",
+      "edgeId": "display-edge-n000062",
+      "end": "parent",
+      "point": {
+        "x": 71.4262274539832,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000062-child",
+      "nodeId": "n000062",
+      "edgeId": "display-edge-n000062",
+      "end": "child",
+      "point": {
+        "x": 77.56885019938152,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000064-parent",
+      "nodeId": "n000062",
+      "edgeId": "display-edge-n000064",
+      "end": "parent",
+      "point": {
+        "x": 77.56885019938152,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000064-child",
+      "nodeId": "n000064",
+      "edgeId": "display-edge-n000064",
+      "end": "child",
+      "point": {
+        "x": 83.71147294477983,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000098-parent",
+      "nodeId": "n000064",
+      "edgeId": "display-edge-n000098",
+      "end": "parent",
+      "point": {
+        "x": 83.71147294477983,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000098-child",
+      "nodeId": "n000098",
+      "edgeId": "display-edge-n000098",
+      "end": "child",
+      "point": {
+        "x": 89.85409569017814,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000100-parent",
+      "nodeId": "n000098",
+      "edgeId": "display-edge-n000100",
+      "end": "parent",
+      "point": {
+        "x": 89.85409569017814,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000100-child",
+      "nodeId": "n000100",
+      "edgeId": "display-edge-n000100",
+      "end": "child",
+      "point": {
+        "x": 95.99671843557647,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000102-parent",
+      "nodeId": "n000100",
+      "edgeId": "display-edge-n000102",
+      "end": "parent",
+      "point": {
+        "x": 95.99671843557647,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000102-child",
+      "nodeId": "n000102",
+      "edgeId": "display-edge-n000102",
+      "end": "child",
+      "point": {
+        "x": 102.1393411809748,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000104-parent",
+      "nodeId": "n000102",
+      "edgeId": "display-edge-n000104",
+      "end": "parent",
+      "point": {
+        "x": 102.1393411809748,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000104-child",
+      "nodeId": "n000104",
+      "edgeId": "display-edge-n000104",
+      "end": "child",
+      "point": {
+        "x": 108.28196392637311,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000106-parent",
+      "nodeId": "n000104",
+      "edgeId": "display-edge-n000106",
+      "end": "parent",
+      "point": {
+        "x": 108.28196392637311,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000106-child",
+      "nodeId": "n000106",
+      "edgeId": "display-edge-n000106",
+      "end": "child",
+      "point": {
+        "x": 114.42458667177144,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000112-parent",
+      "nodeId": "n000106",
+      "edgeId": "display-edge-n000112",
+      "end": "parent",
+      "point": {
+        "x": 114.42458667177144,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000112-child",
+      "nodeId": "n000112",
+      "edgeId": "display-edge-n000112",
+      "end": "child",
+      "point": {
+        "x": 120.56720941716975,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000114-parent",
+      "nodeId": "n000112",
+      "edgeId": "display-edge-n000114",
+      "end": "parent",
+      "point": {
+        "x": 120.56720941716975,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000114-child",
+      "nodeId": "n000114",
+      "edgeId": "display-edge-n000114",
+      "end": "child",
+      "point": {
+        "x": 126.70983216256808,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000115-parent",
+      "nodeId": "n000114",
+      "edgeId": "display-edge-n000115",
+      "end": "parent",
+      "point": {
+        "x": 126.70983216256808,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000115-child",
+      "nodeId": "n000115",
+      "edgeId": "display-edge-n000115",
+      "end": "child",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 35.950277777777785
+      }
+    },
+    {
+      "id": "display-edge-n000116-parent",
+      "nodeId": "n000115",
+      "edgeId": "display-edge-n000116",
+      "end": "parent",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 33.35701388888889
+      }
+    },
+    {
+      "id": "display-edge-n000116-child",
+      "nodeId": "n000116",
+      "edgeId": "display-edge-n000116",
+      "end": "child",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 33.35701388888889
+      }
+    },
+    {
+      "id": "display-edge-n000119-parent",
+      "nodeId": "n000115",
+      "edgeId": "display-edge-n000119",
+      "end": "parent",
+      "point": {
+        "x": 132.85245490796638,
+        "y": 38.54354166666667
+      }
+    },
+    {
+      "id": "display-edge-n000119-child",
+      "nodeId": "n000119",
+      "edgeId": "display-edge-n000119",
+      "end": "child",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 38.54354166666667
+      }
+    },
+    {
+      "id": "display-edge-n000117-parent",
+      "nodeId": "n000116",
+      "edgeId": "display-edge-n000117",
+      "end": "parent",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 33.35701388888889
+      }
+    },
+    {
+      "id": "display-edge-n000117-child",
+      "nodeId": "n000117",
+      "edgeId": "display-edge-n000117",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 33.35701388888889
+      }
+    },
+    {
+      "id": "display-edge-n000121-parent",
+      "nodeId": "n000119",
+      "edgeId": "display-edge-n000121",
+      "end": "parent",
+      "point": {
+        "x": 138.99507765336472,
+        "y": 38.54354166666667
+      }
+    },
+    {
+      "id": "display-edge-n000121-child",
+      "nodeId": "n000121",
+      "edgeId": "display-edge-n000121",
+      "end": "child",
+      "point": {
+        "x": 145.13770039876303,
+        "y": 38.54354166666667
+      }
+    }
+  ],
+  "labels": [
+    {
+      "id": "label-n000006",
+      "nodeId": "n000006",
+      "text": "Pinales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 13.660416666666666
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 147.13770039876303,
+          "y": 10.75
+        },
+        {
+          "x": 160.0365577697754,
+          "y": 10.75
+        },
+        {
+          "x": 160.0365577697754,
+          "y": 14.436527777777778
+        },
+        {
+          "x": 147.13770039876303,
+          "y": 14.436527777777778
+        }
+      ]
+    },
+    {
+      "id": "label-n000011",
+      "nodeId": "n000011",
+      "text": "Amborellales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 18.846944444444446
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 146.8731170654297,
+          "y": 15.93652777777778
+        },
+        {
+          "x": 169.73541666666668,
+          "y": 15.93652777777778
+        },
+        {
+          "x": 169.73541666666668,
+          "y": 19.623055555555556
+        },
+        {
+          "x": 146.8731170654297,
+          "y": 19.623055555555556
+        }
+      ]
+    },
+    {
+      "id": "label-n000026",
+      "nodeId": "n000026",
+      "text": "Asparagales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 24.033472222222223
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 146.8731170654297,
+          "y": 21.123055555555556
+        },
+        {
+          "x": 168.87746273676555,
+          "y": 21.123055555555556
+        },
+        {
+          "x": 168.87746273676555,
+          "y": 24.827222222222222
+        },
+        {
+          "x": 146.8731170654297,
+          "y": 24.827222222222222
+        }
+      ]
+    },
+    {
+      "id": "label-n000032",
+      "nodeId": "n000032",
+      "text": "Poales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 29.23763888888889
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 147.13770039876303,
+          "y": 26.327222222222222
+        },
+        {
+          "x": 159.1748169263204,
+          "y": 26.327222222222222
+        },
+        {
+          "x": 159.1748169263204,
+          "y": 30.013749999999998
+        },
+        {
+          "x": 147.13770039876303,
+          "y": 30.013749999999998
+        }
+      ]
+    },
+    {
+      "id": "label-n000117",
+      "nodeId": "n000117",
+      "text": "Fabales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 34.42416666666667
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 147.13770039876303,
+          "y": 31.513750000000005
+        },
+        {
+          "x": 161.1142132441203,
+          "y": 31.513750000000005
+        },
+        {
+          "x": 161.1142132441203,
+          "y": 35.200277777777785
+        },
+        {
+          "x": 147.13770039876303,
+          "y": 35.200277777777785
+        }
+      ]
+    },
+    {
+      "id": "label-n000121",
+      "nodeId": "n000121",
+      "text": "Rosales",
+      "position": {
+        "x": 147.13770039876303,
+        "y": 39.61069444444445
+      },
+      "rotationDeg": 0,
+      "anchor": "start",
+      "corners": [
+        {
+          "x": 147.13770039876303,
+          "y": 36.70027777777778
+        },
+        {
+          "x": 161.3282263437907,
+          "y": 36.70027777777778
+        },
+        {
+          "x": 161.3282263437907,
+          "y": 40.38680555555556
+        },
+        {
+          "x": 147.13770039876303,
+          "y": 40.38680555555556
+        }
+      ]
+    }
+  ],
+  "nodeOffsets": {},
+  "bounds": {
+    "minX": 10,
+    "minY": 10.75,
+    "maxX": 169.73541666666668,
+    "maxY": 40.38680555555556
+  },
+  "slotPasses": 1
+}

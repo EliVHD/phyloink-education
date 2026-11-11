@@ -1,0 +1,11 @@
+{
+  "exportingBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "status": "identified",
+  "authoringHistory": "recorded-from-creation"
+}

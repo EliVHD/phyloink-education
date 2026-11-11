@@ -1,0 +1,19 @@
+{
+  "title": "Creating an evidence-based illustration",
+  "purpose": "Interpret a sampled source and write a caption that communicates evidence, selection and limits.",
+  "instructions": "These terminal labels are plant orders, not species. Five flowering-plant orders and one represented gymnosperm outgroup are selected from the Kew release 4.0 order tree. Branch spacing is nonmetric.",
+  "pages": [
+    {
+      "figure": "artwork/rectangular/tree_labeled.svg",
+      "figureHeightMm": 60,
+      "caption": "Selected order records from Royal Botanic Gardens, Kew and collaborators, Tree of Life Explorer release 4.0; Baker et al. (2022). CC BY 4.0. Source bytes unchanged; selection and layout adapted for teaching.",
+      "questions": [
+        "Identify the represented Asparagales/Poales and Fabales/Rosales groups by tracing their ancestors. What kind of records do these tip labels identify?",
+        "Does the drawing show all flowering-plant orders or all living plants? State one sampling limitation and one limit on interpreting branch lengths.",
+        "Write a short caption naming the source, the selected scope, one presentation modification, and the meaning of branch spacing."
+      ]
+    }
+  ],
+  "relationshipDescription": "Among the selected order records, Asparagales and Poales form a represented pair, as do Fabales and Rosales. Amborellales is another sampled flowering-plant order. Pinales represents a gymnosperm outgroup. Additional descendants are present in the complete source.",
+  "sourceLine": "Royal Botanic Gardens, Kew and collaborators. Tree of Life Explorer release 4.0 (2026), CC BY 4.0: creativecommons.org/licenses/by/4.0/. Baker et al. (2022): 10.1093/sysbio/syab035. Activity text: 0BSD."
+}

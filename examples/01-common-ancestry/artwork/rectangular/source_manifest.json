@@ -1,0 +1,93 @@
+{
+  "filename": "Mammals · 4,098 species + lizard outgroup",
+  "datasetId": "upham-2019",
+  "release": "Dryad version 4, S3 global ML tree (2019-12-06)",
+  "sourceUrl": "https://doi.org/10.5061/dryad.tb03d03",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": [
+    {
+      "id": "upham-2019-paper",
+      "type": "article",
+      "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation",
+      "authors": [
+        "Nathan S. Upham",
+        "Jacob A. Esselstyn",
+        "Walter Jetz"
+      ],
+      "year": 2019,
+      "doi": "10.1371/journal.pbio.3000494",
+      "url": "https://doi.org/10.1371/journal.pbio.3000494",
+      "license": null,
+      "verification": "verified-source"
+    },
+    {
+      "id": "upham-2019-data",
+      "type": "source",
+      "title": "Inferring the mammal tree: Species-level sets of phylogenies for questions in ecology, evolution, and conservation [dataset, S3]",
+      "authors": [
+        "Nathan S. Upham",
+        "Jacob A. Esselstyn",
+        "Walter Jetz"
+      ],
+      "year": 2019,
+      "doi": "10.5061/dryad.tb03d03",
+      "url": "https://doi.org/10.5061/dryad.tb03d03",
+      "license": "CC0-1.0",
+      "verification": "verified-source"
+    }
+  ],
+  "modifications": "Exact extracted Newick entry bytes unchanged; archive SHA and entry path are in the bundled dataset audit. Opening collapses explicit overview groups; later edits are recorded separately.",
+  "limitations": "The DNA-only global ML tree is a single hypothesis, not the completed or dated posterior tree sets. Original species/family/order suffixes and numeric labels are retained. No time scale is claimed.",
+  "overview": "Explicit collapsed groups; all original tips retained. Search the full source in Reduce or Layout.",
+  "treeRevision": "5cf524fa29908650d0d2f7c61fa08a737f089b00d022f1f6ede63d81954d7c9b",
+  "activeViewId": "example-rectangular",
+  "basis": {
+    "id": "basis-1",
+    "name": "Mammals · 4,098 species + lizard outgroup",
+    "question": "Among these six sampled mammals, which groups share a more recent common ancestor?",
+    "relationshipKind": "phylogeny",
+    "entityKind": "taxon-concepts",
+    "edgeMeaning": "Inferred evolutionary relationships from the source authors; drawing depth is nonmetric unless separately declared with evidence.",
+    "evidenceBasis": "Authors’ global maximum-likelihood tree inferred with RAxML from the 31-gene supermatrix, S3. 4,098 mammal species and Anolis carolinensis outgroup.",
+    "sourceIds": [
+      "source-ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f"
+    ],
+    "referenceIds": [
+      "upham-2019-paper",
+      "upham-2019-data"
+    ],
+    "provider": "https://doi.org/10.5061/dryad.tb03d03",
+    "release": "Dryad version 4, S3 global ML tree (2019-12-06)",
+    "retrievedAt": "2026-10-28",
+    "epistemicStatus": "published-hypothesis",
+    "limitations": "The DNA-only global ML tree is a single hypothesis, not the completed or dated posterior tree sets. Original species/family/order suffixes and numeric labels are retained. No time scale is claimed.",
+    "rightsRecordIds": [
+      "upham-2019-source"
+    ]
+  },
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "The selected source entry is explicitly named raw_rooted_wBoots_4098mam1out_OK, labels its serialization root Root, and places Anolis carolinensis opposite the mammal clade. The supplied outgroup rooting is retained.",
+    "referenceIds": [
+      "upham-2019-paper",
+      "upham-2019-data"
+    ]
+  },
+  "sourceSha256": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+  "interpretation": "nonmetric cladogram",
+  "representedTips": 6,
+  "omittedTips": 4093,
+  "qaStatus": "checked",
+  "validationProfile": "compound-v3",
+  "storedValidationProfile": "compound-v3",
+  "exportingBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "changes": "Explicit selected-taxon projection/collapse and nonmetric drawing; source bytes unchanged."
+}

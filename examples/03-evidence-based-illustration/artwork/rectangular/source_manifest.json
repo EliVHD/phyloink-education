@@ -1,0 +1,89 @@
+{
+  "filename": "Flowering plants · orders + outgroups",
+  "datasetId": "kew-4-order",
+  "release": "4.0 (April 2026)",
+  "sourceUrl": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": [
+    {
+      "id": "kew-tree-4",
+      "type": "source",
+      "title": "Kew Tree of Life Explorer, release 4.0 (April 2026)",
+      "authors": [
+        "Royal Botanic Gardens, Kew and collaborators"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://treeoflife.kew.org/data-access",
+      "license": "CC-BY-4.0",
+      "verification": "verified-source"
+    },
+    {
+      "id": "baker-2022",
+      "type": "article",
+      "title": "A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life",
+      "authors": [
+        "William J. Baker et al."
+      ],
+      "year": 2022,
+      "doi": "10.1093/sysbio/syab035",
+      "url": "https://doi.org/10.1093/sysbio/syab035",
+      "license": null,
+      "verification": "verified-source"
+    }
+  ],
+  "modifications": "Source bytes unchanged. Opening creates explicit collapsed overview groups; later selection, reduction and artwork are recorded separately.",
+  "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+  "overview": "Explicit collapsed groups; all original tips retained. Search the full source in Reduce or Layout.",
+  "treeRevision": "f89e8f07d37d540eb1333a27e01f75d5c48ae9f3e60a6217a8594089832af66d",
+  "activeViewId": "example-rectangular",
+  "basis": {
+    "id": "basis-1",
+    "name": "Flowering plants · orders + outgroups",
+    "question": "What relationships among five sampled flowering-plant orders and one represented gymnosperm outgroup can this source support?",
+    "relationshipKind": "phylogeny",
+    "entityKind": "taxon-concepts",
+    "edgeMeaning": "Inferred evolutionary relationships from the source authors; drawing depth is nonmetric unless separately declared with evidence.",
+    "evidenceBasis": "Kew release 4.0 phylogenomic species-tree topology. These are the authors’ supplied species, family and order trees, not an inferred classification hierarchy. No source branch lengths are supplied.",
+    "sourceIds": [
+      "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0"
+    ],
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ],
+    "provider": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree",
+    "release": "4.0 (April 2026)",
+    "retrievedAt": "2026-10-28",
+    "epistemicStatus": "published-hypothesis",
+    "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+    "rightsRecordIds": [
+      "kew-4-source"
+    ]
+  },
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ]
+  },
+  "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+  "interpretation": "nonmetric cladogram",
+  "representedTips": 6,
+  "omittedTips": 63,
+  "qaStatus": "checked",
+  "validationProfile": "compound-v3",
+  "storedValidationProfile": "compound-v3",
+  "exportingBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "changes": "Explicit selected-taxon projection/collapse and nonmetric drawing; source bytes unchanged."
+}

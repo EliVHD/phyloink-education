@@ -1,0 +1,62 @@
+{
+  "preparedAt": "2026-11-11",
+  "applicationBuild": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "manifest": "build-manifest.json"
+  },
+  "examples": [
+    {
+      "folder": "01-common-ancestry",
+      "source": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+      "views": [
+        {
+          "id": "example-rectangular",
+          "kind": "rectangular",
+          "qa": "checked",
+          "measurements": "available",
+          "representedTips": 6,
+          "omittedTips": 4093
+        }
+      ]
+    },
+    {
+      "folder": "02-one-tree",
+      "source": "ce83e9ce7d255cd135c678a210bc4da9390c78da67ac46f35f66baa1233c6d4f",
+      "views": [
+        {
+          "id": "example-rectangular",
+          "kind": "rectangular",
+          "qa": "checked",
+          "measurements": "available",
+          "representedTips": 6,
+          "omittedTips": 4093
+        },
+        {
+          "id": "example-circular",
+          "kind": "circular",
+          "qa": "checked",
+          "measurements": "available",
+          "representedTips": 6,
+          "omittedTips": 4093
+        }
+      ]
+    },
+    {
+      "folder": "03-evidence-based-illustration",
+      "source": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+      "views": [
+        {
+          "id": "example-rectangular",
+          "kind": "rectangular",
+          "qa": "checked",
+          "measurements": "available",
+          "representedTips": 6,
+          "omittedTips": 63
+        }
+      ]
+    }
+  ]
+}

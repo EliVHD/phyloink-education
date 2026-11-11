@@ -1,0 +1,27 @@
+{
+  "title": "One tree, different drawings",
+  "purpose": "Recognize the same branching relationships across two visual arrangements.",
+  "instructions": "Compare both pages. The source and six selected mammals are identical; only the drawing layout changes. Trace nodes to support your answers.",
+  "pages": [
+    {
+      "figure": "artwork/rectangular/tree_labeled.svg",
+      "figureHeightMm": 60,
+      "caption": "Rectangular nonmetric cladogram. Upham et al. (2019), S3, Dryad version 4; data CC0.",
+      "questions": [
+        "Find the ancestor shared by human and chimpanzee. Locate the larger represented group containing gorilla.",
+        "Choose another represented pair. Before turning the page, predict whether it will remain a pair in the circular drawing."
+      ]
+    },
+    {
+      "figure": "artwork/circular/tree_labeled.svg",
+      "figureHeightMm": 145,
+      "caption": "Circular nonmetric cladogram. Same source identities and selection as page 1; data CC0.",
+      "questions": [
+        "Trace the same pairs and nested groups. Has any shared ancestry changed? Explain your evidence.",
+        "Would exchanging two daughter branches around their shared node change the relationships? Explain without relying on where names appear."
+      ]
+    }
+  ],
+  "relationshipDescription": "Both layouts show the same selected source paths. Human and chimpanzee are nested with gorilla; mouse and rat form another represented pair. Taxa omitted from the full source remain omitted in both views.",
+  "sourceLine": "Upham, Esselstyn & Jetz (2019). Paper: 10.1371/journal.pbio.3000494. Data: 10.5061/dryad.tb03d03, version 4, S3. Activity: PhyloInk education, 0BSD."
+}

@@ -1,0 +1,695 @@
+{
+  "format": "clade-tree-provenance",
+  "version": 2,
+  "treeRevision": "f89e8f07d37d540eb1333a27e01f75d5c48ae9f3e60a6217a8594089832af66d",
+  "basis": {
+    "id": "basis-1",
+    "name": "Flowering plants · orders + outgroups",
+    "question": "What relationships among five sampled flowering-plant orders and one represented gymnosperm outgroup can this source support?",
+    "relationshipKind": "phylogeny",
+    "entityKind": "taxon-concepts",
+    "edgeMeaning": "Inferred evolutionary relationships from the source authors; drawing depth is nonmetric unless separately declared with evidence.",
+    "evidenceBasis": "Kew release 4.0 phylogenomic species-tree topology. These are the authors’ supplied species, family and order trees, not an inferred classification hierarchy. No source branch lengths are supplied.",
+    "sourceIds": [
+      "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0"
+    ],
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ],
+    "provider": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree",
+    "release": "4.0 (April 2026)",
+    "retrievedAt": "2026-10-28",
+    "epistemicStatus": "published-hypothesis",
+    "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+    "rightsRecordIds": [
+      "kew-4-source"
+    ]
+  },
+  "bundledDataset": {
+    "shortCitation": "Kew · release 4.0",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsId": "kew-4-source",
+    "release": "4.0 (April 2026)",
+    "references": [
+      {
+        "id": "kew-tree-4",
+        "type": "source",
+        "title": "Kew Tree of Life Explorer, release 4.0 (April 2026)",
+        "authors": [
+          "Royal Botanic Gardens, Kew and collaborators"
+        ],
+        "year": 2026,
+        "doi": null,
+        "url": "https://treeoflife.kew.org/data-access",
+        "license": "CC-BY-4.0",
+        "verification": "verified-source"
+      },
+      {
+        "id": "baker-2022",
+        "type": "article",
+        "title": "A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life",
+        "authors": [
+          "William J. Baker et al."
+        ],
+        "year": 2022,
+        "doi": "10.1093/sysbio/syab035",
+        "url": "https://doi.org/10.1093/sysbio/syab035",
+        "license": null,
+        "verification": "verified-source"
+      }
+    ],
+    "evidence": "Kew release 4.0 phylogenomic species-tree topology. These are the authors’ supplied species, family and order trees, not an inferred classification hierarchy. No source branch lengths are supplied.",
+    "limitations": "Sampling is incomplete and this is one inferred hypothesis. Gymnosperm outgroups are included. Numeric internal labels are retained without interpreting their support type. Drawing depth has no time or evolutionary-distance meaning.",
+    "changes": "Source bytes unchanged. Opening creates explicit collapsed overview groups; later selection, reduction and artwork are recorded separately.",
+    "rootEvidence": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "id": "kew-4-order",
+    "file": "datasets/kew-4-order.nwk",
+    "sha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+    "name": "Flowering plants · orders + outgroups",
+    "tipCount": 69,
+    "nodeCount": 137,
+    "entityKind": "taxon-concepts",
+    "sourceUrl": "https://sftp.kew.org/pub/paftol/releases/4.0/tree/species/treeoflife.4.0.order.tree"
+  },
+  "activeViewId": "example-rectangular",
+  "projection": {
+    "selection": {
+      "kind": "explicit-tips",
+      "tipIds": [
+        "n000006",
+        "n000011",
+        "n000026",
+        "n000032",
+        "n000117",
+        "n000121"
+      ]
+    },
+    "collapse": [],
+    "expand": [],
+    "reveal": [],
+    "childOrder": {}
+  },
+  "interpretation": "cladogram",
+  "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+  "root": {
+    "status": "rooted",
+    "basis": "source-declared",
+    "explanation": "Kew release 4.0 notes specify rooting using gymnosperm outgroups; the supplied serialization root is retained. https://sftp.kew.org/pub/paftol/releases/4.0/kew_tree_of_life_release_notes_4.0.txt",
+    "referenceIds": [
+      "kew-tree-4",
+      "baker-2022"
+    ]
+  },
+  "replayCoverage": "source-and-final-geometry",
+  "historyStatus": "recorded-from-creation",
+  "references": {
+    "bachmaier-2005": {
+      "id": "bachmaier-2005",
+      "type": "article",
+      "title": "Drawing Phylogenetic Trees",
+      "authors": [
+        "Christian Bachmaier",
+        "Ulrik Brandes",
+        "Barbara Schlieper"
+      ],
+      "year": 2005,
+      "doi": "10.1007/11602613_110",
+      "url": "https://link.springer.com/chapter/10.1007/11602613_110",
+      "license": null,
+      "verification": "verified-source"
+    },
+    "baker-2022": {
+      "id": "baker-2022",
+      "type": "article",
+      "title": "A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life",
+      "authors": [
+        "William J. Baker et al."
+      ],
+      "year": 2022,
+      "doi": "10.1093/sysbio/syab035",
+      "url": "https://doi.org/10.1093/sysbio/syab035",
+      "license": null,
+      "verification": "verified-source"
+    },
+    "d3-cluster-docs": {
+      "id": "d3-cluster-docs",
+      "type": "application-method",
+      "title": "D3 hierarchy: Cluster layout documentation",
+      "authors": [
+        "Observable / D3 contributors"
+      ],
+      "year": null,
+      "doi": null,
+      "url": "https://d3js.org/d3-hierarchy/cluster",
+      "license": null,
+      "verification": "verified-source"
+    },
+    "kew-tree-4": {
+      "id": "kew-tree-4",
+      "type": "source",
+      "title": "Kew Tree of Life Explorer, release 4.0 (April 2026)",
+      "authors": [
+        "Royal Botanic Gardens, Kew and collaborators"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://treeoflife.kew.org/data-access",
+      "license": "CC-BY-4.0",
+      "verification": "verified-source"
+    }
+  },
+  "methods": {
+    "bounded-overview@1.0.0": {
+      "id": "bounded-overview",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "bounded_overview_v1: begin with the traversal root children; repeatedly split the frontier internal node with greatest original-tip membership (ties by source ID) whose children fit within 100 endpoints. Stop when no further split fits. Save remaining internal frontier nodes as explicit collapses, with distance threshold zero. Preserve every original tip exactly once; no invented edges or omitted taxa.",
+      "specificationSha256": "f4b3199a27ba75d0c6d765e3d6102d427633b1a6d803adabe747ae69cdee2e9a",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "An initial display overview, not a biological grouping criterion or evidence assessment. Internal numeric labels are not assigned support meanings. Large root polytomies that exceed the bound are rejected rather than sampled silently."
+      ],
+      "referenceUses": []
+    },
+    "clade-cluster@1.0.0": {
+      "id": "clade-cluster",
+      "version": "1.0.0",
+      "category": "layout",
+      "status": "implemented",
+      "specification": "clade_cluster_v1: allocate measured ordered terminal slots and nested clade intervals; junction transverse coordinate is the interval midpoint; height is one plus maximum child height and nonmetric depth is 1-height/rootHeight. Map to rectangular or unwrapped circular/fan coordinates. Use open compound connectors and radial/horizontal stems. At most eight measured-label slot passes, fixed font size, bounded clade/level offsets and explicit pin conflicts.",
+      "specificationSha256": "2e945d7bc8a4495557ca5b890795292567a9c95c0b1404864d797d6a8671b776",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Original application construction inspired by general cluster and subtree-sector concepts; not a reproduction of D3 or the Bachmaier algorithm. Depth, arc length and inner radius are spacing conventions, not time/distance/confidence."
+      ],
+      "referenceUses": [
+        {
+          "referenceId": "d3-cluster-docs",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        },
+        {
+          "referenceId": "bachmaier-2005",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        }
+      ]
+    },
+    "compound-validation@3.0.0": {
+      "id": "compound-validation",
+      "version": "3.0.0",
+      "category": "validation",
+      "status": "implemented",
+      "specification": "compound_scene_validation_v3: retain compound v2 geometry checks and its 500000-operation ceiling. Attachment tests return attached, detached or incomplete. Track incidence completeness independently before stroke/label checks; incidencePassed requires completed attachment checks with no detected failure. Truncation never asserts incidence success or fabricates a detached attachment. Preserve compound v1/v2 implementations for exact saved replay.",
+      "specificationSha256": "e9bef3918a34388b3f748472f2cbbf18a1ea77ea73e00b2bd25e5843cf3ab7aa",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Numerical validation with explicit bounds and work-limit disclosure; no mathematical nonintersection proof, biological peer review or classroom validation."
+      ],
+      "referenceUses": []
+    },
+    "maximal-frontier@1.0.0": {
+      "id": "maximal-frontier",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "maximal_frontier_v1: original-tip-weighted mean descendant distance, strict less-than threshold, protected override paths and explicit collapse/expand/protect rules. Preserve exhaustive original tip memberships.",
+      "specificationSha256": "5476846d2315714317c4e4b718f11ac8f2d1f382149d7c63aedfdca5b85f7567",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Root is explicitly assumed; missing lengths prevent distance-threshold collapsing."
+      ],
+      "referenceUses": []
+    },
+    "newick-parser@1.0.0": {
+      "id": "newick-parser",
+      "version": "1.0.0",
+      "category": "import",
+      "status": "implemented",
+      "specification": "Parse one Newick tree, preserving source text, local IDs, raw labels, comments and length tokens. No support type is inferred from numeric labels.",
+      "specificationSha256": "df2868ed492b0c5af089ee20b8b55d64f977143bbade3f54ea8df502cd3562d6",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Only the supported Newick dialect; no sequence inference."
+      ],
+      "referenceUses": []
+    },
+    "selected-taxon-projection@1.0.0": {
+      "id": "selected-taxon-projection",
+      "version": "1.0.0",
+      "category": "scientific",
+      "status": "implemented",
+      "specification": "selected_taxon_projection_v1: orient the exact immutable input at its declared root; retain selected-tip paths and root/stem, explicitly collapse requested nodes, suppress only unannotated unlabeled unary intermediate nodes, retain ordered original paths/edge IDs and selected/original/omitted memberships. No selected-tip distance threshold and no inferred support type.",
+      "specificationSha256": "600c6ab74ccccb292fa4bab4de2530457fabe0d4ed0a89d0a4b74a13e297297d",
+      "parameterSchema": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "defaults": {},
+      "limitations": [
+        "Selection changes displayed sampling, not the input topology or its evidence. Missing/invalid path lengths remain unknown."
+      ],
+      "referenceUses": []
+    }
+  },
+  "operations": {
+    "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d": {
+      "id": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d",
+      "kind": "context",
+      "methods": [
+        {
+          "key": "newick-parser@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+        "viewId": "view-1",
+        "components": [
+          "source"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {},
+      "outputs": {
+        "source": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413"
+      },
+      "parameters": {
+        "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "kew-tree-4",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        },
+        {
+          "referenceId": "baker-2022",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        }
+      ],
+      "result": {
+        "sourceAndFinalGeometryPreserved": true,
+        "importerBuildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+      },
+      "recordedAt": "2026-11-11T13:21:25.564Z",
+      "notes": "New document baseline. Source inference was not performed by this application."
+    },
+    "operation-52c98af9a837eb2d5a0fb1e6de203a71d0657fc64ea2e45971a08953a0a0df09": {
+      "id": "operation-52c98af9a837eb2d5a0fb1e6de203a71d0657fc64ea2e45971a08953a0a0df09",
+      "kind": "scientific",
+      "methods": [
+        {
+          "key": "bounded-overview@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "maximal-frontier@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+        "viewId": "view-1",
+        "components": [
+          "basis",
+          "scientific"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "source": {
+          "revision": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413",
+          "operationId": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d"
+        }
+      },
+      "outputs": {
+        "basis": "ea87666e37b848e12e22afa714cf6837990ece343ffa71ca948d15d9ad0a519a",
+        "scientific": "1e611307de911d39c811838e7030d0b7cc79987f26ce65a6c5d661e5dff21481"
+      },
+      "parameters": {
+        "recipe": {
+          "algorithm": "maximal_frontier_v1",
+          "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+          "root": {
+            "kind": "node",
+            "sourceNodeId": "n000000",
+            "status": "serialization_origin_not_biological_root"
+          },
+          "globalThreshold": 0,
+          "thresholdOverrides": [],
+          "protectOverridePaths": true,
+          "comparison": "strict_less_than",
+          "protect": [],
+          "collapse": [],
+          "expand": [],
+          "resolvedFrontierSourceNodeIds": [
+            "n000003",
+            "n000004",
+            "n000006",
+            "n000008",
+            "n000009",
+            "n000011",
+            "n000013",
+            "n000015",
+            "n000018",
+            "n000020",
+            "n000022",
+            "n000025",
+            "n000026",
+            "n000029",
+            "n000030",
+            "n000032",
+            "n000034",
+            "n000036",
+            "n000037",
+            "n000040",
+            "n000043",
+            "n000044",
+            "n000046",
+            "n000047",
+            "n000049",
+            "n000051",
+            "n000053",
+            "n000056",
+            "n000057",
+            "n000060",
+            "n000061",
+            "n000063",
+            "n000067",
+            "n000068",
+            "n000071",
+            "n000073",
+            "n000075",
+            "n000077",
+            "n000079",
+            "n000081",
+            "n000082",
+            "n000084",
+            "n000086",
+            "n000088",
+            "n000091",
+            "n000092",
+            "n000094",
+            "n000096",
+            "n000097",
+            "n000099",
+            "n000101",
+            "n000103",
+            "n000105",
+            "n000108",
+            "n000110",
+            "n000111",
+            "n000113",
+            "n000117",
+            "n000118",
+            "n000120",
+            "n000121",
+            "n000123",
+            "n000126",
+            "n000127",
+            "n000130",
+            "n000131",
+            "n000133",
+            "n000135",
+            "n000136"
+          ]
+        }
+      },
+      "referenceUses": [],
+      "result": {
+        "sourceAndFinalGeometryPreserved": true,
+        "importerBuildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+      },
+      "recordedAt": "2026-11-11T13:21:25.564Z",
+      "notes": "New document baseline. Source inference was not performed by this application."
+    },
+    "operation-663024418b159bdef84a43aa50a7a7a16ce205d30aca86a4f5b020ea63de7ae7": {
+      "id": "operation-663024418b159bdef84a43aa50a7a7a16ce205d30aca86a4f5b020ea63de7ae7",
+      "kind": "scientific",
+      "methods": [],
+      "scope": {
+        "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+        "viewId": "view-1",
+        "components": [
+          "basis"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "scientific": {
+          "revision": "1e611307de911d39c811838e7030d0b7cc79987f26ce65a6c5d661e5dff21481",
+          "operationId": "operation-52c98af9a837eb2d5a0fb1e6de203a71d0657fc64ea2e45971a08953a0a0df09"
+        },
+        "source": {
+          "revision": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413",
+          "operationId": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d"
+        }
+      },
+      "outputs": {
+        "basis": "bbeb29b5540c3af92e721eeba55e1bde54dacc3a6afd7d4a7a9599f91e9843b6"
+      },
+      "parameters": {
+        "basisId": "basis-1"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "kew-tree-4",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        },
+        {
+          "referenceId": "baker-2022",
+          "role": "input-tree",
+          "relationship": "uses-data"
+        }
+      ],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:25.573Z",
+      "notes": "Edited scientific-basis description; source topology and artwork unchanged. User-supplied evidence and rights are not independently verified."
+    },
+    "operation-77ccc53e345243ecf06ba08a36b300c739b3ff1b9d1ba87a70418db788098616": {
+      "id": "operation-77ccc53e345243ecf06ba08a36b300c739b3ff1b9d1ba87a70418db788098616",
+      "kind": "scientific",
+      "methods": [
+        {
+          "key": "selected-taxon-projection@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+        "viewId": "view-1",
+        "components": [
+          "structured-scientific"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "basis": {
+          "revision": "bbeb29b5540c3af92e721eeba55e1bde54dacc3a6afd7d4a7a9599f91e9843b6",
+          "operationId": "operation-663024418b159bdef84a43aa50a7a7a16ce205d30aca86a4f5b020ea63de7ae7"
+        },
+        "source": {
+          "revision": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413",
+          "operationId": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d"
+        }
+      },
+      "outputs": {
+        "structured-scientific": "ca15555e0d1ea832e2dbde97364a33fdf0a0d0956b1f043de950d244525929ef"
+      },
+      "parameters": {
+        "projection": {
+          "selection": {
+            "kind": "explicit-tips",
+            "tipIds": [
+              "n000006",
+              "n000011",
+              "n000026",
+              "n000032",
+              "n000117",
+              "n000121"
+            ]
+          },
+          "collapse": [],
+          "expand": [],
+          "reveal": [],
+          "childOrder": {}
+        },
+        "settings": {
+          "kind": "rectangular",
+          "widthMm": 180,
+          "heightMm": 60,
+          "marginMm": 10,
+          "strokeMm": 0.3,
+          "junctionMm": 1,
+          "clearanceMm": 0.5,
+          "toleranceMm": 0.025,
+          "fontFamily": "sans-serif",
+          "fontSizePt": 11,
+          "labelGapMm": 2,
+          "terminalGapMm": 1.5,
+          "innerRadiusMm": 5,
+          "outerRadiusMm": 45,
+          "startAngleDeg": -90,
+          "sweepDeg": 360,
+          "orientationDeg": 0,
+          "labelPlacement": "horizontal",
+          "curves": false
+        },
+        "measuredFontStatus": "available"
+      },
+      "referenceUses": [],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:25.615Z",
+      "notes": "Authored and accepted in the browser with measured labels and current geometry checks. Geometry QA is not biological validation."
+    },
+    "operation-6fa1a5f82b8b9b27b79540b29b71b2d8d9d56f15d6caab187670e60581d7088e": {
+      "id": "operation-6fa1a5f82b8b9b27b79540b29b71b2d8d9d56f15d6caab187670e60581d7088e",
+      "kind": "layout",
+      "methods": [
+        {
+          "key": "selected-taxon-projection@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "clade-cluster@1.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        },
+        {
+          "key": "compound-validation@3.0.0",
+          "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee"
+        }
+      ],
+      "scope": {
+        "sourceId": "source-4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+        "viewId": "example-rectangular",
+        "components": [
+          "structured/example-rectangular"
+        ],
+        "sourceNodeIds": []
+      },
+      "inputs": {
+        "basis": {
+          "revision": "bbeb29b5540c3af92e721eeba55e1bde54dacc3a6afd7d4a7a9599f91e9843b6",
+          "operationId": "operation-663024418b159bdef84a43aa50a7a7a16ce205d30aca86a4f5b020ea63de7ae7"
+        },
+        "source": {
+          "revision": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413",
+          "operationId": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d"
+        },
+        "structured-scientific": {
+          "revision": "ca15555e0d1ea832e2dbde97364a33fdf0a0d0956b1f043de950d244525929ef",
+          "operationId": "operation-77ccc53e345243ecf06ba08a36b300c739b3ff1b9d1ba87a70418db788098616"
+        }
+      },
+      "outputs": {
+        "structured/example-rectangular": "b10dad1b5bc3452555b2bbf08d772b346e59d17d8d1a1cc6a28da292afd57961"
+      },
+      "parameters": {
+        "projection": {
+          "selection": {
+            "kind": "explicit-tips",
+            "tipIds": [
+              "n000006",
+              "n000011",
+              "n000026",
+              "n000032",
+              "n000117",
+              "n000121"
+            ]
+          },
+          "collapse": [],
+          "expand": [],
+          "reveal": [],
+          "childOrder": {}
+        },
+        "settings": {
+          "kind": "rectangular",
+          "widthMm": 180,
+          "heightMm": 60,
+          "marginMm": 10,
+          "strokeMm": 0.3,
+          "junctionMm": 1,
+          "clearanceMm": 0.5,
+          "toleranceMm": 0.025,
+          "fontFamily": "sans-serif",
+          "fontSizePt": 11,
+          "labelGapMm": 2,
+          "terminalGapMm": 1.5,
+          "innerRadiusMm": 5,
+          "outerRadiusMm": 45,
+          "startAngleDeg": -90,
+          "sweepDeg": 360,
+          "orientationDeg": 0,
+          "labelPlacement": "horizontal",
+          "curves": false
+        },
+        "measuredFontStatus": "available"
+      },
+      "referenceUses": [
+        {
+          "referenceId": "d3-cluster-docs",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        },
+        {
+          "referenceId": "bachmaier-2005",
+          "role": "algorithm",
+          "relationship": "inspired-by"
+        }
+      ],
+      "result": {
+        "accepted": true
+      },
+      "recordedAt": "2026-11-11T13:21:25.615Z",
+      "notes": "Authored and accepted in the browser with measured labels and current geometry checks. Geometry QA is not biological validation."
+    }
+  },
+  "heads": {
+    "source": {
+      "revision": "bb05bb639e17871603e6b6e40a8e3cba51f60e3c344cf939a8a8dd4480071413",
+      "operationId": "operation-6fbaff7a47fd274bce5bc154cd530d542dedb5fef4283f7ff21dee7e95183e8d"
+    },
+    "basis": {
+      "revision": "bbeb29b5540c3af92e721eeba55e1bde54dacc3a6afd7d4a7a9599f91e9843b6",
+      "operationId": "operation-663024418b159bdef84a43aa50a7a7a16ce205d30aca86a4f5b020ea63de7ae7"
+    },
+    "structured-scientific": {
+      "revision": "ca15555e0d1ea832e2dbde97364a33fdf0a0d0956b1f043de950d244525929ef",
+      "operationId": "operation-77ccc53e345243ecf06ba08a36b300c739b3ff1b9d1ba87a70418db788098616"
+    },
+    "structured/example-rectangular": {
+      "revision": "b10dad1b5bc3452555b2bbf08d772b346e59d17d8d1a1cc6a28da292afd57961",
+      "operationId": "operation-6fa1a5f82b8b9b27b79540b29b71b2d8d9d56f15d6caab187670e60581d7088e"
+    }
+  }
+}

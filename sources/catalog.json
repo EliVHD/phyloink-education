@@ -1,0 +1,76 @@
+{
+  "scope": "Finite educator reference directory; no monitoring or automatic fetch",
+  "entries": [
+    {
+      "id": "fish",
+      "title": "Fish Tree of Life",
+      "url": "https://fishtreeoflife.org/downloads/",
+      "rights": "CC0-1.0",
+      "rightsUrl": "https://fishtreeoflife.org/about/",
+      "format": "Newick in XZ archives",
+      "level": "teacher-prepared introductory subsets",
+      "documentationChecked": "2026-11-11"
+    },
+    {
+      "id": "opentree",
+      "title": "Open Tree of Life",
+      "url": "https://opentreeoflife.github.io/browse/",
+      "rights": "CC0 policy subject to pre-existing terms",
+      "rightsUrl": "https://tree.opentreeoflife.org/about/licenses",
+      "format": "Newick subtree or JSON with Newick field",
+      "level": "teacher-prepared introductory subsets",
+      "documentationChecked": "2026-11-11"
+    },
+    {
+      "id": "insect",
+      "title": "Insect Phylogeny Database",
+      "url": "https://insectphylo.org/ipd_v2/",
+      "rights": "Archived version 1 declares CC0; reconfirm selected version",
+      "rightsUrl": "https://www.scidb.cn/en/detail?dataSetId=4db6d9dd08ef4ba0baebbe145b07ecc7",
+      "format": "Version 2: tree ID plus tab plus Newick; one record per line",
+      "level": "teacher preparation; study metadata required",
+      "documentationChecked": "2026-11-11"
+    },
+    {
+      "id": "ensembl",
+      "title": "Ensembl gene trees",
+      "url": "https://rest.ensembl.org/documentation/info/genetree",
+      "rights": "Provider export/reuse policy",
+      "rightsUrl": "https://asia.ensembl.org/info/data/export.html",
+      "format": "Individual Newick export",
+      "level": "advanced",
+      "documentationChecked": "2026-11-09"
+    },
+    {
+      "id": "gtdb",
+      "title": "Genome Taxonomy Database",
+      "url": "https://gtdb.ecogenomic.org/downloads",
+      "rights": "CC-BY-SA-4.0",
+      "rightsUrl": "https://gtdb.ecogenomic.org/licenses",
+      "format": "Newick reference trees plus taxonomy/metadata tables",
+      "level": "advanced; large inputs",
+      "documentationChecked": "2026-11-09"
+    },
+    {
+      "id": "treehub",
+      "title": "TreeHub",
+      "url": "https://www.nature.com/articles/s41597-025-05282-4",
+      "rights": "Dataset paper states CC-BY-4.0; inspect original source terms",
+      "rightsUrl": "https://www.nature.com/articles/s41597-025-05282-4",
+      "format": "Newick collection linked to study metadata",
+      "level": "discovery and teacher preparation",
+      "documentationChecked": "2026-11-09"
+    },
+    {
+      "id": "timetree",
+      "title": "TimeTree",
+      "url": "https://timetree.org/",
+      "rights": "Provider permits personal research/teaching; redistribution prohibited",
+      "rightsUrl": "https://timetree.org/",
+      "format": "Newick export",
+      "level": "teaching-use link only",
+      "documentationChecked": "2026-11-11",
+      "bundling": "excluded"
+    }
+  ]
+}

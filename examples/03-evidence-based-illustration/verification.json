@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-11-11",
+  "application": {
+    "name": "PhyloInk",
+    "version": "0.1.2-dev.0",
+    "commit": "f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84",
+    "workingTreeDirty": false,
+    "buildId": "6bf6d5f0540cca9a882740228803df6690ac1fde6c6e807d8eb0bdc38fd9c8ee",
+    "browser": "157.0.4341.42"
+  },
+  "sourceSha256": "4338a16ff2599cad74f0c1be5d9bb1c821b015dbcb42330e3d85d1e1a14adcd0",
+  "sourceUnchanged": true,
+  "selectedTips": [
+    {
+      "id": "n000006",
+      "label": "Pinales",
+      "rawLabel": "Pinales"
+    },
+    {
+      "id": "n000011",
+      "label": "Amborellales",
+      "rawLabel": "Amborellales"
+    },
+    {
+      "id": "n000026",
+      "label": "Asparagales",
+      "rawLabel": "Asparagales"
+    },
+    {
+      "id": "n000032",
+      "label": "Poales",
+      "rawLabel": "Poales"
+    },
+    {
+      "id": "n000117",
+      "label": "Fabales",
+      "rawLabel": "Fabales"
+    },
+    {
+      "id": "n000121",
+      "label": "Rosales",
+      "rawLabel": "Rosales"
+    }
+  ],
+  "relations": [
+    {
+      "taxa": [
+        "Asparagales",
+        "Poales"
+      ],
+      "sourceNodeId": "n000023",
+      "representedDescendants": [
+        "Asparagales",
+        "Poales"
+      ],
+      "fullSourceDescendantTips": 8
+    },
+    {
+      "taxa": [
+        "Fabales",
+        "Rosales"
+      ],
+      "sourceNodeId": "n000115",
+      "representedDescendants": [
+        "Fabales",
+        "Rosales"
+      ],
+      "fullSourceDescendantTips": 4
+    },
+    {
+      "taxa": [
+        "Amborellales",
+        "Poales"
+      ],
+      "sourceNodeId": "n000010",
+      "representedDescendants": [
+        "Amborellales",
+        "Asparagales",
+        "Poales",
+        "Fabales",
+        "Rosales"
+      ],
+      "fullSourceDescendantTips": 64
+    }
+  ],
+  "views": [
+    {
+      "id": "example-rectangular",
+      "kind": "rectangular",
+      "qa": "checked",
+      "measurements": "available",
+      "representedTips": 6,
+      "omittedTips": 63
+    }
+  ],
+  "roundTrip": "Browser loadAnyProject passed; exact source preserved",
+  "browserOpenSave": "passed in Edge: every saved structured view selected; source records and accepted scenes unchanged after save",
+  "printReview": "Four PDF pages rendered with Poppler and visually inspected; no clipping or overlapping text.",
+  "browserExport": {
+    "filename": "phyloink-cladogram-checked.zip",
+    "status": "passed"
+  }
+}
