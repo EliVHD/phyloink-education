@@ -6,6 +6,8 @@ Original contributions use 0BSD. Retain each dataset's separate rights, attribut
 
 Keep each example self-contained: README, editable activity, printable student handout, teacher answers/adaptation notes, project, SVGs, source and verification records. Provide a text description of the principal relationships and make tasks independent of color. Check answers against source relationships, not label proximity.
 
+Synthetic inheritance walkthroughs use explicit manual model parameters, editable handouts, teacher notes, assumptions and verification rather than a tree project/SVG/Newick dataset. Do not imply empirical observations or invent a tree to fit the tree-example structure. Their authoring configuration is not an application scenario format; keep learner state out and the demonstration count bounded.
+
 Use explicit file inventories and checksums when packaging examples. Never include credentials, private reference material, node_modules or local tooling caches. Generated downloads must contain reviewed example files only. Do not change existing releases or publish a release without an owner request. Do not silently change a recorded verification date or label untested files as import-tested.
 
 Before delivery, open projects in the actual application, check active views and source preservation, inspect SVGs and rendered PDF pages, verify local links and ZIP inventories, and report limitations honestly. Regeneration tools may take an explicit application checkout as an authoring input; downloaded examples must not depend on that checkout or a private workspace.

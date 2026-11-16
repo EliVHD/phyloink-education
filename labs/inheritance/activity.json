@@ -1,0 +1,32 @@
+{
+  "title": "Follow the alleles",
+  "scope": "Two independent synthetic walkthroughs for educator adaptation, not a course.",
+  "assumptions": "Diploid autosomal loci; two alleles per locus; equal segregation; random fertilization; complete dominance; independent assortment for two loci. No linkage, mutation, selection, sex linkage, penetrance variation, epistasis or environmental effect.",
+  "notation": "A_ means AA or Aa; B_ means BB or Bb. These abstract labels do not represent measured organisms or traits from a tree.",
+  "walkthroughs": [
+    {
+      "id": "segregation",
+      "title": "One locus: genotype and phenotype",
+      "setup": { "loci": 1, "parent1": "Aa", "parent2": "Aa" },
+      "sample": { "size": 32, "seed": 1 },
+      "introduction": "Each parent has two allele copies at locus A and contributes one copy to each offspring. Predict before revealing the model's probabilities.",
+      "questions": [
+        "Which gamete types can each parent contribute, and with what probability?",
+        "Predict the chance of an aa offspring. Explain your reasoning, then compare the genotype and complete-dominance phenotype tables.",
+        "Sample 32 offspring with seed 1. Record expected and sampled phenotype counts. Repeat with seed 2, then with 1,000 offspring. Why need the sample not match an expected ratio exactly?"
+      ]
+    },
+    {
+      "id": "independent-assortment",
+      "title": "Two loci: combine independent probabilities",
+      "setup": { "loci": 2, "parent1": "AaBb", "parent2": "AaBb" },
+      "sample": { "size": 32, "seed": 1 },
+      "introduction": "Assume the A and B loci assort independently. Trace one allele at each locus from each parent. This is a stated model assumption, not evidence about a supplied tree.",
+      "questions": [
+        "List each parent's gamete types and probabilities. Predict the chance of an aa bb offspring before revealing the square.",
+        "Choose a Punnett cell producing AaBb. Is that cell's probability the total probability of AaBb? Use the aggregated genotype table to explain.",
+        "Compare expected and sampled phenotype counts at 32 and 1,000 offspring, changing the seed for another trial. What would prevent you from applying this model to two linked loci?"
+      ]
+    }
+  ]
+}

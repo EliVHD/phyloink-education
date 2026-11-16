@@ -1,0 +1,48 @@
+{
+  "format": "phyloink-inheritance-walkthrough-inventory",
+  "version": 1,
+  "verifiedAt": "2026-11-16",
+  "license": "0BSD",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3017,
+      "sha256": "d5396e7353398ab42ae2f97d0de12ad39dc8e4462c973bcf4a372e7538807d58"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2020,
+      "sha256": "7dc0ce113322b905ed81684deb0367e103b7db98619eb271cdd734e0a2574464"
+    },
+    {
+      "path": "activity.json",
+      "bytes": 2286,
+      "sha256": "15c110b8b1ebdb98dcda538ea6f7c75a4b6881c6f9add93be635e39f49b8ba47"
+    },
+    {
+      "path": "student-handout.html",
+      "bytes": 4181,
+      "sha256": "490ff71e40dadc28aff5cb962fd426339255ed23d37303fffdcdd441f28dafd4"
+    },
+    {
+      "path": "student-handout.pdf",
+      "bytes": 4564,
+      "sha256": "5993fbc8c0c15c4920501f4e8ddafd1188b992b37d49cbf9482071a301ffbec5"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 3422,
+      "sha256": "ff402b0d534417daf8f087876e7b3832df79043ad87cbbba23cda2cf4b59325b"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2876,
+      "sha256": "cdbb62e159e5b16b1b645e76f75f5fbb59c667c9e114e42b585e6905859873ad"
+    }
+  ]
+}
