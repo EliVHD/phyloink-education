@@ -1,0 +1,13 @@
+import {readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),record=JSON.parse(await readFile(resolve(root,'worksheet-export/verification.json'),'utf8'));
+const sha=value=>createHash('sha256').update(value).digest('hex');
+for(const entry of record.existingResources){assert.ok(/^(?:scenarios|labs\/(?:inheritance|population))\/[A-Za-z0-9.-]+$/.test(entry.path));const bytes=await readFile(resolve(root,entry.path));assert.equal(sha(bytes),entry.sha256);assert.equal(bytes.length,entry.bytes);}
+assert.equal(record.printCases.length,12);assert.ok(record.printCases.every(item=>item.pages>0&&['A4','Letter'].includes(item.paper)));assert.equal(record.browser.externalRequests,0);assert.equal(record.browser.learnerStateExcluded,true);assert.equal(record.browser.editorStateUnchanged,true);
+const index=process.argv.indexOf('--app');
+if(index>=0){const app=resolve(process.argv[index+1]),info=JSON.parse(await readFile(resolve(app,'dist/build-info.json'),'utf8'));assert.equal(info.buildId,record.application.buildId);const api=await import(pathToFileURL(resolve(app,'src/learn/worksheet.ts')).href);
+for(const kind of['inheritance','population']){const existing=JSON.parse(await readFile(resolve(root,`labs/${kind}/activity.json`),'utf8')).walkthroughs[0],capture=kind==='inheritance'?{kind,setup:existing.setup,count:existing.sample.size,seed:existing.sample.seed}:{kind,setup:existing.setup};const options={title:'Educator adaptation check',instructions:'Use the configured model.',teacherNotes:'TEACHER_ONLY_VERIFICATION',paper:'A4',answerLines:3,tipCodes:true,includeData:true,prompts:api.defaultWorksheetPrompts(capture)};const sheet=await api.prepareWorksheet(capture,options,info),student=await api.worksheetPackage(sheet,'student'),teacher=await api.worksheetPackage(sheet,'teacher');assert.ok(!student.files['authoring.json']&&teacher.files['authoring.json']);assert.ok(!JSON.stringify(student.files).includes(options.teacherNotes));assert.ok(teacher.files['teacher.html'].includes(options.teacherNotes));for(const output of[student,teacher]){const manifest=JSON.parse(output.files['manifest.json']);for(const file of manifest.files){assert.equal(sha(output.files[file.path]),file.sha256);assert.equal(Buffer.byteLength(output.files[file.path]),file.bytes);}}}}
+console.log('Worksheet workflow: existing resource hashes, recorded print checks'+(index>=0?', application build and separate setup-derived lab packages':'')+' verified. Browser measurement/print review remain separate recorded checks.');
