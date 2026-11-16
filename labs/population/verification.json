@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-11-16",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "15eed06ae5fea1953768a02ed425cbd2422985aa",
+    "buildId": "787712302bae82a6bd532c89d78f8e905a62af0eedb5bb00f141d38611103b18",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/8",
+    "guide": "https://github.com/EliVHD/phyloink/blob/15eed06ae5fea1953768a02ed425cbd2422985aa/docs/POPULATION-LAB.md",
+    "releaseStatus": "Unreleased development; separate draft PR stacked on A03. Historical releases unchanged."
+  },
+  "scope": "Two independent synthetic walkthroughs with manual settings; activity.json is a handout authoring configuration, not an application import/scenario format.",
+  "model": "wright-fisher-selection-v1",
+  "modelChecks": [
+    "Default neutral reference remains at 0.5; at generation 20 Trial 1 has 25 A copies, and at generation 40 the four trials have 0, 37, 21 and 7 of 40 copies. Trial 1 first loses A at generation 36.",
+    "Default selection reference after one generation is 23/44. At generation 40 the trials have 192, 183, 200 and 200 of 200 A copies; reference frequency is approximately 0.97180908297.",
+    "Exact integer counts, complete generations, replay/prefix-stable seeded streams, absorbing loss/fixation and explicit 2N sampling/work bounds are verified."
+  ],
+  "handout": {
+    "pages": 2,
+    "pageSize": "A4",
+    "generator": "tools/render-population.py from activity.json, ReportLab",
+    "visuallyInspected": true,
+    "renderer": "Poppler pdftoppm; both final pages inspected at 1350-pixel height",
+    "editablePresentation": "student-handout.html",
+    "htmlChecks": "Standalone Edge rendering at 390 x 844 has no page overflow, requests or exceptions; native browser print also yields exactly two A4 pages.",
+    "answers": "teacher-notes.md, separate from student handout"
+  },
+  "browser": {
+    "engine": "Microsoft Edge",
+    "viewports": ["1440 x 1050", "390 x 844"],
+    "actualApplicationChecks": ["manual preset settings", "pre-sampling prediction/explanation", "plot/reference and exact table at generation 0/interior/final", "replay and changes of seed/N/fitness", "invalid controls without clamping", "absorbing loss/fixation", "all maximum-run generation records", "module switching preserves tree/inheritance practice", "delayed demo cancellation", "dirty/saved editor state and exact project/SVG/QA/camera/pins/history unchanged", "reset/reopen and unspecified-root input"],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "horizontalPageOverflow": false
+  },
+  "originalMaterials": "Existing three tree ZIPs/PDFs, tree sources, two scenario JSON files, inheritance walkthroughs and their verification records/hashes remain unchanged.",
+  "limits": "Synthetic closed constant-size one-locus diploid allele-count model, not individual genotypes/survival or empirical estimates. No mutation, migration, linked loci, growth, changing environment, sex structure, zero-fitness extinction, saved population scenarios, learner persistence or continuing lesson programme."
+}

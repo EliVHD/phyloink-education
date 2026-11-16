@@ -1,0 +1,30 @@
+{
+  "title": "Allele frequencies through generations",
+  "scope": "Two independent synthetic population walkthroughs for educator adaptation, not a course.",
+  "assumptions": "One diploid autosomal A/a locus; closed constant-size population; random mating; non-overlapping generations. Expected random-mating genotype proportions are fitness-weighted before sampling 2N gene copies. Individual genotypes and pedigrees are not tracked.",
+  "limits": "No mutation, migration, linked loci, growth, changing environment, sex structure or zero-fitness extinction. The no-drift reference is not the mean of finite trials under selection. These are invented model populations, not organisms inferred from a tree.",
+  "walkthroughs": [
+    {
+      "id": "neutral-drift",
+      "title": "Genetic drift: chance and population size",
+      "setup": { "size": 20, "aCopies": 20, "generations": 40, "replicates": 4, "seed": 1, "fitness": { "AA": 1, "Aa": 1, "aa": 1 } },
+      "introduction": "Begin with equal fitness weights. Predict before running the trials. Each diploid individual contributes two gene copies to the count, so initial p(A) = 20/40 = 0.5.",
+      "questions": [
+        "Predict A frequency after selection but before finite sampling in the next generation. Can a realized trial rise or fall even though all fitness weights are equal?",
+        "Run the trials. For Trial 1, record A copies, a copies and p(A) at generations 0, 20 and 40. Has A become lost or fixed? Compare with the other numbered trials.",
+        "Repeat at N = 200 with 200 initial A copies, then try seed 2. What does larger N change in this model? What cannot be concluded from only four paths?"
+      ]
+    },
+    {
+      "id": "selection-with-drift",
+      "title": "Selection with drift: expectation and trials",
+      "setup": { "size": 100, "aCopies": 100, "generations": 40, "replicates": 4, "seed": 1, "fitness": { "AA": 1.2, "Aa": 1.1, "aa": 1 } },
+      "introduction": "Keep random sampling, but change the expected contribution of the genotypes. Relative fitness weights are not survival percentages. The reference calculation omits finite-population drift.",
+      "questions": [
+        "Predict the next A frequency after selection, before finite sampling. Explain how the three genotype weights contribute. Does a weight of 1.2 mean 120% survival?",
+        "Run four trials. Compare their frequencies with the no-drift reference at generations 20 and 40. Why is the reference neither a guaranteed path nor a finite-trial mean?",
+        "Hold N, initial A copies and seed constant, set all three fitness weights to 1 and rerun. Then change the seed. Does a rise or fixation alone prove selection or adaptation? Name one mechanism excluded from this model."
+      ]
+    }
+  ]
+}
