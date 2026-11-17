@@ -1,0 +1,17 @@
+# One adaptable linkage test cross
+
+Use **Learn → Linkage & recombination** in the unreleased A06.1 application build recorded in [verification.json](verification.json). The [model and workflow](https://github.com/EliVHD/phyloink/blob/bbfcc19a1d8f07b9fa950f76af204acf3695e992/docs/LINKAGE-LAB.md) describe this exact build. The authoritative usage and Teacher's Guides remain in the application repository through **Guides**. This is one synthetic teaching example with adaptation choices, not a course or a continuing lesson commitment.
+
+The starting cross is **AB/ab × ab/ab**, with shared r = 10%, 100 offspring and seed 1. AB/ab identifies two homologous chromosome copies; each two-letter haplotype lists locus A then locus B. The diagram's marker spacing is schematic. The abstract alleles do not describe organisms in a source tree. See [sources and model limits](SOURCES.md).
+
+1. Enter the manual settings in [activity.json](activity.json), or choose **Use test cross** in the application.
+2. Predict Parent 1's ab-gamete probability before revealing the combinations. Identify parental and recombinant marker types and explain the weighted cells.
+3. Sample offspring and compare complete counts with expected probabilities. All offspring count; only the first 64 phased offspring are displayed. Repeating restarts the seeded cross.
+4. Adapt the same example: switch Parent 1 to Ab/aB, try r = 0% or 50%, or change sample size/seed. Keep the other controls fixed when making a comparison. Return to the original settings for the supplied handout.
+5. Use **Create worksheet** for your own prompts/instructions. Student and teacher packages download separately; review configured teacher references after changing wording. Keep teacher notes private. The sample data are regenerated from educator settings, never copied from learner responses or feedback.
+
+[Student handout](student-handout.pdf) and [editable HTML](student-handout.html) are exported from the application's worksheet renderer; [editable text](student-handout.txt) and [native phase SVG](parents.svg) accompany them. The [teacher notes](teacher-notes.md) explain expected answers and adaptation limits. [Context](context.json) records the model/settings, and [manifest](manifest.json) inventories the exact resources. These files work locally after download, with no account, server or remote asset. Print at 100% on A4 and review every page on your intended device.
+
+`activity.json` is a manual authoring configuration, not an application import format. Worksheet context is also not an importable scenario/project. Temporary lab state resets on return to the editor; a worksheet deliberately retains educator settings and regenerated counts. There is no learner tracking, genotype inference from trees or multigeneration breeding system. Original text/code/diagram use [0BSD](LICENSE); optional background readings retain their own terms and are not bundled.
+
+From this repository, `node tools/verify-linkage.mjs --app /path/to/phyloink` checks exact files/hashes, the pinned build, setup probabilities, sampled counts and worksheet roles. `node tools/render-linkage.mjs --app /path/to/phyloink` regenerates editable student artifacts explicitly; optional `--playwright-module /path/to/playwright/index.mjs` also prints the PDF using an installed browser. Regeneration changes build stamps and requires a new visual review and inventory. Original tree packs, scenarios and earlier lab handouts/verification records stay unchanged.

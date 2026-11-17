@@ -1,0 +1,113 @@
+{
+  "verifiedAt": "2026-11-17",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "bbfcc19a1d8f07b9fa950f76af204acf3695e992",
+    "buildId": "7aeb6d1622db089ea2ff37583a7cb15885939c903b7c296ebfd9fe91ffeee730",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/10",
+    "guide": "https://github.com/EliVHD/phyloink/blob/bbfcc19a1d8f07b9fa950f76af204acf3695e992/docs/LINKAGE-LAB.md",
+    "releaseStatus": "Unreleased A06.1 development draft stacked on A05; historical releases unchanged."
+  },
+  "scope": "One adaptable synthetic AB/ab x ab/ab test cross. Manual activity configuration, not an application import/scenario format.",
+  "model": "linked-two-locus-v1",
+  "modelChecks": {
+    "parentalGametes": [
+      "AB",
+      "ab"
+    ],
+    "recombinantGametes": [
+      "Ab",
+      "aB"
+    ],
+    "gameteOrder": [
+      "AB",
+      "Ab",
+      "aB",
+      "ab"
+    ],
+    "probabilities": [
+      0.45,
+      0.05,
+      0.05,
+      0.45
+    ],
+    "sampledCounts": [
+      52,
+      2,
+      7,
+      39
+    ],
+    "expectedCounts": [
+      45,
+      5,
+      5,
+      45
+    ],
+    "limits": "Two autosomal loci, shared r 0–50 whole percentages, 1–1000 offspring, seed 0–4294967295, first 64 phased offspring displayed. Uninformative homozygous markers, finite observed proportions, phase and nonmetric marker spacing remain explicit."
+  },
+  "handout": {
+    "pages": 4,
+    "paper": "A4",
+    "editablePresentation": "student-handout.html",
+    "editableText": "student-handout.txt",
+    "figure": "parents.svg",
+    "generator": "tools/render-linkage.mjs from activity.json through the app worksheet renderer; Edge Print / Save as PDF at 100%.",
+    "everyPageVisuallyInspected": true,
+    "renderer": "Poppler pdftoppm at 1350-pixel page height; pypdf paper/text/role checks.",
+    "teacherAnswers": "teacher-notes.md, separate from the student handout",
+    "noRemoteAssets": true
+  },
+  "browser": {
+    "engine": "Edge",
+    "viewports": [
+      "1440 x 1050",
+      "390 x 844"
+    ],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "horizontalPageOverflow": false,
+    "exactProbabilitiesAndCounts": true,
+    "replayAndBounds": true,
+    "all1000Counted64Shown": true,
+    "learnerStateExcluded": true,
+    "roleSeparation": true,
+    "otherModulesPreserved": true,
+    "editorStateUnchanged": true,
+    "noRootDependency": true,
+    "pendingDemoDiscarded": true
+  },
+  "worksheetPrintCases": [
+    {
+      "kind": "linkage-A4-student",
+      "pages": 4,
+      "paper": "A4"
+    },
+    {
+      "kind": "linkage-A4-teacher",
+      "pages": 5,
+      "paper": "A4"
+    },
+    {
+      "kind": "linkage-Letter-student",
+      "pages": 4,
+      "paper": "Letter"
+    },
+    {
+      "kind": "linkage-Letter-teacher",
+      "pages": 5,
+      "paper": "Letter"
+    }
+  ],
+  "validation": {
+    "applicationTests": 305,
+    "newLinkageTests": 12,
+    "strictTypes": true,
+    "build": true,
+    "sourceChecksums": 161,
+    "exactArchiveInventories": true,
+    "offlineExtractedSourceBuildMatches": true,
+    "oldMaterialHashesUnchanged": true
+  },
+  "limits": "Synthetic phase/segregation/recombination probabilities, not tree genotypes, a rate estimate, physical/map distance, crossover count, sex-specific model or breeding system. Model r is capped at 50%; finite observed recombinant fractions may exceed it. The test-cross example is finite, with no continuing lesson/support commitment."
+}

@@ -10,6 +10,8 @@ Synthetic inheritance/population walkthroughs use explicit manual model paramete
 
 Use explicit file inventories and checksums when packaging examples. Never include credentials, private reference material, node_modules or local tooling caches. Generated downloads must contain reviewed example files only. Do not change existing releases or publish a release without an owner request. Do not silently change a recorded verification date or label untested files as import-tested.
 
+Linkage uses one bounded synthetic phased two-locus test-cross example. Preserve explicit parental/offspring phase, weighted probabilities, uninformative homozygous markers and model-versus-sample distinctions. A recombination fraction is not a crossover count or physical/map distance. No inferred tree genotypes, breeding system or chromosome mapping is added.
+
 Worksheet adaptations reuse existing resources and record their exact application build. Keep student and teacher packages separate; do not commit real learner responses, progress or private worksheet content. Preserve source/data rights and configured model/source references, review custom wording and print layout, and keep historical packs/handouts/verification records unchanged. Do not represent export context/authoring records as importable scenarios.
 
 Before delivery, open projects in the actual application, check active views and source preservation, inspect SVGs and rendered PDF pages, verify local links and ZIP inventories, and report limitations honestly. Regeneration tools may take an explicit application checkout as an authoring input; downloaded examples must not depend on that checkout or a private workspace.

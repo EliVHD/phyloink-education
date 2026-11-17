@@ -27,6 +27,8 @@ The two inheritance walkthroughs in `labs/inheritance/` use explicit manual appl
 
 The same convention applies to the two A04 walkthroughs in `labs/population/`. Verify exact allele counts, seeded trajectories, references and generation limits against their recorded build; do not treat a random path as a guaranteed answer. Keep all older verification dates, source records, artifacts and hashes unchanged when adding a separately verified lab.
 
+A06.1 linkage adds one explicitly phased test-cross configuration, an application-generated editable/printable worksheet, native phase SVG, teacher reasoning and exact verification/inventory. Keep homozygous-marker ambiguity, the 50% model versus finite-sample distinction and nonmetric marker spacing explicit. Preserve older packs/handouts and their recorded builds.
+
 ## Worksheet adaptations
 
 Use the A05 workflow in `worksheet-export/` to adapt existing questions/settings rather than expanding a course. Keep student and teacher exports separate; omit learner responses/progress and private pictures. Review configured reference answers against your own wording, retain complete source/citation/rights records and inspect printed pages. Export records are not application import formats; editing payloads invalidates their old hashes. Do not regenerate historical packs or overwrite their verification records merely to demonstrate the new exporter.

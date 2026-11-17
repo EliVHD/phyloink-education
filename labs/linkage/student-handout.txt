@@ -1,0 +1,31 @@
+Two loci, one test cross
+
+Predict before sampling. Use the phased chromosomes to explain each answer. The synthetic sample is one reproducible trial, not a guaranteed ratio.
+
+AB/ab × ab/ab; shared recombination fraction r = 10% (whole-percentage steps). Each slash separates the parent's two homologous chromosomes; each chromosome lists locus A then locus B. Reproducible sample: 100 offspring, seed 1.
+
+Synthetic diploid autosomal two-locus model, two alleles per locus, equal segregation, symmetric gamete probabilities, independent parental gamete draws, random fertilization and complete dominance at each locus. One shared recombination fraction applies to both parents; it is not a crossover count, physical distance or map-distance estimate. No sex-specific recombination, mutation, selection, segregation distortion, epistasis, penetrance variation, environment or multigeneration breeding. A_ means AA or Aa; B_ means BB or Bb. Dominance does not increase transmission. No organisms or genotypes are inferred from a tree.
+
+1. List Parent 1’s four gametes, their probabilities and parental/recombinant marker classes. What gamete does the tester produce?
+
+
+
+Answer:
+
+2. Predict offspring genotype and phenotype probabilities. Compare the sample counts with your expectations.
+
+
+
+Answer:
+
+3. Compare AB/ab with Ab/aB at r = 0%, 10% and 50%. When does phase change gamete probabilities?
+
+
+
+Answer:
+
+Sources and model:
+
+Original synthetic teaching setup; model linked-two-locus-v1. No organism dataset.
+
+Background: NHGRI, Linkage, https://www.genome.gov/genetics-glossary/Linkage ; MIT 7.014, Spring 2005, Recitation 16 answer key, https://ocw.mit.edu/courses/7-014-introductory-biology-spring-2005/ed9c0e71598f4e9683ffc4a5dd2f0f7c_section16_ak.pdf . Reading links only; no source text, figures or code bundled.

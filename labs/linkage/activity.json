@@ -1,0 +1,22 @@
+{
+  "format": "phyloink-linkage-walkthrough",
+  "version": 1,
+  "model": "linked-two-locus-v1",
+  "title": "Two loci, one test cross",
+  "instructions": "Predict before sampling. Use the phased chromosomes to explain each answer. The synthetic sample is one reproducible trial, not a guaranteed ratio.",
+  "setup": {
+    "parent1": "AB/ab",
+    "parent2": "ab/ab",
+    "recombinationPercent": 10
+  },
+  "sample": {
+    "count": 100,
+    "seed": 1
+  },
+  "prompts": [
+    "List Parent 1’s four gametes, their probabilities and parental/recombinant marker classes. What gamete does the tester produce?",
+    "Predict offspring genotype and phenotype probabilities. Compare the sample counts with your expectations.",
+    "Compare AB/ab with Ab/aB at r = 0%, 10% and 50%. When does phase change gamete probabilities?"
+  ],
+  "adaptationNotes": "Adapt this one example by changing phase, r or sample settings; hold other controls fixed. Model r is 0–50 whole percentages. Use 1–1,000 offspring and integer seeds 0–4294967295. A finite observed recombinant proportion can exceed 50%; no map-distance or rate inference is performed."
+}
