@@ -35,3 +35,9 @@ The live workflow was tested in Microsoft Edge on Windows. Other browsers, fonts
 Geometry checks are not biological validation. These examples retain one source hypothesis and incomplete sampling. They do not infer relationships, dates or traits. No future Learn, inheritance, population or worksheet-generator feature is required or claimed.
 
 The main repository's changes remain in a draft PR for owner review. Existing release tags/assets are unchanged. Further corrections or additions are deliberate decisions, with no scheduled update programme.
+
+## A02 local scenarios — 2026-11-11
+
+Two self-contained scenario files are proposed as a separate development addition. Their [verification record](scenarios/verification.json) pins application commit 7cee4a249a60ec5876db12c29fe58f458e8662c9, build fa547e0c299b1ae2185e8409c7eae5cce3d461e88bc0905c1c284a1e2054b2da, source hashes and actual Edge checks. Both open, calculate feedback, replay complete-subtree rotations and save/reopen exactly. Question adaptation, invalid-file isolation, literal HTML-like text, a 390-pixel-wide page and an exactly unchanged saved editor document/SVG passed. No external requests or browser exceptions occurred. Strict application checking/build and all 253 tests passed; the source archive rebuilt identically offline.
+
+The six-mammal file embeds the same complete reviewed Upham source as examples 01/02; the second embeds an entirely invented unresolved A–E topology. Source-based explanations and visible educator notes accompany both. No new provider dataset, PDF, project, SVG or existing ZIP pack was regenerated. Their original archive/PDF hashes are retained in the new record and checked by the scenario verifier. These two demonstrations are not a course or update schedule.

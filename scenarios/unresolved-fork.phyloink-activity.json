@@ -1,0 +1,86 @@
+{
+  "format": "phyloink-learning-scenario",
+  "version": 1,
+  "title": "An unresolved fork: what a drawing does and does not tell us",
+  "introduction": "An entirely invented A–E topology, with a deliberately unresolved C/D/E fork. This is an independent demonstration, not an empirical organism tree or a required next lesson.",
+  "teacherNotes": "Original source topology and activity text: 0BSD. C, D and E share the same represented branching point. The file does not resolve a closer C/D, C/E or D/E pair. A polytomy alone does not establish simultaneous divergence or dates. Rotation preserves all three child subtrees; screen positions supply no additional evidence. All five source tips are included, so the C/D/E displayed group is complete for this synthetic source. Adapt this example to discuss the limits of a supplied tree.",
+  "tipCodes": false,
+  "source": {
+    "newick": "((A:1,B:2):3,(C:1,D:1,E:1):2);",
+    "sha256": "2d5b45ee4d72c2073426078289b5306355f9a4f8998b7233b8b872a357b5a652",
+    "hashBasis": "legacy-utf8-text"
+  },
+  "context": {
+    "root": {
+      "kind": "node",
+      "sourceNodeId": "n000000",
+      "status": "declared_assumption"
+    },
+    "rootState": {
+      "status": "rooted",
+      "basis": "hypothetical",
+      "explanation": "Explicitly hypothetical root at the supplied serialization origin for this synthetic sample.",
+      "referenceIds": []
+    },
+    "basis": {
+      "id": "basis-1",
+      "name": "Synthetic A–E topology",
+      "question": "Relationships in an explicitly synthetic A–E topology.",
+      "relationshipKind": "phylogeny",
+      "entityKind": "taxon-concepts",
+      "edgeMeaning": "Invented ancestry in a synthetic sample tree.",
+      "evidenceBasis": "No empirical evidence. A–E and their relationships were invented as sample data for authoring layouts.",
+      "sourceIds": [
+        "source-2d5b45ee4d72c2073426078289b5306355f9a4f8998b7233b8b872a357b5a652"
+      ],
+      "referenceIds": [],
+      "provider": "PhyloInk original sample",
+      "release": "A–E v1",
+      "retrievedAt": null,
+      "epistemicStatus": "teaching-example",
+      "limitations": "Does not describe real organisms. The C/D/E split is deliberately unresolved; drawing order does not resolve it.",
+      "rightsRecordIds": []
+    },
+    "corrections": [],
+    "childOrder": {},
+    "title": "Synthetic sample tree A–E",
+    "references": []
+  },
+  "tipIds": [
+    "n000002",
+    "n000003",
+    "n000005",
+    "n000006",
+    "n000007"
+  ],
+  "activities": [
+    {
+      "id": "unresolved-ancestor",
+      "kind": "ancestor",
+      "prompt": "Trace C and D toward the declared hypothetical root. Where do they first meet? Does this supplied fork establish that they are closer to one another than either is to E?",
+      "tipIds": [
+        "n000005",
+        "n000006"
+      ],
+      "layout": "rectangular",
+      "rotations": []
+    },
+    {
+      "id": "all-three",
+      "kind": "clade",
+      "prompt": "Select all descendants of the chosen unresolved fork. Explain what would be missing if you selected only two of them.",
+      "nodeId": "n000004",
+      "layout": "rectangular",
+      "rotations": []
+    },
+    {
+      "id": "rotate-fork",
+      "kind": "compare",
+      "prompt": "The unresolved fork is reversed in the second drawing. Did that resolve any closer pair or provide an evolutionary date?",
+      "layout": "rectangular",
+      "rotations": [
+        "n000004"
+      ]
+    }
+  ]
+}

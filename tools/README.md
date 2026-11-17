@@ -21,3 +21,7 @@ The last command needs ReportLab. `render-handouts.mjs` produces 300 dpi tempora
 Prepare geometry in the browser, not only in a Node process: different JavaScript engines can produce tiny trigonometric differences that affect strict saved-scene replay. Font measurement alone is not sufficient to establish browser compatibility. Open, save and export the resulting project in the actual application before changing its verification record.
 
 Regeneration changes document/operation identities and may change geometry with different browser fonts. Keep the resulting source/method/export records, repeat scientific answer checks, update the verification snapshot honestly, and rebuild archive inventories. Do not label an arbitrary regenerated file as reviewed just because it parses.
+
+## Local scenario checks
+
+`node tools/verify-scenarios.mjs` independently checks the two scenario files, their embedded-source hashes and the unchanged original ZIP/PDF hashes. Add `--app /path/to/phyloink` to run the application’s strict scenario reader from the explicitly supplied A02 checkout. Node.js 22.18 or later is required; no package installation or network requests are needed. This optional authoring path is not a dependency of the downloaded scenarios.

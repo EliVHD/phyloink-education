@@ -14,6 +14,12 @@ This is a finite showcase of what educators can do with **[PhyloInk — Phylogen
 
 Each pack contains a project, student handout in editable and printable forms, teacher answers and adaptation notes, labeled/unlabeled SVGs, scientific source records and verification details. Begin with the README inside the pack. A printed activity can be used without student devices. Open `.treeproject.json` files in PhyloInk to explore or adapt the drawings. Save a separate copy of your work.
 
+## Local interactive scenarios
+
+The [two local Learn scenarios](scenarios/README.md) are a separate A02 development addition: six mammals and an invented unresolved fork. They reuse question setups in Learn and save educator adaptations without learner answers or progress. Download either self-contained JSON file and use **Learn → Local activity scenarios → Open scenario**.
+
+These files require the tested A02 [development change](https://github.com/EliVHD/phyloink/pull/4), not a historical Clade Studio release. The [scenario workflow](https://github.com/EliVHD/phyloink/blob/7cee4a249a60ec5876db12c29fe58f458e8662c9/docs/LEARNING-SCENARIOS.md) and [updated Teacher’s Guide](https://github.com/EliVHD/phyloink/blob/7cee4a249a60ec5876db12c29fe58f458e8662c9/docs/teachers-guide.md) remain in the application repository. Their exact build, source hashes and browser checks are recorded in [scenario verification](scenarios/verification.json). Existing printable packs stay unchanged.
+
 ## Guides and other trees
 
 For the checked development build, the authoritative [usage guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/public/guide.html) and [Teacher's Guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/docs/teachers-guide.md) remain in the application repository. Both are included offline in the built application. Its header's **Guides** link opens the usage guide, which links to the Teacher's Guide.
@@ -24,7 +30,7 @@ The [annotated Newick directory](sources/README.md) gives educators additional s
 
 Examples are checked with **PhyloInk 0.1.2-dev.0**, an unreleased development build. Older Clade Studio releases retain their own names and release records. See [compatibility and verification](VERIFICATION.md) for the exact application commit/build and checks. Imported projects preserve their scientific sources and may need text remeasurement on another device. Geometry QA does not authenticate biological conclusions.
 
-Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. The application's future Learn, inheritance and population labs are planning items, not available features or promised lessons.
+Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. The separate Learn workspace and local scenarios are implemented in their recorded development changes; inheritance and population labs remain planning items, not available features or promised lessons.
 
 ## Reuse
 
