@@ -1,0 +1,26 @@
+{
+  "format": "phyloink-worksheet-context",
+  "version": 1,
+  "kind": "linkage",
+  "paper": "A4",
+  "build": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "7aeb6d1622db089ea2ff37583a7cb15885939c903b7c296ebfd9fe91ffeee730",
+    "manifest": "build-manifest.json"
+  },
+  "setup": {
+    "model": "linked-two-locus-v1",
+    "setup": {
+      "parent1": "AB/ab",
+      "parent2": "ab/ab",
+      "recombinationPercent": 10
+    },
+    "sample": {
+      "count": 100,
+      "seed": 1,
+      "included": true
+    }
+  }
+}
