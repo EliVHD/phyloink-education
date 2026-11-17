@@ -1,0 +1,31 @@
+Changing heterozygote fitness
+
+Predict both pre-sampling frequencies before running. Compare explicit genotype fitnesses, no-drift references and finite allele counts. This synthetic comparison is a reproducible demonstration, not a forecast for real populations.
+
+Both conditions: constant N = 100; 100 A and 100 a copies initially; 40 generations; 4 trials per condition (8 total), master seed 1. Relative AA/Aa/aa fitness: S1 = 1.2/1.1/1; S2 = 1.2/1.4/1. All six weights are explicit and fixed through time.
+
+Synthetic diploid autosomal A/a locus; closed constant-size population, random mating and non-overlapping generations. Expected random-mating genotype proportions are weighted by each condition’s fixed positive relative genotype fitnesses before 2N binomial gene-copy sampling. Fitness weights are relative contributions, not survival percentages or phenotype-dominance assignments. No individual genotypes, survival events or pedigrees are tracked. Conditions share N and initial A copies, but use separate seeded streams; matching trial numbers are not paired individuals or guaranteed counterfactuals. No mutation, migration, linked loci, changing environment, size changes, sex structure, zero-fitness extinction or empirical inference. Missing alleles stay absent; locus loss/fixation is not species extinction. Model N is an input, not an estimate of real populations. No traits or fitnesses are inferred from a tree.
+
+1. Which fitness weight changes? Predict the next A frequency before finite sampling in S1 and S2.
+
+
+
+Answer:
+
+2. Compare reference curves and finite paths. Why does phenotype dominance not assign heterozygote fitness?
+
+
+
+Answer:
+
+3. Does heterozygote advantage guarantee persistent variation? Explain what these few trials cannot establish.
+
+
+
+Answer:
+
+Sources and model:
+
+Original synthetic comparison setup; protocol selection-comparison-v1, underlying model wright-fisher-selection-v1. No organism dataset.
+
+Background: Graham Coop, Notes on Population Genetics (2013), diploid selection, https://gcbias.org/wp-content/uploads/2013/03/popgen_notes3.pdf ; MIT HST.508 population-genetics notes (2005), https://ocw.mit.edu/courses/hst-508-quantitative-genomics-fall-2005/aad420032640a927d69dc1a8b2a08750_hst508lecture1.pdf . Reading links only; no upstream text, figures or code bundled.

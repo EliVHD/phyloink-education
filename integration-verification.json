@@ -1,0 +1,121 @@
+{
+  "format": "phyloink-education-integration-verification",
+  "version": 1,
+  "verifiedAt": "2026-11-17",
+  "application": {
+    "repository": "https://github.com/EliVHD/phyloink",
+    "commit": "f1b1fd2e612eae38769a63376800a40a1d514e34",
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "e89fa465aad90b8a31766ac8998f5a9d29a4bbd4a5de1343b95dfe91616757d8",
+    "manifest": "build-manifest.json"
+  },
+  "educationResourcesReviewedAtCommit": "f9f6dfe0b8e6f639c8412af13662d0b0f3163423",
+  "preservation": {
+    "unchangedFiles": 236,
+    "exception": "Root README updated for merged status and current guide navigation. This integration record is new. All pre-existing resource and verification files retain exact bytes.",
+    "historicalRecordsNotRestamped": true
+  },
+  "checks": {
+    "typecheck": true,
+    "tests": 330,
+    "build": true,
+    "releaseAndDistributionTests": true,
+    "sourceChecksums": 171,
+    "offlineExtractedSourceRebuild": "Identical build ID after npm ci --offline, check and build.",
+    "browserWorkflows": [
+      "Legacy V3 import / V4 save",
+      "Tree Learn / scenario open-save / invalid-file isolation",
+      "Explore Complete source / Current drawing / saved scientific context",
+      "Five starting shapes / preview / discard / cancellation / undo / reopen",
+      "Inheritance / population / linkage / bottleneck / selection exact counts and bounds",
+      "Worksheet role separation / font measurement / oversize rejection / cancellation",
+      "Exact editor artwork, pins, QA, undo and unsaved-state isolation",
+      "Three education projects / all saved views / source bytes / exact scenes / exports",
+      "Desktop and 390-pixel narrow layouts / offline guide anchors and navigation"
+    ],
+    "browser": "Headless Microsoft Edge",
+    "worksheetPrintCases": 24,
+    "preservedHandouts": 8,
+    "renderedPDFPages": 122,
+    "visualPrintReview": "All rendered page contact sheets inspected; no clipping or overlapping content found.",
+    "educationHistoricalVerifiers": "All seven helpers passed against their applicable recorded builds; scenarios also validated against integrated main.",
+    "integratedModelCompatibility": [
+      {
+        "kind": "inheritance",
+        "historicalBuild": "6ee43e53cf74c99b90c86b70d2335acce50523389be678b0585b4dcaf87eb25f",
+        "exactModelResults": true
+      },
+      {
+        "kind": "population",
+        "historicalBuild": "787712302bae82a6bd532c89d78f8e905a62af0eedb5bb00f141d38611103b18",
+        "exactModelResults": true
+      },
+      {
+        "kind": "linkage",
+        "historicalBuild": "7aeb6d1622db089ea2ff37583a7cb15885939c903b7c296ebfd9fe91ffeee730",
+        "exactModelResults": true,
+        "worksheetContentMatchesWithHistoricalBuildStamp": true
+      },
+      {
+        "kind": "bottleneck",
+        "historicalBuild": "516dd576c53ed978984c0ea77d07bad8aa7a61dfb0e9836a8f0991732c47db8b",
+        "exactModelResults": true,
+        "worksheetContentMatchesWithHistoricalBuildStamp": true
+      },
+      {
+        "kind": "selection",
+        "historicalBuild": "ffa95d989f4fc5320e541c60930415cf710a1e2bc16721393e56803d60dc9c23",
+        "exactModelResults": true,
+        "worksheetContentMatchesWithHistoricalBuildStamp": true
+      }
+    ],
+    "educationPackInventories": [
+      {
+        "example": "01-common-ancestry",
+        "files": 38,
+        "zipSha256": "d2a58500430c5ca94f15513ff162965802da000da18563e3f5da3e6e397f7577"
+      },
+      {
+        "example": "02-one-tree",
+        "files": 63,
+        "zipSha256": "5c27d0ce71853cef98568c5de84587059f8aa582e302d1a89b70a6762e2d5eb5"
+      },
+      {
+        "example": "03-evidence-based-illustration",
+        "files": 38,
+        "zipSha256": "c8493e2bf8dc361576daacae755fcd5ad19403d048cff219db0efa069fa81083"
+      }
+    ]
+  },
+  "localApplicationArchives": {
+    "browser": {
+      "files": 97,
+      "sha256": "f4219e9f0bee6948840eaf589272f60d6ad3762fb5a911caafc3d2f753913a1c",
+      "bytes": 3317419,
+      "archiveEntries": 98,
+      "note": "Payload file count excludes the internal release-manifest.json."
+    },
+    "source": {
+      "files": 168,
+      "sha256": "768a153e90fe0a46dc9bc7760a659c0b5de4e4d9cc4a63230f8afaba2fdc6e9d",
+      "bytes": 4542087,
+      "archiveEntries": 169,
+      "note": "Payload file count excludes the internal release-manifest.json."
+    }
+  },
+  "limitations": [
+    "Insect v2 was unavailable at its dated review and remains untested.",
+    "Ensembl, GTDB and TreeHub remain documented references, not import-tested sources.",
+    "Browser checks used Microsoft Edge on Windows; physical printer/device-specific font output was not tested.",
+    "Geometry findings are not biological validation."
+  ],
+  "publication": {
+    "releasePublished": false,
+    "releaseUploaded": false,
+    "tagsChanged": false,
+    "historicalAssetsReplaced": false,
+    "visibilityChanged": false
+  }
+}

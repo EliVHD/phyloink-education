@@ -1,0 +1,25 @@
+import {readFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),folder=resolve(root,'labs/selection'),sha=bytes=>createHash('sha256').update(bytes).digest('hex');
+const manifest=JSON.parse(await readFile(resolve(folder,'manifest.json'),'utf8')),record=JSON.parse(await readFile(resolve(folder,'verification.json'),'utf8')),activity=JSON.parse(await readFile(resolve(folder,'activity.json'),'utf8'));
+assert.equal(manifest.format,'phyloink-selection-walkthrough-inventory');assert.equal(manifest.version,1);
+const expected=['LICENSE','README.md','SOURCES.md','activity.json','condition-1.svg','condition-2.svg','context.json','selection-comparison-counts.csv','student-handout.html','student-handout.pdf','student-handout.txt','teacher-notes.md','verification.json'];
+assert.deepEqual(manifest.files.map(file=>file.path).sort(),expected);assert.deepEqual((await readdir(folder)).sort(),[...expected,'manifest.json'].sort());
+for(const entry of manifest.files){const bytes=await readFile(resolve(folder,entry.path));assert.equal(sha(bytes),entry.sha256,entry.path);assert.equal(bytes.length,entry.bytes);}
+assert.equal(record.olderResources.length,49);
+for(const entry of record.olderResources){assert.match(entry.path,/^(?:scenarios|worksheet-export|labs\/(?:inheritance|population|linkage|bottleneck))\/[A-Za-z0-9][A-Za-z0-9.-]*$/);const bytes=await readFile(resolve(root,entry.path));assert.equal(sha(bytes),entry.sha256,entry.path);assert.equal(bytes.length,entry.bytes);}
+assert.equal(activity.format,'phyloink-selection-walkthrough');assert.equal(activity.version,1);assert.equal(activity.model,'selection-comparison-v1');assert.deepEqual(activity.setup,{size:100,aCopies:100,generations:40,replicates:4,seed:1,fitness1:{AA:1.2,Aa:1.1,aa:1},fitness2:{AA:1.2,Aa:1.4,aa:1}});assert.equal(activity.prompts.length,3);assert.ok(record.handout.everyPageVisuallyInspected);
+const index=process.argv.indexOf('--app');
+if(index>=0){const app=resolve(process.argv[index+1]),build=JSON.parse(await readFile(resolve(app,'dist/build-info.json'),'utf8'));assert.equal(build.buildId,record.application.buildId);const model=await import(pathToFileURL(resolve(app,'src/learn/selection.ts')).href),api=await import(pathToFileURL(resolve(app,'src/learn/worksheet.ts')).href),result=model.simulateSelectionComparison(activity.setup);
+assert.deepEqual(result.conditions.map(c=>c.population.trials.map(t=>[t.counts[1],t.counts[20],t.counts[40]])),[[[108,181,192],[104,167,183],[98,175,200],[103,177,200]],[[96,129,161],[111,169,121],[104,130,150],[108,134,137]]]);
+assert.ok(Math.abs(result.conditions[0].population.reference[1]-23/44)<1e-14);assert.ok(Math.abs(result.conditions[1].population.reference[1]-13/25)<1e-14);assert.deepEqual(result.conditions[0].population.trials[2].boundary,{generation:40,kind:'A fixed'});assert.deepEqual(result.conditions[0].population.trials[3].boundary,{generation:39,kind:'A fixed'});assert.ok(result.conditions[1].population.trials.every(t=>!t.boundary));
+const options={title:activity.title,instructions:activity.instructions,teacherNotes:'',paper:'A4',answerLines:3,tipCodes:true,includeData:true,prompts:activity.prompts},capture={kind:'selection',setup:activity.setup},sheet=await api.prepareWorksheet(capture,options,build),student=await api.worksheetPackage(sheet,'student');
+for(const[target,source]of[['student-handout.html','student.html'],['student-handout.txt','student.txt'],['condition-1.svg','figures/selection-s1-student.svg'],['condition-2.svg','figures/selection-s2-student.svg'],['context.json','context.json'],['selection-comparison-counts.csv','selection-comparison-counts.csv']])assert.equal(await readFile(resolve(folder,target),'utf8'),student.files[source],target);
+assert.equal(student.files['selection-comparison-counts.csv'].trim().split('\r\n').length,329);assert.doesNotMatch(student.files['student.html'],/data-selection-reference|data-selection-cursor/);
+const teacherSheet=await api.prepareWorksheet(capture,{...options,teacherNotes:'PRIVATE_VERIFICATION_NOTE'},build),teacher=await api.worksheetPackage(teacherSheet,'teacher');assert.ok(!JSON.stringify(student.files).includes('PRIVATE_VERIFICATION_NOTE'));assert.ok(!student.files['authoring.json']&&teacher.files['authoring.json']);assert.match(teacher.files['teacher.html'],/PRIVATE_VERIFICATION_NOTE/);
+for(const id of['s1','s2']){assert.ok(!student.files[`figures/selection-${id}-teacher.svg`]&&!teacher.files[`figures/selection-${id}-student.svg`]);assert.match(teacher.files[`figures/selection-${id}-teacher.svg`],/data-selection-reference/);}
+}
+console.log('One selection example: exact files/hashes and 49 earlier resources'+(index>=0?', pinned build, analytic references, seeded counts, worksheet regeneration and roles':'')+' verified. Print review is separately recorded.');
