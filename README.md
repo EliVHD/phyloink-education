@@ -28,6 +28,10 @@ The [A03 development addition](https://github.com/EliVHD/phyloink/pull/7) provid
 
 The [A04 development addition](https://github.com/EliVHD/phyloink/pull/8) provides [two synthetic population walkthroughs](labs/population/README.md): genetic drift and selection with drift at one diploid locus. Explicit manual settings, an editable configuration/HTML handout, two-page PDF, teacher reasoning and model limits accompany the two independent demonstrations. Use the exact unreleased application build in their verification record. These are not empirical population estimates, saved lab scenarios, a course or a continuing lesson programme. Existing tree packs, scenarios and inheritance materials remain separate and unchanged.
 
+## Export your own worksheet
+
+The [A05 development addition](https://github.com/EliVHD/phyloink/pull/9) provides an [adaptation/export workflow](worksheet-export/README.md) for these existing resources. In Learn, use **Create worksheet** to edit prompts/instructions, preview A4/Letter and download separate student and teacher packages. Current/kept tree questions and current synthetic lab settings are supported; learner responses/progress and editor artwork are excluded. Printable offline HTML, editable text/SVG and exact source/model/hash context keep the work reusable. The workflow records its tested application build and preserves existing packs/handouts rather than adding more lessons. Both authoritative guides remain in the application repository.
+
 ## Guides and other trees
 
 For the checked development build, the authoritative [usage guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/public/guide.html) and [Teacher's Guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/docs/teachers-guide.md) remain in the application repository. Both are included offline in the built application. Its header's **Guides** link opens the usage guide, which links to the Teacher's Guide.
@@ -38,7 +42,7 @@ The [annotated Newick directory](sources/README.md) gives educators additional s
 
 Examples are checked with **PhyloInk 0.1.2-dev.0**, an unreleased development build. Older Clade Studio releases retain their own names and release records. See [compatibility and verification](VERIFICATION.md) for the exact application commit/build and checks. Imported projects preserve their scientific sources and may need text remeasurement on another device. Geometry QA does not authenticate biological conclusions.
 
-Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. Learn's local tree scenarios, A03 inheritance lab and A04 population lab are implemented in their recorded development changes. Worksheet export and individually scoped advanced experiments remain separate planning items, not promised lessons. Synthetic labs do not infer genotypes or empirical populations from a tree.
+Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. Learn's local tree scenarios, A03 inheritance lab, A04 population lab and A05 worksheet export are implemented in their recorded development changes. Individually scoped advanced experiments remain separate planning items, not promised lessons. Synthetic labs do not infer genotypes or empirical populations from a tree.
 
 ## Reuse
 

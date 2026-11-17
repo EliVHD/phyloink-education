@@ -1,0 +1,230 @@
+{
+  "verifiedAt": "2026-11-16",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "b1bae13b74511cd7d2ee49b641d1aa2d25afaa90",
+    "buildId": "1049d9382573297b4ee1a736f674cc988191309deccd165408bd0e9ac03a48c1",
+    "version": "0.1.2-dev.0",
+    "guide": "https://github.com/EliVHD/phyloink/blob/b1bae13b74511cd7d2ee49b641d1aa2d25afaa90/docs/WORKSHEETS.md",
+    "releaseStatus": "Unreleased development; separate A05 draft change stacked on A04. Historical releases unchanged.",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/9"
+  },
+  "scope": "Adaptation workflow for existing resources; no new lesson, handout pack, empirical source or importable lab format.",
+  "browser": {
+    "engine": "Microsoft Edge",
+    "viewports": [
+      "1440 x 1050",
+      "390 x 844"
+    ],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "learnerStateExcluded": true,
+    "editorStateUnchanged": true,
+    "sourceBytesAndRightsPreserved": true,
+    "actualApplicationChecks": [
+      "Current/unkept and all-kept tree question scope, own prompts/instructions/notes, A4/Letter, separate role ZIPs and optional data controls.",
+      "Sandboxed static previews visibly render; no executable embeds, automatic URL fetching or learner overlays.",
+      "Student package excludes educator notes, configured references, teacher authoring record and teacher population reference plot.",
+      "Seed-derived inheritance counts and complete population trial/generation CSV independently match the configured model.",
+      "Captured setups do not copy learner predictions/feedback/progress or manipulated sample DOM.",
+      "Editing/closing cancels pending font preparation and invalidates previews/downloads. Oversized tree labels reject without shrinking; tip codes fit.",
+      "Exact saved scenario/practice and dirty/saved editor project, artwork, pins, QA, selection/camera/history and undo remain unchanged."
+    ]
+  },
+  "printCases": [
+    {
+      "kind": "tree-A4-student",
+      "pages": 5,
+      "paper": "A4"
+    },
+    {
+      "kind": "tree-A4-teacher",
+      "pages": 5,
+      "paper": "A4"
+    },
+    {
+      "kind": "tree-Letter-student",
+      "pages": 5,
+      "paper": "Letter"
+    },
+    {
+      "kind": "tree-Letter-teacher",
+      "pages": 5,
+      "paper": "Letter"
+    },
+    {
+      "kind": "inheritance-A4-student",
+      "pages": 3,
+      "paper": "A4"
+    },
+    {
+      "kind": "inheritance-A4-teacher",
+      "pages": 4,
+      "paper": "A4"
+    },
+    {
+      "kind": "inheritance-Letter-student",
+      "pages": 3,
+      "paper": "Letter"
+    },
+    {
+      "kind": "inheritance-Letter-teacher",
+      "pages": 4,
+      "paper": "Letter"
+    },
+    {
+      "kind": "population-A4-student",
+      "pages": 3,
+      "paper": "A4"
+    },
+    {
+      "kind": "population-A4-teacher",
+      "pages": 4,
+      "paper": "A4"
+    },
+    {
+      "kind": "population-Letter-student",
+      "pages": 3,
+      "paper": "Letter"
+    },
+    {
+      "kind": "population-Letter-teacher",
+      "pages": 4,
+      "paper": "Letter"
+    }
+  ],
+  "printReview": {
+    "generator": "Edge Print / Save as PDF from each exported HTML; native A4/Letter CSS paper at 100%.",
+    "renderer": "Poppler pdftoppm at 1000-pixel page height.",
+    "everyPageVisuallyInspected": true,
+    "checks": [
+      "All three modules, both audiences and both paper sizes: 12 print cases.",
+      "PDF media boxes, nonblank text, source/model notes and audience boundaries verified with pypdf.",
+      "Every rendered page checked for clipped text/figures and orphan answer-line/table pagination.",
+      "Tree fonts measured in the actual browser; visible geometry/font findings retained. Printing should be reviewed again on the intended device."
+    ]
+  },
+  "existingResources": [
+    {
+      "path": "scenarios/README.md",
+      "bytes": 4642,
+      "sha256": "539fe000f5b39f71819451e055cd877a2a92a822d96fdd99eeafc6fe7bc51696"
+    },
+    {
+      "path": "scenarios/six-mammals.phyloink-activity.json",
+      "bytes": 311711,
+      "sha256": "7755a7a9a2e577b735dd90e23be2b42b15eea25f2ab978087e0bdb0da6261755"
+    },
+    {
+      "path": "scenarios/unresolved-fork.phyloink-activity.json",
+      "bytes": 3467,
+      "sha256": "4aea3bd20437ebb9a3c018d70d4b65ff47bc069d0708f3e6dd21a78617343914"
+    },
+    {
+      "path": "scenarios/verification.json",
+      "bytes": 2610,
+      "sha256": "0e93b012910f658a3610e550938821a853a6760a4241697003df4df34d53b9e0"
+    },
+    {
+      "path": "labs/inheritance/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/inheritance/README.md",
+      "bytes": 3017,
+      "sha256": "d5396e7353398ab42ae2f97d0de12ad39dc8e4462c973bcf4a372e7538807d58"
+    },
+    {
+      "path": "labs/inheritance/SOURCES.md",
+      "bytes": 2020,
+      "sha256": "7dc0ce113322b905ed81684deb0367e103b7db98619eb271cdd734e0a2574464"
+    },
+    {
+      "path": "labs/inheritance/activity.json",
+      "bytes": 2286,
+      "sha256": "15c110b8b1ebdb98dcda538ea6f7c75a4b6881c6f9add93be635e39f49b8ba47"
+    },
+    {
+      "path": "labs/inheritance/manifest.json",
+      "bytes": 1335,
+      "sha256": "61911308ac0f17760354a805164d0d73f45ef44b155d9c15041a9a6e66435857"
+    },
+    {
+      "path": "labs/inheritance/student-handout.html",
+      "bytes": 4181,
+      "sha256": "490ff71e40dadc28aff5cb962fd426339255ed23d37303fffdcdd441f28dafd4"
+    },
+    {
+      "path": "labs/inheritance/student-handout.pdf",
+      "bytes": 4564,
+      "sha256": "5993fbc8c0c15c4920501f4e8ddafd1188b992b37d49cbf9482071a301ffbec5"
+    },
+    {
+      "path": "labs/inheritance/teacher-notes.md",
+      "bytes": 3422,
+      "sha256": "ff402b0d534417daf8f087876e7b3832df79043ad87cbbba23cda2cf4b59325b"
+    },
+    {
+      "path": "labs/inheritance/verification.json",
+      "bytes": 2876,
+      "sha256": "cdbb62e159e5b16b1b645e76f75f5fbb59c667c9e114e42b585e6905859873ad"
+    },
+    {
+      "path": "labs/population/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/population/README.md",
+      "bytes": 3237,
+      "sha256": "a346d8d1927f9480732a5c7974fafefca87073f7a6565cd4e8d643ace27d9736"
+    },
+    {
+      "path": "labs/population/SOURCES.md",
+      "bytes": 2765,
+      "sha256": "b2e5570f997bf36f7f391827b16ac9e42aef1e0239d844e58eae756447fcd1b5"
+    },
+    {
+      "path": "labs/population/activity.json",
+      "bytes": 2774,
+      "sha256": "1d2f113ee43017d66574ddebe003023937eb4f1e38e18f4b5565f6d72051dcd3"
+    },
+    {
+      "path": "labs/population/manifest.json",
+      "bytes": 1334,
+      "sha256": "767860069374399207d3294233e3112236aaeba1bbc8369e866a5b736ecd9af7"
+    },
+    {
+      "path": "labs/population/student-handout.html",
+      "bytes": 4713,
+      "sha256": "36fff34865ebf50b8437c7f5c4239fa97ca32ef0acdba1904f111911f65b24df"
+    },
+    {
+      "path": "labs/population/student-handout.pdf",
+      "bytes": 4859,
+      "sha256": "9504198e1e35c5b76f9029390b52ca234f9753fe6c2d832575907da53fb39ed9"
+    },
+    {
+      "path": "labs/population/teacher-notes.md",
+      "bytes": 4200,
+      "sha256": "910807f2916a17d1847cd51d32f9598768c049d6d4b191902b074f3015a173ca"
+    },
+    {
+      "path": "labs/population/verification.json",
+      "bytes": 3085,
+      "sha256": "5f40cfc7f7fbcfff5681355945f2b8bf81f72ae0ea8a0230968208e1461ce32b"
+    }
+  ],
+  "validation": {
+    "applicationTests": 293,
+    "newWorksheetTests": 10,
+    "strictTypes": true,
+    "build": true,
+    "exactArchiveInventories": true,
+    "sourceChecksums": 156,
+    "offlineExtractedSourceRebuildMatches": true,
+    "workflowCommand": "node tools/verify-worksheet-workflow.mjs --app /path/to/phyloink"
+  },
+  "limits": "Configured references follow the source/model task rather than interpreting custom wording. Educators review them and put custom answers/adaptations in teacher-only notes. Export context/authoring JSON is not an application import format. No worksheet reimport, learner tracking or continuing lesson/support commitment. Original resources and historical verification records remain unchanged."
+}
