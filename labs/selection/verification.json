@@ -1,0 +1,430 @@
+{
+  "verifiedAt": "2026-11-17",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "49dab3e1e4d89cf91d2de24fd6f91fc93ffedce3",
+    "buildId": "ffa95d989f4fc5320e541c60930415cf710a1e2bc16721393e56803d60dc9c23",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/12",
+    "guide": "https://github.com/EliVHD/phyloink/blob/49dab3e1e4d89cf91d2de24fd6f91fc93ffedce3/docs/SELECTION-COMPARISONS.md",
+    "releaseStatus": "Unreleased A06.3 draft stacked on A06.2; historical releases unchanged."
+  },
+  "scope": "One adaptable synthetic comparison; shared N/initial copies/horizon, two explicit positive genotype-fitness triplets. Only heterozygote fitness differs in this example. Manual configuration/context are not application import formats.",
+  "model": "selection-comparison-v1",
+  "underlyingModel": "wright-fisher-selection-v1",
+  "modelChecks": {
+    "setup": {
+      "size": 100,
+      "aCopies": 100,
+      "generations": 40,
+      "replicates": 4,
+      "seed": 1,
+      "fitness1": {
+        "AA": 1.2,
+        "Aa": 1.1,
+        "aa": 1
+      },
+      "fitness2": {
+        "AA": 1.2,
+        "Aa": 1.4,
+        "aa": 1
+      }
+    },
+    "firstReferenceFractions": {
+      "S1": "23/44",
+      "S2": "13/25"
+    },
+    "finalReferences": {
+      "S1": 0.9718090829706616,
+      "S2": 0.6650649792636455
+    },
+    "S2InteriorNoDriftEquilibrium": "2/3; not guaranteed finite persistence",
+    "selectedACounts": {
+      "S1": [
+        [
+          108,
+          181,
+          192
+        ],
+        [
+          104,
+          167,
+          183
+        ],
+        [
+          98,
+          175,
+          200
+        ],
+        [
+          103,
+          177,
+          200
+        ]
+      ],
+      "S2": [
+        [
+          96,
+          129,
+          161
+        ],
+        [
+          111,
+          169,
+          121
+        ],
+        [
+          104,
+          130,
+          150
+        ],
+        [
+          108,
+          134,
+          137
+        ]
+      ]
+    },
+    "selectedGenerations": [
+      1,
+      20,
+      40
+    ],
+    "boundaries": {
+      "S1-3": {
+        "generation": 40,
+        "kind": "A fixed"
+      },
+      "S1-4": {
+        "generation": 39,
+        "kind": "A fixed"
+      }
+    },
+    "completeCsvRecords": 328,
+    "csvBytes": "Original worksheet UTF-8/CRLF bytes preserved by scoped .gitattributes; integer N/A/a authoritative, p_A derived.",
+    "limits": "N 2–500; A copies 0–2N integer; 1–100 generations; 1–4 trials per condition/eight total; six fitnesses 0.05–2; uint32 seed; all 808 records and at most 800000 potential draws."
+  },
+  "handout": {
+    "pages": 4,
+    "paper": "A4",
+    "editablePresentation": "student-handout.html",
+    "editableText": "student-handout.txt",
+    "figures": [
+      "condition-1.svg",
+      "condition-2.svg"
+    ],
+    "data": "selection-comparison-counts.csv",
+    "generator": "tools/render-selection.mjs through the app worksheet renderer; Edge Print / Save as PDF at 100%.",
+    "everyPageVisuallyInspected": true,
+    "renderer": "Poppler pdftoppm at 1350-pixel page height; pypdf paper/text/role checks.",
+    "teacherAnswers": "teacher-notes.md, separate from student files",
+    "noRemoteAssets": true
+  },
+  "browser": {
+    "engine": "Edge",
+    "viewports": [
+      "1600 x 1050",
+      "390 x 844"
+    ],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "horizontalPageOverflow": false,
+    "exactFrequencyCounts": true,
+    "replayAndBounds": true,
+    "absorbingStates": true,
+    "all808Records": true,
+    "maximumSvgTextInBounds": true,
+    "sideBySide": true,
+    "learnerStateExcluded": true,
+    "roleSeparation": true,
+    "otherModulesPreserved": true,
+    "pendingDemoDiscarded": true,
+    "dirtyAndSavedEditorStateExact": true,
+    "resetAndNoRootDependency": true
+  },
+  "printChecks": [
+    {
+      "kind": "selection-A4-student",
+      "pages": 4,
+      "paper": "A4",
+      "everyPageVisuallyInspected": true
+    },
+    {
+      "kind": "selection-A4-teacher",
+      "pages": 5,
+      "paper": "A4",
+      "everyPageVisuallyInspected": true
+    },
+    {
+      "kind": "selection-Letter-student",
+      "pages": 4,
+      "paper": "Letter",
+      "everyPageVisuallyInspected": true
+    },
+    {
+      "kind": "selection-Letter-teacher",
+      "pages": 5,
+      "paper": "Letter",
+      "everyPageVisuallyInspected": true
+    }
+  ],
+  "applicationChecks": {
+    "strictTypes": true,
+    "testsPassed": 330,
+    "build": true,
+    "browserArchiveFiles": 98,
+    "sourceArchiveFiles": 169,
+    "sourceChecksums": 171,
+    "exactArchiveInventoriesAndHashes": true,
+    "extractedSourceOfflineInstallCheckAndMatchingBuild": true,
+    "earlierWorksheetAndBottleneckBrowserRegressions": true
+  },
+  "olderResources": [
+    {
+      "path": "scenarios/README.md",
+      "bytes": 4642,
+      "sha256": "539fe000f5b39f71819451e055cd877a2a92a822d96fdd99eeafc6fe7bc51696"
+    },
+    {
+      "path": "scenarios/six-mammals.phyloink-activity.json",
+      "bytes": 311711,
+      "sha256": "7755a7a9a2e577b735dd90e23be2b42b15eea25f2ab978087e0bdb0da6261755"
+    },
+    {
+      "path": "scenarios/unresolved-fork.phyloink-activity.json",
+      "bytes": 3467,
+      "sha256": "4aea3bd20437ebb9a3c018d70d4b65ff47bc069d0708f3e6dd21a78617343914"
+    },
+    {
+      "path": "scenarios/verification.json",
+      "bytes": 2610,
+      "sha256": "0e93b012910f658a3610e550938821a853a6760a4241697003df4df34d53b9e0"
+    },
+    {
+      "path": "labs/inheritance/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/inheritance/README.md",
+      "bytes": 3017,
+      "sha256": "d5396e7353398ab42ae2f97d0de12ad39dc8e4462c973bcf4a372e7538807d58"
+    },
+    {
+      "path": "labs/inheritance/SOURCES.md",
+      "bytes": 2020,
+      "sha256": "7dc0ce113322b905ed81684deb0367e103b7db98619eb271cdd734e0a2574464"
+    },
+    {
+      "path": "labs/inheritance/activity.json",
+      "bytes": 2286,
+      "sha256": "15c110b8b1ebdb98dcda538ea6f7c75a4b6881c6f9add93be635e39f49b8ba47"
+    },
+    {
+      "path": "labs/inheritance/manifest.json",
+      "bytes": 1335,
+      "sha256": "61911308ac0f17760354a805164d0d73f45ef44b155d9c15041a9a6e66435857"
+    },
+    {
+      "path": "labs/inheritance/student-handout.html",
+      "bytes": 4181,
+      "sha256": "490ff71e40dadc28aff5cb962fd426339255ed23d37303fffdcdd441f28dafd4"
+    },
+    {
+      "path": "labs/inheritance/student-handout.pdf",
+      "bytes": 4564,
+      "sha256": "5993fbc8c0c15c4920501f4e8ddafd1188b992b37d49cbf9482071a301ffbec5"
+    },
+    {
+      "path": "labs/inheritance/teacher-notes.md",
+      "bytes": 3422,
+      "sha256": "ff402b0d534417daf8f087876e7b3832df79043ad87cbbba23cda2cf4b59325b"
+    },
+    {
+      "path": "labs/inheritance/verification.json",
+      "bytes": 2876,
+      "sha256": "cdbb62e159e5b16b1b645e76f75f5fbb59c667c9e114e42b585e6905859873ad"
+    },
+    {
+      "path": "labs/population/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/population/README.md",
+      "bytes": 3237,
+      "sha256": "a346d8d1927f9480732a5c7974fafefca87073f7a6565cd4e8d643ace27d9736"
+    },
+    {
+      "path": "labs/population/SOURCES.md",
+      "bytes": 2765,
+      "sha256": "b2e5570f997bf36f7f391827b16ac9e42aef1e0239d844e58eae756447fcd1b5"
+    },
+    {
+      "path": "labs/population/activity.json",
+      "bytes": 2774,
+      "sha256": "1d2f113ee43017d66574ddebe003023937eb4f1e38e18f4b5565f6d72051dcd3"
+    },
+    {
+      "path": "labs/population/manifest.json",
+      "bytes": 1334,
+      "sha256": "767860069374399207d3294233e3112236aaeba1bbc8369e866a5b736ecd9af7"
+    },
+    {
+      "path": "labs/population/student-handout.html",
+      "bytes": 4713,
+      "sha256": "36fff34865ebf50b8437c7f5c4239fa97ca32ef0acdba1904f111911f65b24df"
+    },
+    {
+      "path": "labs/population/student-handout.pdf",
+      "bytes": 4859,
+      "sha256": "9504198e1e35c5b76f9029390b52ca234f9753fe6c2d832575907da53fb39ed9"
+    },
+    {
+      "path": "labs/population/teacher-notes.md",
+      "bytes": 4200,
+      "sha256": "910807f2916a17d1847cd51d32f9598768c049d6d4b191902b074f3015a173ca"
+    },
+    {
+      "path": "labs/population/verification.json",
+      "bytes": 3085,
+      "sha256": "5f40cfc7f7fbcfff5681355945f2b8bf81f72ae0ea8a0230968208e1461ce32b"
+    },
+    {
+      "path": "labs/linkage/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/linkage/README.md",
+      "bytes": 3508,
+      "sha256": "af33c97239ebc196bff75f7370a0f5af6732e3fd0803837bd9742d8d214979b7"
+    },
+    {
+      "path": "labs/linkage/SOURCES.md",
+      "bytes": 1932,
+      "sha256": "75954f421cbf67ba1675bb88dde380f3d451f7cc6eb490a29521a5b84c520b26"
+    },
+    {
+      "path": "labs/linkage/activity.json",
+      "bytes": 1138,
+      "sha256": "890a1baddcdc2af842f2787533db777d337a9264896624d218ffde019186bad7"
+    },
+    {
+      "path": "labs/linkage/context.json",
+      "bytes": 566,
+      "sha256": "6000f1b7f60c26a6c50680a833b83f2f5a9ed1ce40de5b765af41b92cef47f64"
+    },
+    {
+      "path": "labs/linkage/manifest.json",
+      "bytes": 1727,
+      "sha256": "5f0d3e3145f8bd1492dd51ca12304b9399cc36278c4d5e1e62d2345b3555f3df"
+    },
+    {
+      "path": "labs/linkage/parents.svg",
+      "bytes": 2204,
+      "sha256": "5964651002a0d30171ef0ea1a717e091b3c2c237f452d451a883910e3e2ab52f"
+    },
+    {
+      "path": "labs/linkage/student-handout.html",
+      "bytes": 8362,
+      "sha256": "19da6d4c0e15a398d2e5a0a5c013493bcf15dbc07a52cd7c150d3931b8e5c40c"
+    },
+    {
+      "path": "labs/linkage/student-handout.pdf",
+      "bytes": 66262,
+      "sha256": "21867761b52ac004172c84e3a1a70dff8b28f21b836589d493b67ed333d55559"
+    },
+    {
+      "path": "labs/linkage/student-handout.txt",
+      "bytes": 1822,
+      "sha256": "26fae862e77d7ce06e33fe30f17490f49a8d2d7a602098b7c580734b79637e4c"
+    },
+    {
+      "path": "labs/linkage/teacher-notes.md",
+      "bytes": 3347,
+      "sha256": "10c4088ba38e4c35289d8193ee7791041da2590e51fce60288353150cf2c6966"
+    },
+    {
+      "path": "labs/linkage/verification.json",
+      "bytes": 3470,
+      "sha256": "16cdd62ad49a824c80fc8edd6bded8e85e77f852a4a38b5a06c1912bb6a9f352"
+    },
+    {
+      "path": "worksheet-export/README.md",
+      "bytes": 4862,
+      "sha256": "48e0c7fed5c49bd74ba2073119cc1805f849c9a27d9ec23a182ae9b8a8f78913"
+    },
+    {
+      "path": "worksheet-export/verification.json",
+      "bytes": 8184,
+      "sha256": "ae918e88e7c9e2cb445b03df4958f5dbec0ae43368334959a232c1f118a11d81"
+    },
+    {
+      "path": "labs/bottleneck/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/bottleneck/README.md",
+      "bytes": 4080,
+      "sha256": "02ae925fcec48dd16e4d36d486859e3363c0bbc4ac2f12485616d12aafb1cfdc"
+    },
+    {
+      "path": "labs/bottleneck/SOURCES.md",
+      "bytes": 2141,
+      "sha256": "54b37785c2649a7b588fa9890ad5f9c88e7223d92c01b92e1a6ceb901a02c4c5"
+    },
+    {
+      "path": "labs/bottleneck/activity.json",
+      "bytes": 1369,
+      "sha256": "cab075c6e6cee42d010a25ff30363f1c0993ac8e488d1cb6c4c3c349046bfb9a"
+    },
+    {
+      "path": "labs/bottleneck/bottleneck-counts.csv",
+      "bytes": 13635,
+      "sha256": "6b4f6699a0df20633e2d5b4abbc82a176ba4c393fca5da37aee2d97e75c821d4"
+    },
+    {
+      "path": "labs/bottleneck/context.json",
+      "bytes": 1021,
+      "sha256": "f755a74ebff750f30186f2e8ce83702ff0095ea3c9704a4d6cdfc27c4e72cdb8"
+    },
+    {
+      "path": "labs/bottleneck/manifest.json",
+      "bytes": 1889,
+      "sha256": "a664e261e61788520c29579bfff10d44f439ce4630988eaab55a6bcd3547fe42"
+    },
+    {
+      "path": "labs/bottleneck/paths.svg",
+      "bytes": 9389,
+      "sha256": "d216dfa1d0fc1a8cb8b53854c4f1658ed2e97c3f413d3b63733ed921bc0eff98"
+    },
+    {
+      "path": "labs/bottleneck/student-handout.html",
+      "bytes": 16687,
+      "sha256": "01b9c52bdd8dc0a537fabaec2f1862c09174aba8fe4b7b6319ac1bb549df726b"
+    },
+    {
+      "path": "labs/bottleneck/student-handout.pdf",
+      "bytes": 103858,
+      "sha256": "b3c83248b764582023285efd5bed03780d3ef8f99a1de4a76b59c647765c3b07"
+    },
+    {
+      "path": "labs/bottleneck/student-handout.txt",
+      "bytes": 2313,
+      "sha256": "b28e6ede59d19450e9b6f27c54b78f0624ac464ae29eaa55f5bde646e271a7df"
+    },
+    {
+      "path": "labs/bottleneck/teacher-notes.md",
+      "bytes": 3993,
+      "sha256": "455ce2ec3607e39e587cccb167aaca6f93bb582364318516c4ac45ba85916940"
+    },
+    {
+      "path": "labs/bottleneck/verification.json",
+      "bytes": 10120,
+      "sha256": "7ca1b6279baf71141fd1407969e0e28adaac35f0a8bed67fb87c9fe4eccbbee5"
+    }
+  ],
+  "limits": "Synthetic relative contributions, not survival percentages, observed genotypes, phenotype-dominance assignments or tree/empirical inference. No-drift recursion is not a finite mean; balance does not guarantee finite persistence. Separate streams, not paired individuals or guaranteed counterfactuals. A few paths do not establish selection, fixation probability or condition ranking. No mutation/migration, linked loci, changing environment, size changes, sex structure or zero-fitness extinction. No continuing lesson/support commitment."
+}

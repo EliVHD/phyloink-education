@@ -1,0 +1,42 @@
+{
+  "format": "phyloink-worksheet-context",
+  "version": 1,
+  "kind": "selection",
+  "paper": "A4",
+  "build": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "ffa95d989f4fc5320e541c60930415cf710a1e2bc16721393e56803d60dc9c23",
+    "manifest": "build-manifest.json"
+  },
+  "setup": {
+    "model": "selection-comparison-v1",
+    "underlyingModel": "wright-fisher-selection-v1",
+    "setup": {
+      "size": 100,
+      "aCopies": 100,
+      "generations": 40,
+      "replicates": 4,
+      "seed": 1,
+      "fitness1": {
+        "AA": 1.2,
+        "Aa": 1.1,
+        "aa": 1
+      },
+      "fitness2": {
+        "AA": 1.2,
+        "Aa": 1.4,
+        "aa": 1
+      }
+    },
+    "sampleDataIncluded": true,
+    "selectedPrintedGenerations": [
+      0,
+      20,
+      40
+    ],
+    "numericalColumns": "Integer N/A/a counts are authoritative; p_A is derived numerically.",
+    "trialStreams": "Underlying Mulberry32 v1 protocol; S1 uses the master seed; S2 uses master + 0xc2b2ae35 modulo 2^32, then the same trial-index offsets. Conditions are separate streams, not paired individuals."
+  }
+}

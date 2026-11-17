@@ -35,3 +35,9 @@ Regeneration changes document/operation identities and may change geometry with 
 ## Local scenario checks
 
 `node tools/verify-scenarios.mjs` independently checks the two scenario files, their embedded-source hashes and the unchanged original ZIP/PDF hashes. Add `--app /path/to/phyloink` to run the application’s strict scenario reader from the explicitly supplied A02 checkout. Node.js 22.18 or later is required; no package installation or network requests are needed. This optional authoring path is not a dependency of the downloaded scenarios.
+
+## Selection comparison authoring and checks
+
+`node tools/render-selection.mjs --app /path/to/phyloink` regenerates this one example from `labs/selection/activity.json` through the explicitly supplied application worksheet renderer. Optional `--playwright-module /path/to/playwright/index.mjs --browser-channel msedge` also prints its PDF with an installed browser. No dependencies or network requests are added to downloaded materials. Review every page and refresh the inventory/verification after regeneration.
+
+`node tools/verify-selection.mjs --app /path/to/the/recorded/phyloink` checks exact inventory/hashes, earlier-resource bytes, the pinned application build, model settings, analytic references, seeded counts and student/teacher roles. The manual configuration/export context are not application import formats. Older helpers still require their own recorded application builds; do not rewrite their verification dates or artifacts.

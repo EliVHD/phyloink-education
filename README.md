@@ -36,6 +36,10 @@ The [A06.1 development addition](https://github.com/EliVHD/phyloink/pull/10) pro
 
 The [A06.2 development addition](https://github.com/EliVHD/phyloink/pull/11) provides [one adaptable neutral bottleneck/recovery example](labs/bottleneck/README.md): a 100 → 5 → 100 size schedule and a separate constant-size comparison, complete seeded counts, an editable/printable worksheet, native plots and full condition/generation CSV. Adapt severity, timing, duration or seed within this same example. Recovery cannot recreate absent alleles; one-locus H is not observed genotype or genome-wide diversity. Use its recorded unreleased application build.
 
+## One selection comparison example
+
+The [A06.3 development addition](https://github.com/EliVHD/phyloink/pull/12) provides [one adaptable selection comparison](labs/selection/README.md). Shared N, starting frequency and horizon hold both conditions fixed while only heterozygote fitness changes: directional A advantage versus heterozygote advantage. Two native figures, an application-generated four-page handout, complete count CSV and teacher reasoning distinguish finite outcomes from no-drift references and relative fitness from phenotype dominance. Adapt the same example; use its recorded unreleased build.
+
 ## Export your own worksheet
 
 The [A05 development addition](https://github.com/EliVHD/phyloink/pull/9) provides an [adaptation/export workflow](worksheet-export/README.md) for these existing resources. In Learn, use **Create worksheet** to edit prompts/instructions, preview A4/Letter and download separate student and teacher packages. Current/kept tree questions and current synthetic lab settings are supported; learner responses/progress and editor artwork are excluded. Printable offline HTML, editable text/SVG and exact source/model/hash context keep the work reusable. The workflow records its tested application build and preserves existing packs/handouts rather than adding more lessons. Both authoritative guides remain in the application repository.
@@ -50,7 +54,7 @@ The [annotated Newick directory](sources/README.md) gives educators additional s
 
 Examples are checked with **PhyloInk 0.1.2-dev.0**, an unreleased development build. Older Clade Studio releases retain their own names and release records. See [compatibility and verification](VERIFICATION.md) for the exact application commit/build and checks. Imported projects preserve their scientific sources and may need text remeasurement on another device. Geometry QA does not authenticate biological conclusions.
 
-Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. Learn's local tree scenarios, A03 inheritance lab, A04 population lab and A05 worksheet export are implemented in their recorded development changes. A06.1 linkage/recombination and A06.2 bottleneck/recovery are separately recorded; any further advanced experiment still requires explicit selection. Synthetic labs do not infer genotypes or empirical populations from a tree.
+Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. Learn's local tree scenarios, A03 inheritance lab, A04 population lab and A05 worksheet export are implemented in their recorded development changes. A06.1 linkage/recombination, A06.2 bottleneck/recovery and A06.3 selection comparisons are separately recorded; any further advanced experiment still requires explicit selection. Synthetic labs do not infer genotypes or empirical populations from a tree.
 
 ## Reuse
 

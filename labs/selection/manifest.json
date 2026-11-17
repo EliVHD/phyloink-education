@@ -1,0 +1,71 @@
+{
+  "format": "phyloink-selection-walkthrough-inventory",
+  "version": 1,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4238,
+      "sha256": "b59dc43baeff091a773db66c13ecb4656d612fe2607fb5a0cc30ac56ee25a912"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2303,
+      "sha256": "8b5ac1a4bed0a81226ea00b836f88d54b831150c94a3295588d1448f5b2ce2fc"
+    },
+    {
+      "path": "activity.json",
+      "bytes": 1426,
+      "sha256": "ccca393400a9a882761c863c2e023bd72dbf8e32caa57c23cac936131f99f9c7"
+    },
+    {
+      "path": "condition-1.svg",
+      "bytes": 4934,
+      "sha256": "62012df8470504f8506ec3c4d84d7b23216a1bf94ba70125bfe1da88af5e2be3"
+    },
+    {
+      "path": "condition-2.svg",
+      "bytes": 4977,
+      "sha256": "79c364095d920a03285c3d4ca30a1166abdadb07da6f40e6311e31a52fc2140e"
+    },
+    {
+      "path": "context.json",
+      "bytes": 1142,
+      "sha256": "10ee1cd8e0c8de8590a51369940f82337a7e0e4247142e1c6c344278d297b90d"
+    },
+    {
+      "path": "selection-comparison-counts.csv",
+      "bytes": 8264,
+      "sha256": "f7676f3cdbae0b74240ac167456f54178bc5aa89d55fda7a21d7ad9a37fdbc46"
+    },
+    {
+      "path": "student-handout.html",
+      "bytes": 16774,
+      "sha256": "b094451ef02e32598a95ffa9e88c792d677277e7bf6bd8c8b50a05e2c270e69e"
+    },
+    {
+      "path": "student-handout.pdf",
+      "bytes": 100228,
+      "sha256": "05115edc25383ac5b2a3cc691846b8130c62a7b2c5761e9c0d19995b176175d2"
+    },
+    {
+      "path": "student-handout.txt",
+      "bytes": 2329,
+      "sha256": "6608c227eba88972871b6334dc3689072d703cb4907ef225b8479c370ea4e17f"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 3757,
+      "sha256": "7456748980fc8d2acb9432f20fbf17a8be129d15ef6aa7ce908dd071d10aa728"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 13440,
+      "sha256": "c32f86c336f0267190b5a01c60f42030a4c0d45b53d75d0a89ab79dd1ca7a924"
+    }
+  ]
+}
