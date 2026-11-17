@@ -20,6 +20,10 @@ The [two local Learn scenarios](scenarios/README.md) are a separate A02 developm
 
 These files require the tested A02 [development change](https://github.com/EliVHD/phyloink/pull/4), not a historical Clade Studio release. The [scenario workflow](https://github.com/EliVHD/phyloink/blob/7cee4a249a60ec5876db12c29fe58f458e8662c9/docs/LEARNING-SCENARIOS.md) and [updated Teacher’s Guide](https://github.com/EliVHD/phyloink/blob/7cee4a249a60ec5876db12c29fe58f458e8662c9/docs/teachers-guide.md) remain in the application repository. Their exact build, source hashes and browser checks are recorded in [scenario verification](scenarios/verification.json). Existing printable packs stay unchanged.
 
+## Two inheritance walkthroughs
+
+The [A03 development addition](https://github.com/EliVHD/phyloink/pull/7) provides [two synthetic inheritance walkthroughs](labs/inheritance/README.md): one-locus segregation/genotype versus phenotype, and two-locus independent assortment. A short two-page handout, editable HTML/configuration, teacher answers and adaptation notes accompany explicit manual settings for **Learn → Inheritance lab**. They are independent demonstrations, not a course. They require the exact unreleased application build in their verification record; existing releases and tree packs remain unchanged. Tree scenario files do not save inheritance setups.
+
 ## Guides and other trees
 
 For the checked development build, the authoritative [usage guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/public/guide.html) and [Teacher's Guide](https://github.com/EliVHD/phyloink/blob/f5578e7a1bedb0c8b051130f3cc22a3a63a8fb84/docs/teachers-guide.md) remain in the application repository. Both are included offline in the built application. Its header's **Guides** link opens the usage guide, which links to the Teacher's Guide.
@@ -30,7 +34,7 @@ The [annotated Newick directory](sources/README.md) gives educators additional s
 
 Examples are checked with **PhyloInk 0.1.2-dev.0**, an unreleased development build. Older Clade Studio releases retain their own names and release records. See [compatibility and verification](VERIFICATION.md) for the exact application commit/build and checks. Imported projects preserve their scientific sources and may need text remeasurement on another device. Geometry QA does not authenticate biological conclusions.
 
-Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. The separate Learn workspace and local scenarios are implemented in their recorded development changes; inheritance and population labs remain planning items, not available features or promised lessons.
+Selected trees show only sampled taxa. Branch placement is nonmetric in these examples. Preserve rooting explanations, source selection, omitted memberships and limitations when adapting them. The Learn workspace, local scenarios and A03 inheritance lab are implemented in their recorded development changes. Population evolution and advanced experiments remain separate planning items, not promised lessons. Synthetic inheritance does not infer genotypes from a tree.
 
 ## Reuse
 

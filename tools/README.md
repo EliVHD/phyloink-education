@@ -1,5 +1,7 @@
 # Optional authoring and packaging tools
 
+The two A03 inheritance walkthroughs use `python tools/render-inheritance.py` (ReportLab) to render their shared editable configuration to HTML and a two-page PDF. Inspect both PDF pages after changes. `node tools/verify-inheritance.mjs --app /path/to/phyloink` checks their exact inventory/hashes, recorded application build and model probabilities. Neither tool modifies or repackages the original tree examples. The lab configuration is documentation for manual controls, not an application import file.
+
 Downloaded examples work without these tools. Use them only when regenerating or verifying the repository's materials.
 
 `verify-and-package.py` uses Python's standard library, makes no network requests, verifies reviewed example contents and links, and recreates the three ZIPs and inventories. It requires the recorded browser and print checks to have passed.

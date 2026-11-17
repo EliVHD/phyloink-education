@@ -20,3 +20,7 @@ Corrections can improve this bounded collection; there is no commitment to accep
 - `verification.json` and `manifest.json`: checks and SHA256 inventory.
 
 The included tools verify and package existing examples without network access. Recreating projects requires an explicit PhyloInk checkout and browser-measured labels. Source and render operations belong in the record; changing generated artifacts alone is not a scientific update.
+
+## Synthetic lab walkthroughs
+
+The two inheritance walkthroughs in `labs/inheritance/` use explicit manual application settings, an editable handout configuration, printable HTML/PDF, teacher notes, sources/assumptions, LICENSE and an exact inventory/verification record. They have no empirical tree or genotype dataset; do not invent a Newick source, artwork SVG or project to imply otherwise. Their `activity.json` is an authoring configuration, not an application import format. Keep the two demonstrations bounded, test their parameters and expected outcomes in the recorded application build, render both PDF pages, and preserve the existing tree packs and scenario files.

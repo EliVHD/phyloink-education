@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-11-16",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "2f78cd13882d5ec03fd83994068a1a57810d9999",
+    "buildId": "6ee43e53cf74c99b90c86b70d2335acce50523389be678b0585b4dcaf87eb25f",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/7",
+    "guide": "https://github.com/EliVHD/phyloink/blob/2f78cd13882d5ec03fd83994068a1a57810d9999/docs/INHERITANCE-LAB.md",
+    "releaseStatus": "Unreleased development; separate draft PR stacked on A08. Historical releases unchanged."
+  },
+  "scope": "Two independent synthetic walkthroughs with explicit manual control settings; activity.json is a handout authoring configuration, not an application scenario format.",
+  "model": "mendelian-independent-v1",
+  "modelChecks": [
+    "Aa x Aa: genotype probabilities 1/4 AA, 1/2 Aa, 1/4 aa; complete-dominance phenotype probabilities 3/4 A_ and 1/4 aa.",
+    "AaBb x AaBb: four gametes per parent with probability 1/4; complete-dominance phenotype probabilities 9/16, 3/16, 3/16, 1/16.",
+    "AaBb genotype has probability 1/4, combining four cells with probability 1/16 each.",
+    "Seeds reproduce trials; all offspring enter counts, with at most 64 individual genotypes displayed. Expected counts can be fractional and finite trials can differ from expected ratios."
+  ],
+  "handout": {
+    "pages": 2,
+    "pageSize": "A4",
+    "generator": "tools/render-inheritance.py from activity.json, ReportLab",
+    "visuallyInspected": true,
+    "renderer": "Poppler pdftoppm, both final pages inspected at 1350-pixel height",
+    "editablePresentation": "student-handout.html",
+    "htmlChecks": "Standalone Edge rendering at 390 x 844 has no page overflow, network requests or exceptions; native browser printing also yields exactly two A4 pages.",
+    "answers": "teacher-notes.md, separate from student handout"
+  },
+  "browser": {
+    "engine": "Microsoft Edge",
+    "viewports": ["1440 x 1050", "390 x 844"],
+    "actualApplicationChecks": ["parent setup changes", "prediction and explanation", "allele tracing and aggregated probabilities", "reproducible samples and full counts", "invalid sample sizes/seeds", "temporary reset", "editor project/SVG/QA/camera/pins/history unchanged", "delayed tree-demo cancellation on module switch"],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "horizontalPageOverflow": false
+  },
+  "originalMaterials": "The existing three ZIP packs, three PDFs, tree sources and two scenario JSON files are unchanged. Existing scenario verification checks their recorded hashes.",
+  "limits": "No measured organism/genotype data; no linkage, sex linkage, mutation, selection, penetrance variation, epistasis or environmental effects. No saved inheritance scenarios, learner progress, tree project, pedigree inference, worksheet-export feature or ongoing lesson programme."
+}
