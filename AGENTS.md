@@ -12,6 +12,8 @@ Use explicit file inventories and checksums when packaging examples. Never inclu
 
 Linkage uses one bounded synthetic phased two-locus test-cross example. Preserve explicit parental/offspring phase, weighted probabilities, uninformative homozygous markers and model-versus-sample distinctions. A recombination fraction is not a crossover count or physical/map distance. No inferred tree genotypes, breeding system or chromosome mapping is added.
 
+Bottleneck/recovery uses one neutral size-schedule example with a constant-size comparison and complete per-generation N/counts. Distinguish target-size reproductive resampling from survivor culling, separate seeded streams from paired individuals and one-locus H from observed genotypes/genome diversity. Recovery cannot recreate absent alleles; individual H can rise. Preserve exact exported CSV bytes and older resources/verification records.
+
 Worksheet adaptations reuse existing resources and record their exact application build. Keep student and teacher packages separate; do not commit real learner responses, progress or private worksheet content. Preserve source/data rights and configured model/source references, review custom wording and print layout, and keep historical packs/handouts/verification records unchanged. Do not represent export context/authoring records as importable scenarios.
 
 Before delivery, open projects in the actual application, check active views and source preservation, inspect SVGs and rendered PDF pages, verify local links and ZIP inventories, and report limitations honestly. Regeneration tools may take an explicit application checkout as an authoring input; downloaded examples must not depend on that checkout or a private workspace.

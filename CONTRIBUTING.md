@@ -29,6 +29,8 @@ The same convention applies to the two A04 walkthroughs in `labs/population/`. V
 
 A06.1 linkage adds one explicitly phased test-cross configuration, an application-generated editable/printable worksheet, native phase SVG, teacher reasoning and exact verification/inventory. Keep homozygous-marker ambiguity, the 50% model versus finite-sample distinction and nonmetric marker spacing explicit. Preserve older packs/handouts and their recorded builds.
 
+A06.2 adds one bounded neutral bottleneck/recovery example, with explicit size schedules, complete condition/trial/generation CSV, native plots and an application-generated worksheet. Review dynamic-size count conservation, absorbing frequencies through recovery, separate streams and one-locus diversity limits. Preserve exact exported CSV bytes and all earlier materials/verification records.
+
 ## Worksheet adaptations
 
 Use the A05 workflow in `worksheet-export/` to adapt existing questions/settings rather than expanding a course. Keep student and teacher exports separate; omit learner responses/progress and private pictures. Review configured reference answers against your own wording, retain complete source/citation/rights records and inspect printed pages. Export records are not application import formats; editing payloads invalidates their old hashes. Do not regenerate historical packs or overwrite their verification records merely to demonstrate the new exporter.

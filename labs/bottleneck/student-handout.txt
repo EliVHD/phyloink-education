@@ -1,0 +1,31 @@
+Population recovery and a missing allele
+
+Predict before running. Compare the size schedule with allele frequencies and exact counts. This synthetic experiment is one reproducible trial set, not a forecast for real populations.
+
+Generation 0: N = 100, 100 A and 100 a copies. Bottleneck N = 5 at target generations 10–19; one-step recovery to N = 100 at generation 20. Constant-size condition keeps N = 100. Horizon 40; 4 trials per condition (8 total), master seed 1.
+
+Synthetic neutral diploid A/a locus; closed, random-mating population and non-overlapping generations. Each target generation resamples 2N_t gene copies with replacement using the previous generation’s A frequency. One temporary reduction is followed by one-step recovery to initial N. This is reproduction/gene-copy resampling, not an instantaneous mortality cull or a sample of surviving individuals. No mutation, migration, selection, sex structure, linked loci, individual genotypes or pedigrees. Missing alleles cannot return through recovery alone. N is a model input, not an empirical population-size estimate; locus loss/fixation is not species extinction. H = 2p(1−p) is gene diversity at this one biallelic locus, not measured heterozygous individuals or whole-genome diversity. Conditions use separate seeded streams; matching trial numbers are not the same individuals or guaranteed counterfactual pairs.
+
+1. Mark the first and last small generations and recovery. Predict the no-drift A frequency after recovery.
+
+
+
+Answer:
+
+2. Compare N, A/a counts, frequency and H before, during and after the bottleneck. What do the constant-size trials show?
+
+
+
+Answer:
+
+3. Follow a loss/fixation trial through recovery. Can an absent allele return? Explain the limits of these few paths.
+
+
+
+Answer:
+
+Sources and model:
+
+Original synthetic teaching setup; model neutral-bottleneck-recovery-v1. No organism dataset.
+
+Background: MIT HST.508, population-genetics notes (2005), drift and fluctuating population sizes, https://ocw.mit.edu/courses/hst-508-quantitative-genomics-fall-2005/aad420032640a927d69dc1a8b2a08750_hst508lecture1.pdf ; UC Berkeley Understanding Evolution, Bottlenecks and founder effects, https://evolution.berkeley.edu/bottlenecks-and-founder-effects/ . Reading links only; no upstream text, figures or code bundled.

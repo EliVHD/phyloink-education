@@ -1,0 +1,35 @@
+{
+  "format": "phyloink-worksheet-context",
+  "version": 1,
+  "kind": "bottleneck",
+  "paper": "A4",
+  "build": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "516dd576c53ed978984c0ea77d07bad8aa7a61dfb0e9836a8f0991732c47db8b",
+    "manifest": "build-manifest.json"
+  },
+  "setup": {
+    "model": "neutral-bottleneck-recovery-v1",
+    "setup": {
+      "initialSize": 100,
+      "aCopies": 100,
+      "bottleneckSize": 5,
+      "bottleneckStart": 10,
+      "bottleneckDuration": 10,
+      "generations": 40,
+      "replicates": 4,
+      "seed": 1
+    },
+    "sampleDataIncluded": true,
+    "selectedPrintedGenerations": [
+      0,
+      19,
+      20,
+      40
+    ],
+    "numericalColumns": "Integer N/A/a counts are authoritative; p_A and H_2pq are derived numerical values.",
+    "trialStreams": "Mulberry32 v1; bottleneck seed = master + index*0x9e3779b9; constant uses additional offset 0x85ebca6b, modulo 2^32. Matching trial numbers are separate streams."
+  }
+}

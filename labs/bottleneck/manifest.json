@@ -1,0 +1,66 @@
+{
+  "format": "phyloink-bottleneck-walkthrough-inventory",
+  "version": 1,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4080,
+      "sha256": "02ae925fcec48dd16e4d36d486859e3363c0bbc4ac2f12485616d12aafb1cfdc"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2141,
+      "sha256": "54b37785c2649a7b588fa9890ad5f9c88e7223d92c01b92e1a6ceb901a02c4c5"
+    },
+    {
+      "path": "activity.json",
+      "bytes": 1369,
+      "sha256": "cab075c6e6cee42d010a25ff30363f1c0993ac8e488d1cb6c4c3c349046bfb9a"
+    },
+    {
+      "path": "bottleneck-counts.csv",
+      "bytes": 13635,
+      "sha256": "6b4f6699a0df20633e2d5b4abbc82a176ba4c393fca5da37aee2d97e75c821d4"
+    },
+    {
+      "path": "context.json",
+      "bytes": 1021,
+      "sha256": "f755a74ebff750f30186f2e8ce83702ff0095ea3c9704a4d6cdfc27c4e72cdb8"
+    },
+    {
+      "path": "paths.svg",
+      "bytes": 9389,
+      "sha256": "d216dfa1d0fc1a8cb8b53854c4f1658ed2e97c3f413d3b63733ed921bc0eff98"
+    },
+    {
+      "path": "student-handout.html",
+      "bytes": 16687,
+      "sha256": "01b9c52bdd8dc0a537fabaec2f1862c09174aba8fe4b7b6319ac1bb549df726b"
+    },
+    {
+      "path": "student-handout.pdf",
+      "bytes": 103858,
+      "sha256": "b3c83248b764582023285efd5bed03780d3ef8f99a1de4a76b59c647765c3b07"
+    },
+    {
+      "path": "student-handout.txt",
+      "bytes": 2313,
+      "sha256": "b28e6ede59d19450e9b6f27c54b78f0624ac464ae29eaa55f5bde646e271a7df"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 3993,
+      "sha256": "455ce2ec3607e39e587cccb167aaca6f93bb582364318516c4ac45ba85916940"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 10120,
+      "sha256": "7ca1b6279baf71141fd1407969e0e28adaac35f0a8bed67fb87c9fe4eccbbee5"
+    }
+  ]
+}
