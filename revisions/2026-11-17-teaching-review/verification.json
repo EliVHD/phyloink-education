@@ -1,0 +1,112 @@
+{
+  "verifiedAt": "2026-11-17",
+  "scope": "Wording corrections to the same selection activity; historical education artifacts preserved. No model or data changes.",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "baseCommit": "f1b1fd2e612eae38769a63376800a40a1d514e34",
+    "workingTreeModified": false,
+    "buildId": "d656fe179600643d09374514a91f05063b7186abf92f010743febf021d0ed9b0",
+    "version": "0.1.2-dev.0",
+    "changedInputs": [
+      {
+        "path": "SHA256SUMS.txt",
+        "bytes": 15350,
+        "sha256": "92f1f395f13762aac46bf15f915e9f2ee9f4ae4c7873c343686b39ef8f5db96f"
+      },
+      {
+        "path": "docs/BOTTLENECK-LAB.md",
+        "bytes": 8681,
+        "sha256": "e8dbfe1a714faf2afe6c3820ae41474d4ff9958a3b074c766b2da236b5f24b7b"
+      },
+      {
+        "path": "docs/POPULATION-LAB.md",
+        "bytes": 7012,
+        "sha256": "8211013f99527cd4275dbd12f52e304bb2b214172083eab65a2b2435d6b65006"
+      },
+      {
+        "path": "docs/SELECTION-COMPARISONS.md",
+        "bytes": 5546,
+        "sha256": "a5d91a3b415d00fba7d77ed9cdf271793d2fb24d76452a387a55aa965362b1cc"
+      },
+      {
+        "path": "docs/teachers-guide.md",
+        "bytes": 44443,
+        "sha256": "823ec0967153990f27b0c20f3ad24e2b3c896524b5ffe3112c47619c2207fca7"
+      },
+      {
+        "path": "public/guide.html",
+        "bytes": 34607,
+        "sha256": "f8eb49e46f4592b510f94ac1c1f384a4a2068aea480c80e318fe6846d21f38d9"
+      },
+      {
+        "path": "public/index.html",
+        "bytes": 92391,
+        "sha256": "d1557d85f771a0f281891c611fd0a47bc0a87f3991b8f5babba204c60947b0ac"
+      },
+      {
+        "path": "src/learn/selection-ui.ts",
+        "bytes": 7168,
+        "sha256": "998a94839584122b9a3f93daaa49ca79be1063b4b26d8378df3708c8496aa21f"
+      },
+      {
+        "path": "src/learn/worksheet.ts",
+        "bytes": 46357,
+        "sha256": "73077139e827d1d005c770f4cae4d2102c2ac4d8ad954f3f449425bcd8301e26"
+      }
+    ],
+    "commit": "7de4b694f4622635d989425f28892a82f4cc8c33",
+    "sourceNote": "Build generated before committing; all recorded changed inputs match the immutable application commit exactly."
+  },
+  "education": {
+    "baseCommit": "583ca2211f1d52477318e201caa2caa6b14d1131",
+    "historicalTrackedFilesByteIdentical": 236,
+    "excludedCurrentNavigationFiles": [
+      "README.md",
+      ".gitattributes"
+    ]
+  },
+  "checks": {
+    "typeScript": "Passed: node node_modules/typescript/bin/tsc --noEmit",
+    "build": "Passed: node tools/build.mjs",
+    "regressionSuites": {
+      "worksheet": 10,
+      "selection": 12,
+      "population": 10,
+      "learn": 7,
+      "distribution": 4,
+      "bottleneck": 13
+    },
+    "historicalInventories": [
+      "node tools/verify-selection.mjs",
+      "node tools/verify-bottleneck.mjs",
+      "node tools/verify-population.mjs"
+    ],
+    "studentManifest": "All payload bytes and hashes verified",
+    "localDocumentationLinks": 45,
+    "csvRecords": 328,
+    "figuresAndCsvByteIdenticalToOriginal": true,
+    "browser": {
+      "browser": "Microsoft Edge headless",
+      "selectionLiveReferenceCurves": 2,
+      "selectionStudentReferenceCurves": 0,
+      "selectionTeacherReferenceCurves": 2,
+      "selectionAndPopulationPromptsVerified": true,
+      "worksheetPreviewsPrepared": true,
+      "guidesVerified": true,
+      "pageErrors": []
+    },
+    "pdf": {
+      "pages": 4,
+      "paper": "A4",
+      "scale": "100%",
+      "renderer": "Microsoft Edge headless",
+      "renderedWith": "Poppler",
+      "everyPageVisuallyInspected": true,
+      "externalRequests": 0
+    }
+  },
+  "limitations": [
+    "No physical printer test; recheck printing on the intended device.",
+    "No new biological source validation; the supplied source models and data were unchanged."
+  ]
+}

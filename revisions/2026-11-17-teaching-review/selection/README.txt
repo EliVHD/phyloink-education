@@ -1,0 +1,4 @@
+STUDENT PACKAGE: no answer key, educator notes or learner responses.
+Open student.html locally in a browser; Print/Save as PDF with A4 paper at 100% scale. No server, account, scripts, external fonts or network requests are required. student.txt contains editable plain-text questions. SVG figures are editable vector files.
+context.json records source/model setup, not a project or importable activity. Any included sample data are regenerated from the educator setup and seed, not copied from learner progress.
+Review source rights, configured reference answers, geometry findings, long prompts and printed layout before classroom use. The underlying source/model permits reasoning; this is not a secure assessment system. User-authored text and scientific data retain their own rights; original template/software is 0BSD. No ongoing course or support commitment.
