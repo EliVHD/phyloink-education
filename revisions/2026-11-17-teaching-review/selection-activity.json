@@ -1,0 +1,30 @@
+{
+  "format": "phyloink-selection-walkthrough",
+  "version": 1,
+  "model": "selection-comparison-v1",
+  "title": "Changing heterozygote fitness",
+  "instructions": "Predict both pre-sampling frequencies before running. Question 2 requires PhyloInk: use Learn → Selection comparisons with the printed settings. Compare explicit genotype fitnesses, no-drift references and finite allele counts. This synthetic comparison is a reproducible demonstration, not a forecast for real populations.",
+  "setup": {
+    "size": 100,
+    "aCopies": 100,
+    "generations": 40,
+    "replicates": 4,
+    "seed": 1,
+    "fitness1": {
+      "AA": 1.2,
+      "Aa": 1.1,
+      "aa": 1
+    },
+    "fitness2": {
+      "AA": 1.2,
+      "Aa": 1.4,
+      "aa": 1
+    }
+  },
+  "prompts": [
+    "Which fitness weight changes? Predict the next A frequency before finite sampling in S1 and S2.",
+    "In Learn → Selection comparisons, enter the printed settings and run both conditions. Compare the dashed no-drift reference curves with the finite paths. Why does phenotype dominance not assign heterozygote fitness?",
+    "Does heterozygote advantage guarantee persistent variation? Explain why these few trials cannot reliably estimate fixation probability, and distinguish fixation by generation 40 from eventual fixation."
+  ],
+  "adaptationNotes": "Change one input at a time or change seed within this one example. Equal weights provide a neutral comparison. Shared constant N 2–500, initial A copies 0–2N, horizon 1–100 generations, 1–4 trials per condition and six explicit positive fitness weights 0.05–2. Separate seeded streams are not paired individuals. Fitness weights are relative contributions, not survival percentages."
+}

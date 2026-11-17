@@ -10,6 +10,8 @@ This is a finite showcase of what educators can do with **[PhyloInk — Phylogen
 
 The application features and education resources below are merged into their repositories’ `main` branches. They remain **unreleased development work**. The [2026-11-17 integration record](integration-verification.json) separately identifies the integrated application commit/build and checks. Earlier example manifests, downloads, dates and pinned build records are unchanged. Use each recorded build to reproduce its historical artifacts exactly; use the checked integrated build for the combined workflows.
 
+For current classroom use, read the [teaching-review corrections](revisions/2026-11-17-teaching-review/README.md). They provide the corrected selection worksheet and clarify older teacher notes without replacing historical packs or verification records.
+
 ## Choose an example
 
 | Example | What it demonstrates | Downloads |
@@ -44,7 +46,7 @@ The [merged A06.2 feature](https://github.com/EliVHD/phyloink/pull/11) provides 
 
 ## One selection comparison example
 
-The [merged A06.3 feature](https://github.com/EliVHD/phyloink/pull/12) provides [one adaptable selection comparison](labs/selection/README.md). Shared N, starting frequency and horizon hold both conditions fixed while only heterozygote fitness changes: directional A advantage versus heterozygote advantage. Two native figures, an application-generated four-page handout, complete count CSV and teacher reasoning distinguish finite outcomes from no-drift references and relative fitness from phenotype dominance. Adapt the same example in the checked integrated build; retain its recorded build for exact historical reproduction.
+The [merged A06.3 feature](https://github.com/EliVHD/phyloink/pull/12) provides [one adaptable selection comparison](labs/selection/README.md). Shared N, starting frequency and horizon hold both conditions fixed while only heterozygote fitness changes: directional A advantage versus heterozygote advantage. Use the [corrected student handout](revisions/2026-11-17-teaching-review/selection/student.pdf) with its [editable HTML](revisions/2026-11-17-teaching-review/selection/student.html) and [educator correction notes](revisions/2026-11-17-teaching-review/teacher-notes.md). Its comparison question explicitly requires Learn's no-drift references; the printed figures contain finite trials only. The original figures, complete count CSV and teacher reasoning remain applicable. This is a revision of the same example; the original handout and recorded build remain available for historical reproduction.
 
 ## Export your own worksheet
 

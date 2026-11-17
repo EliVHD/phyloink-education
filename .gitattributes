@@ -8,3 +8,4 @@
 examples/**/artwork/** -text whitespace=-blank-at-eol
 labs/bottleneck/bottleneck-counts.csv -text whitespace=cr-at-eol
 labs/selection/selection-comparison-counts.csv -text whitespace=cr-at-eol
+revisions/2026-11-17-teaching-review/selection/selection-comparison-counts.csv -text whitespace=cr-at-eol

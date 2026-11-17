@@ -1,0 +1,71 @@
+{
+  "format": "phyloink-teaching-correction-inventory",
+  "version": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3197,
+      "sha256": "be2109f7f2730b637a9de8c09f3866e6e9641f7344b85ce230d0d566c4e08429"
+    },
+    {
+      "path": "selection/context.json",
+      "bytes": 1142,
+      "sha256": "77eee541e541e0bc299e67fdd3f0e514b06b37f6772951e24fb299851e13733e"
+    },
+    {
+      "path": "selection/figures/selection-s1-student.svg",
+      "bytes": 4934,
+      "sha256": "62012df8470504f8506ec3c4d84d7b23216a1bf94ba70125bfe1da88af5e2be3"
+    },
+    {
+      "path": "selection/figures/selection-s2-student.svg",
+      "bytes": 4977,
+      "sha256": "79c364095d920a03285c3d4ca30a1166abdadb07da6f40e6311e31a52fc2140e"
+    },
+    {
+      "path": "selection/manifest.json",
+      "bytes": 1442,
+      "sha256": "34ef883443ecb4f6843aca5116c0126e7a8564fde9814436a812f54eb71c83c1"
+    },
+    {
+      "path": "selection/README.txt",
+      "bytes": 866,
+      "sha256": "7dd17cc4142a16959452f5358769a0e217b507b248e0f498fde702ca7cb8ea37"
+    },
+    {
+      "path": "selection/selection-comparison-counts.csv",
+      "bytes": 8264,
+      "sha256": "f7676f3cdbae0b74240ac167456f54178bc5aa89d55fda7a21d7ad9a37fdbc46"
+    },
+    {
+      "path": "selection/student.html",
+      "bytes": 17074,
+      "sha256": "a16839b261fa49cc35f85f02c7305b9bc0ef57deab6b1d9247da211599effdd8"
+    },
+    {
+      "path": "selection/student.pdf",
+      "bytes": 101703,
+      "sha256": "ead6fa3a12928d233c05261fc8142c29479c7b9617dbdc8c7323528f8bfc43b4"
+    },
+    {
+      "path": "selection/student.txt",
+      "bytes": 2629,
+      "sha256": "b68fc45f87d9e6b4b93f075c604b386cbc2ee3737c6d4fb39143511462a62bb3"
+    },
+    {
+      "path": "selection-activity.json",
+      "bytes": 1726,
+      "sha256": "200d7580f803c1e83bae3fef4f64440fc20237015739fdbf5e00496986ac0968"
+    },
+    {
+      "path": "teacher-notes.md",
+      "bytes": 2498,
+      "sha256": "7dcd3d30e004689f985b26305fa0af99b67773d18935e49a1a1b0390f48bc46c"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 3783,
+      "sha256": "647a0e3a72b993a2de915271d264d6e924880ae42ecc236f96c2ef6e9a3fbb4c"
+    }
+  ]
+}

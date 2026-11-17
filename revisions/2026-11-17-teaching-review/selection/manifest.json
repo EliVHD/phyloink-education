@@ -1,0 +1,50 @@
+{
+  "format": "phyloink-worksheet-package",
+  "version": 1,
+  "audience": "student",
+  "renderer": "worksheet-v1",
+  "build": {
+    "format": "clade-build-info",
+    "version": 1,
+    "appVersion": "0.1.2-dev.0",
+    "buildId": "d656fe179600643d09374514a91f05063b7186abf92f010743febf021d0ed9b0",
+    "manifest": "build-manifest.json"
+  },
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 866,
+      "sha256": "7dd17cc4142a16959452f5358769a0e217b507b248e0f498fde702ca7cb8ea37"
+    },
+    {
+      "path": "context.json",
+      "bytes": 1142,
+      "sha256": "77eee541e541e0bc299e67fdd3f0e514b06b37f6772951e24fb299851e13733e"
+    },
+    {
+      "path": "figures/selection-s1-student.svg",
+      "bytes": 4934,
+      "sha256": "62012df8470504f8506ec3c4d84d7b23216a1bf94ba70125bfe1da88af5e2be3"
+    },
+    {
+      "path": "figures/selection-s2-student.svg",
+      "bytes": 4977,
+      "sha256": "79c364095d920a03285c3d4ca30a1166abdadb07da6f40e6311e31a52fc2140e"
+    },
+    {
+      "path": "selection-comparison-counts.csv",
+      "bytes": 8264,
+      "sha256": "f7676f3cdbae0b74240ac167456f54178bc5aa89d55fda7a21d7ad9a37fdbc46"
+    },
+    {
+      "path": "student.html",
+      "bytes": 17074,
+      "sha256": "a16839b261fa49cc35f85f02c7305b9bc0ef57deab6b1d9247da211599effdd8"
+    },
+    {
+      "path": "student.txt",
+      "bytes": 2629,
+      "sha256": "b68fc45f87d9e6b4b93f075c604b386cbc2ee3737c6d4fb39143511462a62bb3"
+    }
+  ]
+}
