@@ -1,0 +1,311 @@
+{
+  "verifiedAt": "2026-11-17",
+  "application": {
+    "repository": "EliVHD/phyloink",
+    "commit": "8f0fa15bc057634ecac8edc8133edd52a1db6705",
+    "buildId": "516dd576c53ed978984c0ea77d07bad8aa7a61dfb0e9836a8f0991732c47db8b",
+    "version": "0.1.2-dev.0",
+    "pullRequest": "https://github.com/EliVHD/phyloink/pull/11",
+    "guide": "https://github.com/EliVHD/phyloink/blob/8f0fa15bc057634ecac8edc8133edd52a1db6705/docs/BOTTLENECK-LAB.md",
+    "releaseStatus": "Unreleased A06.2 draft stacked on A06.1; historical releases unchanged."
+  },
+  "scope": "One adaptable neutral bottleneck/recovery example with a constant-size comparison. Manual configuration/context are not application import formats.",
+  "model": "neutral-bottleneck-recovery-v1",
+  "modelChecks": {
+    "schedule": {
+      "initialN": 100,
+      "initialACopies": 100,
+      "smallN": 5,
+      "firstSmallGeneration": 10,
+      "lastSmallGeneration": 19,
+      "recoveryGeneration": 20,
+      "finalGeneration": 40,
+      "trialsPerCondition": 4,
+      "seed": 1
+    },
+    "finalACounts": {
+      "bottleneck": [
+        186,
+        200,
+        0,
+        93
+      ],
+      "constant": [
+        128,
+        155,
+        175,
+        94
+      ]
+    },
+    "boundaries": {
+      "B2": {
+        "generation": 18,
+        "kind": "A fixed"
+      },
+      "B3": {
+        "generation": 14,
+        "kind": "A lost"
+      }
+    },
+    "expectedFinalH": {
+      "bottleneck": 0.14999870896175768,
+      "constant": 0.40916006051133713
+    },
+    "finiteB4H": {
+      "generation19": 0.32,
+      "generation40": 0.49755
+    },
+    "completeCsvRecords": 328,
+    "csvBytes": "Original worksheet UTF-8/CRLF bytes are preserved via the scoped .gitattributes rule; integer N/A/a are authoritative, p_A/H_2pq derived.",
+    "limits": "Initial/recovered N 3–500, small N 2 to initial minus 1, 2–100 generations with recovery recorded, at most 4 trials per condition/eight paths, 808 records and 800000 potential draws. Separate streams, not paired individuals."
+  },
+  "handout": {
+    "pages": 4,
+    "paper": "A4",
+    "editablePresentation": "student-handout.html",
+    "editableText": "student-handout.txt",
+    "figure": "paths.svg",
+    "data": "bottleneck-counts.csv",
+    "generator": "tools/render-bottleneck.mjs through the app worksheet renderer; Edge Print / Save as PDF at 100%.",
+    "everyPageVisuallyInspected": true,
+    "renderer": "Poppler pdftoppm at 1350-pixel page height; pypdf paper/text/role checks.",
+    "teacherAnswers": "teacher-notes.md, separate from student files",
+    "noRemoteAssets": true
+  },
+  "browser": {
+    "engine": "Edge",
+    "viewports": [
+      "1440 x 1050",
+      "390 x 844"
+    ],
+    "externalRequests": 0,
+    "exceptions": 0,
+    "horizontalPageOverflow": false,
+    "exactSizeFrequencyCounts": true,
+    "replayAndBounds": true,
+    "absorbingAcrossRecovery": true,
+    "all808Records": true,
+    "maximumSvgTextInBounds": true,
+    "learnerStateExcluded": true,
+    "roleSeparation": true,
+    "otherModulesPreserved": true,
+    "editorStateUnchanged": true,
+    "noRootDependency": true,
+    "pendingDemoDiscarded": true
+  },
+  "worksheetPrintCases": [
+    {
+      "kind": "bottleneck-A4-student",
+      "pages": 4,
+      "paper": "A4"
+    },
+    {
+      "kind": "bottleneck-A4-teacher",
+      "pages": 5,
+      "paper": "A4"
+    },
+    {
+      "kind": "bottleneck-Letter-student",
+      "pages": 4,
+      "paper": "Letter"
+    },
+    {
+      "kind": "bottleneck-Letter-teacher",
+      "pages": 5,
+      "paper": "Letter"
+    }
+  ],
+  "validation": {
+    "applicationTests": 318,
+    "newBottleneckTests": 13,
+    "strictTypes": true,
+    "build": true,
+    "sourceChecksums": 166,
+    "exactArchiveInventories": true,
+    "offlineExtractedSourceBuildMatches": true,
+    "oldMaterialBytesUnchanged": true
+  },
+  "olderResources": [
+    {
+      "path": "scenarios/README.md",
+      "bytes": 4642,
+      "sha256": "539fe000f5b39f71819451e055cd877a2a92a822d96fdd99eeafc6fe7bc51696"
+    },
+    {
+      "path": "scenarios/six-mammals.phyloink-activity.json",
+      "bytes": 311711,
+      "sha256": "7755a7a9a2e577b735dd90e23be2b42b15eea25f2ab978087e0bdb0da6261755"
+    },
+    {
+      "path": "scenarios/unresolved-fork.phyloink-activity.json",
+      "bytes": 3467,
+      "sha256": "4aea3bd20437ebb9a3c018d70d4b65ff47bc069d0708f3e6dd21a78617343914"
+    },
+    {
+      "path": "scenarios/verification.json",
+      "bytes": 2610,
+      "sha256": "0e93b012910f658a3610e550938821a853a6760a4241697003df4df34d53b9e0"
+    },
+    {
+      "path": "labs/inheritance/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/inheritance/README.md",
+      "bytes": 3017,
+      "sha256": "d5396e7353398ab42ae2f97d0de12ad39dc8e4462c973bcf4a372e7538807d58"
+    },
+    {
+      "path": "labs/inheritance/SOURCES.md",
+      "bytes": 2020,
+      "sha256": "7dc0ce113322b905ed81684deb0367e103b7db98619eb271cdd734e0a2574464"
+    },
+    {
+      "path": "labs/inheritance/activity.json",
+      "bytes": 2286,
+      "sha256": "15c110b8b1ebdb98dcda538ea6f7c75a4b6881c6f9add93be635e39f49b8ba47"
+    },
+    {
+      "path": "labs/inheritance/manifest.json",
+      "bytes": 1335,
+      "sha256": "61911308ac0f17760354a805164d0d73f45ef44b155d9c15041a9a6e66435857"
+    },
+    {
+      "path": "labs/inheritance/student-handout.html",
+      "bytes": 4181,
+      "sha256": "490ff71e40dadc28aff5cb962fd426339255ed23d37303fffdcdd441f28dafd4"
+    },
+    {
+      "path": "labs/inheritance/student-handout.pdf",
+      "bytes": 4564,
+      "sha256": "5993fbc8c0c15c4920501f4e8ddafd1188b992b37d49cbf9482071a301ffbec5"
+    },
+    {
+      "path": "labs/inheritance/teacher-notes.md",
+      "bytes": 3422,
+      "sha256": "ff402b0d534417daf8f087876e7b3832df79043ad87cbbba23cda2cf4b59325b"
+    },
+    {
+      "path": "labs/inheritance/verification.json",
+      "bytes": 2876,
+      "sha256": "cdbb62e159e5b16b1b645e76f75f5fbb59c667c9e114e42b585e6905859873ad"
+    },
+    {
+      "path": "labs/population/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/population/README.md",
+      "bytes": 3237,
+      "sha256": "a346d8d1927f9480732a5c7974fafefca87073f7a6565cd4e8d643ace27d9736"
+    },
+    {
+      "path": "labs/population/SOURCES.md",
+      "bytes": 2765,
+      "sha256": "b2e5570f997bf36f7f391827b16ac9e42aef1e0239d844e58eae756447fcd1b5"
+    },
+    {
+      "path": "labs/population/activity.json",
+      "bytes": 2774,
+      "sha256": "1d2f113ee43017d66574ddebe003023937eb4f1e38e18f4b5565f6d72051dcd3"
+    },
+    {
+      "path": "labs/population/manifest.json",
+      "bytes": 1334,
+      "sha256": "767860069374399207d3294233e3112236aaeba1bbc8369e866a5b736ecd9af7"
+    },
+    {
+      "path": "labs/population/student-handout.html",
+      "bytes": 4713,
+      "sha256": "36fff34865ebf50b8437c7f5c4239fa97ca32ef0acdba1904f111911f65b24df"
+    },
+    {
+      "path": "labs/population/student-handout.pdf",
+      "bytes": 4859,
+      "sha256": "9504198e1e35c5b76f9029390b52ca234f9753fe6c2d832575907da53fb39ed9"
+    },
+    {
+      "path": "labs/population/teacher-notes.md",
+      "bytes": 4200,
+      "sha256": "910807f2916a17d1847cd51d32f9598768c049d6d4b191902b074f3015a173ca"
+    },
+    {
+      "path": "labs/population/verification.json",
+      "bytes": 3085,
+      "sha256": "5f40cfc7f7fbcfff5681355945f2b8bf81f72ae0ea8a0230968208e1461ce32b"
+    },
+    {
+      "path": "labs/linkage/LICENSE",
+      "bytes": 639,
+      "sha256": "384aaba22237e93264cc4a846c8664830ffe7854da955096c040783cccbcd4cd"
+    },
+    {
+      "path": "labs/linkage/README.md",
+      "bytes": 3508,
+      "sha256": "af33c97239ebc196bff75f7370a0f5af6732e3fd0803837bd9742d8d214979b7"
+    },
+    {
+      "path": "labs/linkage/SOURCES.md",
+      "bytes": 1932,
+      "sha256": "75954f421cbf67ba1675bb88dde380f3d451f7cc6eb490a29521a5b84c520b26"
+    },
+    {
+      "path": "labs/linkage/activity.json",
+      "bytes": 1138,
+      "sha256": "890a1baddcdc2af842f2787533db777d337a9264896624d218ffde019186bad7"
+    },
+    {
+      "path": "labs/linkage/context.json",
+      "bytes": 566,
+      "sha256": "6000f1b7f60c26a6c50680a833b83f2f5a9ed1ce40de5b765af41b92cef47f64"
+    },
+    {
+      "path": "labs/linkage/manifest.json",
+      "bytes": 1727,
+      "sha256": "5f0d3e3145f8bd1492dd51ca12304b9399cc36278c4d5e1e62d2345b3555f3df"
+    },
+    {
+      "path": "labs/linkage/parents.svg",
+      "bytes": 2204,
+      "sha256": "5964651002a0d30171ef0ea1a717e091b3c2c237f452d451a883910e3e2ab52f"
+    },
+    {
+      "path": "labs/linkage/student-handout.html",
+      "bytes": 8362,
+      "sha256": "19da6d4c0e15a398d2e5a0a5c013493bcf15dbc07a52cd7c150d3931b8e5c40c"
+    },
+    {
+      "path": "labs/linkage/student-handout.pdf",
+      "bytes": 66262,
+      "sha256": "21867761b52ac004172c84e3a1a70dff8b28f21b836589d493b67ed333d55559"
+    },
+    {
+      "path": "labs/linkage/student-handout.txt",
+      "bytes": 1822,
+      "sha256": "26fae862e77d7ce06e33fe30f17490f49a8d2d7a602098b7c580734b79637e4c"
+    },
+    {
+      "path": "labs/linkage/teacher-notes.md",
+      "bytes": 3347,
+      "sha256": "10c4088ba38e4c35289d8193ee7791041da2590e51fce60288353150cf2c6966"
+    },
+    {
+      "path": "labs/linkage/verification.json",
+      "bytes": 3470,
+      "sha256": "16cdd62ad49a824c80fc8edd6bded8e85e77f852a4a38b5a06c1912bb6a9f352"
+    },
+    {
+      "path": "worksheet-export/README.md",
+      "bytes": 4862,
+      "sha256": "48e0c7fed5c49bd74ba2073119cc1805f849c9a27d9ec23a182ae9b8a8f78913"
+    },
+    {
+      "path": "worksheet-export/verification.json",
+      "bytes": 8184,
+      "sha256": "ae918e88e7c9e2cb445b03df4958f5dbec0ae43368334959a232c1f118a11d81"
+    }
+  ],
+  "limits": "One neutral prescribed size episode, not a cull/survivor simulation, empirical N/genotypes, genome-wide diversity or demographic inference. No mutation/migration/selection; recovery cannot recreate absent alleles, while finite H may rise when both remain. No learner persistence or continuing lesson/support commitment."
+}

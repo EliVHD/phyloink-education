@@ -6,3 +6,4 @@
 
 # Preserve authentic application exports, including CSV CRLF and caption spaces.
 examples/**/artwork/** -text whitespace=-blank-at-eol
+labs/bottleneck/bottleneck-counts.csv -text whitespace=cr-at-eol

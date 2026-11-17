@@ -1,0 +1,23 @@
+{
+  "format": "phyloink-bottleneck-walkthrough",
+  "version": 1,
+  "model": "neutral-bottleneck-recovery-v1",
+  "title": "Population recovery and a missing allele",
+  "instructions": "Predict before running. Compare the size schedule with allele frequencies and exact counts. This synthetic experiment is one reproducible trial set, not a forecast for real populations.",
+  "setup": {
+    "initialSize": 100,
+    "aCopies": 100,
+    "bottleneckSize": 5,
+    "bottleneckStart": 10,
+    "bottleneckDuration": 10,
+    "generations": 40,
+    "replicates": 4,
+    "seed": 1
+  },
+  "prompts": [
+    "Mark the first and last small generations and recovery. Predict the no-drift A frequency after recovery.",
+    "Compare N, A/a counts, frequency and H before, during and after the bottleneck. What do the constant-size trials show?",
+    "Follow a loss/fixation trial through recovery. Can an absent allele return? Explain the limits of these few paths."
+  ],
+  "adaptationNotes": "Change severity, timing, duration or seed within this one example; hold other settings fixed. Initial/recovered N 3–500, small N 2 to initial N minus 1, 2–100 generations, recovery recorded, 1–4 trials per condition. This is reproduction/gene-copy resampling with replacement, not a cull or tracked survivors. H is one-locus gene diversity, not observed genotypes or genome diversity."
+}
