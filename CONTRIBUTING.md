@@ -24,3 +24,5 @@ The included tools verify and package existing examples without network access. 
 ## Synthetic lab walkthroughs
 
 The two inheritance walkthroughs in `labs/inheritance/` use explicit manual application settings, an editable handout configuration, printable HTML/PDF, teacher notes, sources/assumptions, LICENSE and an exact inventory/verification record. They have no empirical tree or genotype dataset; do not invent a Newick source, artwork SVG or project to imply otherwise. Their `activity.json` is an authoring configuration, not an application import format. Keep the two demonstrations bounded, test their parameters and expected outcomes in the recorded application build, render both PDF pages, and preserve the existing tree packs and scenario files.
+
+The same convention applies to the two A04 walkthroughs in `labs/population/`. Verify exact allele counts, seeded trajectories, references and generation limits against their recorded build; do not treat a random path as a guaranteed answer. Keep all older verification dates, source records, artifacts and hashes unchanged when adding a separately verified lab.
